@@ -77,6 +77,8 @@ if __name__ == "__main__":
 
     ### Downloading data
 
+    print("Starting downlading and unzipping data.")
+
     ftp = "ftp://ftp.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/"
     hostname = "ftp.ncei.noaa.gov"
     remote_dir = "pub/data/swdi/stormevents/csvfiles/"
@@ -102,12 +104,16 @@ if __name__ == "__main__":
                     with open(re.sub(".gz", "", "./NOAA_Storm_events_dataset/{}".format(file)), 'wb') as file_out:
                         shutil.copyfileobj(file_in, file_out)
             os.remove("./NOAA_Storm_events_dataset_zip/{}".format(file))
+    print("Downlading and unzipping data finished.")
 
     ftp_server.quit()
 
-    ### Cleaning data
+    ### Cleaning/augmenting data
 
     ## Inlfation adjustement
+
+    print("Importation of the inflation information")
+
     inflation_mapping = pd.read_csv("Prod_datasets/inflation_rates_US.csv")
     inflation_mapping["INFLATION_INDEX"] = np.append(np.array([1]), np.cumprod(inflation_mapping[" value"]/100 +1)[1:])[::-1]
     inflation_mapping["YEAR"] = inflation_mapping["date"].apply(lambda x: int(x[0:4]))
@@ -117,6 +123,8 @@ if __name__ == "__main__":
     inflation_traj.to_csv("Prod_datasets/inflation_traj_US.csv", index = False)
 
     ## Cleaning datasets
+
+    print("Pre-processing the datasets.")
 
     path = "NOAA_Storm_events_dataset"
 
@@ -139,6 +147,7 @@ if __name__ == "__main__":
 
             data.to_csv("NOAA_Storm_events_clean/"+name+".csv") 
             os.remove(path+"/"+file_name)
+    
 
     ### Fusion of the yearly datasets
     
@@ -159,6 +168,11 @@ if __name__ == "__main__":
         data = pd.read_csv(path + "/" + dataset, dtype=type_dict)
         storm_data = pd.concat([storm_data, data], axis = 0)
         os.remove(path+"/"+dataset)
+
+    print("Pre-processing the datasets done.")
     
     storm_data.drop(columns="Unnamed: 0", inplace = True)
+    print("Saving the dataset into a CSV file.")
     storm_data.to_csv("Prod_datasets/Storm_events_details_full_clean.csv", index = False)
+
+    print("Data cleaning operation finished.")
