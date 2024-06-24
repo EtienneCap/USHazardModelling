@@ -16,6 +16,11 @@ def clean_detailed_dataset(data):
     data["BEGIN_DATE_TIME"] = pd.to_datetime(data["BEGIN_DATE_TIME"], format = "mixed")
     data["END_DATE_TIME"] = pd.to_datetime(data["END_DATE_TIME"], format = "mixed")
 
+    # Copy of the original data
+    data["DAMAGE_PROPERTY_ORIGINAL"] = data["DAMAGE_PROPERTY"]
+    data["DAMAGE_CROPS_ORIGINAL"] = data["DAMAGE_CROPS"]
+
+
     def convert_amounts(col_name, df = data):
         df[col_name] = df[col_name].astype(str)
         df[col_name] = df[col_name].apply(lambda x: re.sub(r"[^\w\s\.]", "", x))
@@ -114,19 +119,19 @@ if __name__ == "__main__":
 
     print("Importation of the inflation information")
 
-    inflation_mapping = pd.read_csv("Prod_datasets/inflation_rates_US.csv")
+    inflation_mapping = pd.read_csv("./Data/Prod_datasets/inflation_rates_US.csv")
     inflation_mapping["INFLATION_INDEX"] = np.append(np.array([1]), np.cumprod(inflation_mapping[" value"]/100 +1)[1:])[::-1]
     inflation_mapping["YEAR"] = inflation_mapping["date"].apply(lambda x: int(x[0:4]))
 
     inflation_traj = inflation_mapping[["YEAR", "INFLATION_INDEX"]]
 
-    inflation_traj.to_csv("Prod_datasets/inflation_traj_US.csv", index = False)
+    inflation_traj.to_csv("./Data/mapping_tables/inflation_traj_US.csv", index = False)
 
     ## Cleaning datasets
 
     print("Pre-processing the datasets.")
 
-    path = "NOAA_Storm_events_dataset"
+    path = "./Data/NOAA_Storm_events_dataset"
 
     for file_name in tqdm(os.listdir(path)):
         print(file_name)
@@ -145,13 +150,13 @@ if __name__ == "__main__":
             else:
                 print("Unknown dataset type: {}".format(file_name))
 
-            data.to_csv("NOAA_Storm_events_clean/"+name+".csv") 
+            data.to_csv("./Data/NOAA_Storm_events_clean/"+name+".csv") 
             os.remove(path+"/"+file_name)
     
 
     ### Fusion of the yearly datasets
     
-    path = "NOAA_Storm_events_clean"
+    path = "./Data/NOAA_Storm_events_clean"
     datasets = [i for i in os.listdir(path) if "details" in i]
 
     type_dict = {'CATEGORY': 'str',
@@ -173,6 +178,6 @@ if __name__ == "__main__":
     
     storm_data.drop(columns="Unnamed: 0", inplace = True)
     print("Saving the dataset into a CSV file.")
-    storm_data.to_csv("Prod_datasets/Storm_events_details_full_clean.csv", index = False)
+    storm_data.to_csv("./Data/Prod_datasets/Storm_events_details_full_clean.csv", index = False)
 
     print("Data cleaning operation finished.")
