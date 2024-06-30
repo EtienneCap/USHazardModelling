@@ -1,16 +1,3 @@
-import pandas as pd
-import os
-import numpy as np
-from tqdm import tqdm
-import re
-
-import ftplib
-import gzip
-import shutil
-
-
-
-
 def clean_detailed_dataset(data):
     data.drop(columns = ["BEGIN_YEARMONTH", "BEGIN_DAY", "BEGIN_TIME", "END_YEARMONTH", "END_DAY", "END_TIME"], inplace = True)
     data["BEGIN_DATE_TIME"] = pd.to_datetime(data["BEGIN_DATE_TIME"], format = "mixed")
@@ -25,7 +12,6 @@ def clean_detailed_dataset(data):
         df[col_name] = df[col_name].astype(str)
         df[col_name] = df[col_name].apply(lambda x: re.sub(r"[^\w\s\.]", "", x))
         amount = df[col_name].str.split("(K|M|B|H|k|m|b|h)", regex = True, expand = True)
-        print(amount)
         amount.replace(to_replace = [None, "", np.nan, "nan"], value = 0, inplace = True)
 
         def abreviation(val):
@@ -46,7 +32,6 @@ def clean_detailed_dataset(data):
             except:
                 return 0
             
-        print(amount[0])
 
         if amount.shape[1] > 1:
             amount[1] = amount[1].apply(abreviation)
@@ -80,6 +65,17 @@ def clean_fatalities_dataset(data):
 
 if __name__ == "__main__":
 
+    import pandas as pd
+    import os
+    import numpy as np
+    from tqdm import tqdm
+    import re
+    import sys
+
+    import ftplib
+    import gzip
+    import shutil
+
     ### Downloading data
 
     print("Starting downlading and unzipping data.")
@@ -99,16 +95,21 @@ if __name__ == "__main__":
 
     for file in tqdm(files):
         if file != "legacy":
-            ftp_server.retrbinary('RETR {}'.format(file), open("./NOAA_Storm_events_dataset_zip/{}".format(file), "wb").write)
+            try:
+                ftp_server.retrbinary('RETR {}'.format(file), open("./Data/NOAA_Storm_events_dataset_zip/{}".format(file), "wb").write)
+            except error as e:
+                print(e)
+                print(file)
+                sys.exit("Error in file downloading")
             if ".gz" in file:
-                with gzip.open("./NOAA_Storm_events_dataset_zip/{}".format(file), 'rb') as file_in:
-                    with open(re.sub(".gz", "", "./NOAA_Storm_events_dataset/{}".format(file)), 'wb') as file_out:
+                with gzip.open("./Data/NOAA_Storm_events_dataset_zip/{}".format(file), 'rb') as file_in:
+                    with open(re.sub(".gz", "", "./Data/NOAA_Storm_events_dataset/{}".format(file)), 'wb') as file_out:
                         shutil.copyfileobj(file_in, file_out)
             else:
-                with open("./NOAA_Storm_events_dataset_zip/{}".format(file), 'rb') as file_in:
-                    with open(re.sub(".gz", "", "./NOAA_Storm_events_dataset/{}".format(file)), 'wb') as file_out:
+                with open("./Data/NOAA_Storm_events_dataset_zip/{}".format(file), 'rb') as file_in:
+                    with open(re.sub(".gz", "", "./Data/NOAA_Storm_events_dataset/{}".format(file)), 'wb') as file_out:
                         shutil.copyfileobj(file_in, file_out)
-            os.remove("./NOAA_Storm_events_dataset_zip/{}".format(file))
+            os.remove("./Data/NOAA_Storm_events_dataset_zip/{}".format(file))
     print("Downlading and unzipping data finished.")
 
     ftp_server.quit()
@@ -133,14 +134,18 @@ if __name__ == "__main__":
 
     path = "./Data/NOAA_Storm_events_dataset"
 
-    for file_name in tqdm(os.listdir(path)):
-        print(file_name)
+    for file_name in (pbar := tqdm(os.listdir(path), desc = "File:")):
+        pbar.set_description(f" {file_name}")
+        pbar.refresh()
         _, ext = os.path.splitext(path+"/"+file_name)
         if ext == ".csv":
             data = pd.read_csv(path+"/"+file_name)
+            os.remove(path+"/"+file_name)
             if "details" in file_name:
                 data = clean_detailed_dataset(data)
                 name = "StormEvents_details_" + file_name[29:44]
+                if(any(data.duplicated())):
+                    raise "Stop duplicates"
             elif "fatalities" in file_name:
                 data = clean_fatalities_dataset(data)
                 name = "StormEvents_fatalities_" + file_name[32:47]
@@ -151,10 +156,12 @@ if __name__ == "__main__":
                 print("Unknown dataset type: {}".format(file_name))
 
             data.to_csv("./Data/NOAA_Storm_events_clean/"+name+".csv") 
-            os.remove(path+"/"+file_name)
+            
     
 
     ### Fusion of the yearly datasets
+
+    print("Merging the datasets together.")
     
     path = "./Data/NOAA_Storm_events_clean"
     datasets = [i for i in os.listdir(path) if "details" in i]
@@ -171,13 +178,16 @@ if __name__ == "__main__":
 
     for i, dataset  in enumerate(datasets):
         data = pd.read_csv(path + "/" + dataset, dtype=type_dict)
-        storm_data = pd.concat([storm_data, data], axis = 0)
         os.remove(path+"/"+dataset)
+        storm_data = pd.concat([storm_data, data], axis = 0)
+        
 
     print("Pre-processing the datasets done.")
-    
-    storm_data.drop(columns="Unnamed: 0", inplace = True)
+    try:
+        storm_data.drop(columns="Unnamed: 0", inplace = True)
+    except:
+        a = 0
     print("Saving the dataset into a CSV file.")
     storm_data.to_csv("./Data/Prod_datasets/Storm_events_details_full_clean.csv", index = False)
 
-    print("Data cleaning operation finished.")
+    print("Data cleaning and pre-processing finished.")
