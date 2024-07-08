@@ -1,4 +1,4 @@
-install.packages("fdaPDE")
+# install.packages("fdaPDE")
 
 
 ### Simulation of a Space-Time non-homogeneous point process
@@ -27,7 +27,7 @@ contour(x, y, z, main = "Intensity plot", xlab = "X", ylab = "Y")
 
 # Homogeneous poisson process
 
-lambda = 100
+lambda = 200
 
 t_mesh = seq(0, 10, length.out = 21)
 
@@ -90,12 +90,20 @@ plot(st_intensity)
 # STDE-PDE
 
 library(fdaPDE)
+library(ggplot2)
+# library(pracma) 
+# library(RColorBrewer)
+# library(plotly)
+# library(fields)
+# library(processx)
+# library(latex2exp)
+# library(plotrix)
+# library(cubature)
 
 ## Estimation mesh
 
 x = c(seq(-1.3, 1.3, length.out = 20), rep(1.3, 20), seq(1.3, -1.3, length.out = 20), rep(-1.3, 20))
 y = c(rep(-1.3, 20), seq(-1.3, 1.3, length.out = 20), rep(1.3, 20), seq(1.3, -1.3, length.out = 20))
-domain_area = 2*2
 
 boundary_nodes = matrix(data = c(x, y), ncol = 2)[-c(21, 41, 61, 80),]
 boundary_segments = matrix(data = c(seq(1, dim(boundary_nodes)[1], 1), c(seq(2, dim(boundary_nodes)[1], 1)), 1), ncol = 2)
@@ -115,7 +123,7 @@ dev.off()
 
 
 # Evaluation mesh
-n = 25
+n = 60
 X <- seq(-1.3, 1.3, length.out = n)
 Y <- seq(-1.3, 1.3, length.out = n)
 grid <- expand.grid(X, Y)
@@ -148,14 +156,9 @@ FEMfunction_STDEPDE <- FEM.time(solution_STDEPDE$g, mesh_time, FEMbasis, FLAG_PA
 t <- mesh_time
 t_discrete <- seq(from = 0.1, to = 0.9, by = 0.1)
 
-h <- (t_discrete[2]-t_discrete[1])/2
-
 
 
 mean_sol_STDEPDE <- matrix(nrow = nrow(mesh.eval$nodes), ncol = length(t))
-
-
-
 
 for (time_index in 1:length(t)) {
 
@@ -163,113 +166,24 @@ for (time_index in 1:length(t)) {
   evaluation_STDEPDE <- exp(evaluation_STDEPDE)
   evaluation_STDEPDE <- evaluation_STDEPDE/sum(evaluation_STDEPDE, na.rm = TRUE)
   
-  mise_STDEPDE <- 1*domain_area*mean((evaluation_STDEPDE - true_instant[,time_index])^2, na.rm = TRUE)/length(t)
-  
   mean_sol_STDEPDE[,time_index] <- mapply(sum, mean_sol_STDEPDE[,time_index], evaluation_STDEPDE, na.rm = TRUE)
 }
 
-plot.density <- function(X, Y, Z, max_range = NULL, filename, ...){
-  
-  if (is.null(max_range)) {max_range = max(Z)}
-  
-  DATA <- data.frame(x = X, y = Y, z = Z)
-  
-  ay <- list(
-    showline = TRUE,
-    mirror = "ticks",
-    linecolor = toRGB("black"),
-    linewidth = 2,
-    range = range
-  )
-  
-  ax <- list(
-    showline = TRUE,
-    mirror = "ticks",
-    linecolor = toRGB("black"),
-    linewidth = 2,
-    range = range
-  )
-  
-  p <- plot_ly(DATA, x = ~x, y = ~y, z = ~z, intensity = ~z, color = ~z, type = "contour",
-               width = 1000, height = 1000, showscale = F,
-               contours = list(
-                 start = 0,
-                 end = max_range,
-                 size = (max_range-0)/8
-                 #showlabels = T
-               ), ...
-  ) %>%
-    layout(scene = list(
-      aspectmode = "data",
-      aspectratio = list(
-        x = 1,
-        y = 1
-      )),
-      xaxis = list(
-        title = "",
-        showgrid = F,
-        zeroline = F,
-        showticklabels = F,
-        ticks = ""),
-      yaxis = list(
-        title = "",
-        showgrid = F,
-        zeroline = F,
-        showticklabels = F,
-        ticks = ""),
-      margin = list(
-        b = 0,
-        l = 0,
-        r = 14,
-        t = 13
-      )
-    )
-  
-  p <- p %>% layout(xaxis = ax, yaxis = ay)
-  return(p)
-  # plotly::export(p, file = paste0(filename,".png"))
-  
-  # Alternative to Export Images
-  # saveWidget(p, paste0(filename, ".html"))
-  # webshot(paste0(filename,".html"), paste0(filename,".png"), delay = 2)
-  
-}
-
-## PLOT INTERACTIVE DENSITY IN 3D ----------------------------------------------
-plot.interactive.density <-  function(f, ...){
-  plot_data <- data.frame(X = f$FEMbasis$mesh$nodes[,1], 
-                          Y = f$FEMbasis$mesh$nodes[,2],
-                          Z = f$coeff,
-                          coeff = f$coeff)
-  I = (f$FEMbasis$mesh$triangles[,1]-1); J = (f$FEMbasis$mesh$triangles[,2]-1); K = (f$FEMbasis$mesh$triangles[,3]-1)
-  fig <- plot_ly(plot_data, type = "mesh3d", x = ~X, y = ~Y,  z = ~Z, 
-                 i = I, j = J, k = K,
-                 intensity = ~coeff, color = ~coeff,
-                 contours = list(showlabels = TRUE),
-                 colorbar = list(title = ""), ...) %>%
-    layout(xaxis = list(title = ""),
-           yaxis = list(title = ""),
-           scene = list(
-             camera = list(
-               eye = list(x = 1.25, 
-                          y = -1.25, 
-                          z = 1.25))))
-  fig
-}
 
 
 
 
-
-M <- max(max(mean_sol_STDEPDE, na.rm = TRUE), na.rm = TRUE)
+# M <- max(max(mean_sol_STDEPDE, na.rm = TRUE), na.rm = TRUE)
 
 time_index = 21
-plot.density(mesh.eval$nodes[,1], mesh.eval$nodes[,2], mean_sol_STDEPDE[,time_index],
-             max_range = M,
-             filename = 'name', colorscale = "Jet")
+
+z_contour <- outer(X,Y, function(x, y) { intensity_pp(x, y, t = mesh_time[time_index])})
 
 
-
+ggplot(data.frame(x = mesh.eval$nodes[,1], y = mesh.eval$nodes[,2], z = mean_sol_STDEPDE[,time_index], z_contour = as.vector(z_contour)))+
+  geom_tile(mapping = aes(x = x, y=y, fill = z))+
+  geom_contour(mapping = aes(x = x, y = y, z = z_contour), col = "red") +
+  theme_minimal()
 
 
 
