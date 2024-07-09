@@ -1,8 +1,41 @@
 
+def latlong_to_cartesian(storm_dataset, lat = "lat", long = "long", R = 6371):
+    # No projection
+    storm_dataset['X_CART'] = R * np.cos(np.radians(storm_dataset[lat])) * np.cos(np.radians(storm_dataset[long]))
+    storm_dataset["Y_CART"] = R * np.cos(storm_dataset[lat]) * np.sin(storm_dataset[long])
+    storm_dataset["Z_CART"] = R * np.sin(storm_dataset[lat])
 
+    return storm_dataset
+
+
+
+def latlon_to_cartesian_albers(storm_dataset, lat = "lat", long = "long"):
+    # Albers Equal-Area projection
+    albers_equal_area = pyproj.Proj(proj='aea', lat_1=29.5, lat_2=45.5, lat_0=23, lon_0=-96, datum='WGS84')
+    x, y = albers_equal_area(storm_dataset[long], storm_dataset[lat])
+    storm_dataset["X_CART"] = x
+    storm_dataset["Y_CART"] = y
+    return storm_dataset
+
+
+def extract_points(geometry):
+    if isinstance(geometry, Polygon):
+        return list(geometry.exterior.coords)
+    elif isinstance(geometry, MultiPolygon):
+        points = []
+        for polygon in geometry.geoms:
+            points.extend(list(polygon.exterior.coords[:-1]))
+        return points
+    else:
+        return []
 
 if __name__ == "__main__":
     import pandas as pd
+    import numpy as np
+    import pyproj
+    import geoplot as gplt
+    import geopandas as gpd
+    from shapely import Polygon, MultiPolygon
 
     print("Loading datasets and mapping tables")
 
@@ -26,6 +59,28 @@ if __name__ == "__main__":
     storm_data.drop(columns=["average_lat", "average_long", "lat", "long"], inplace = True)
     storm_data.rename(columns = {"lat_fin":'lat', "long_fin":"long"}, inplace = True)
 
+    # Adding the Cartesian coordinates
+    storm_data = latlon_to_cartesian_albers(storm_data, lat = "lat", long = "long")
+
+    # Creating the USA border maps for the US mesh
+    path = gplt.datasets.get_path("contiguous_usa")
+    contiguous_usa = gpd.read_file(path)
+
+    contiguous_usa["COUNTRY"] = "USA"
+    contiguous_usa = contiguous_usa.dissolve(by = "COUNTRY")
+
+    all_points = []
+
+    for geometry in contiguous_usa.geometry:
+        points = extract_points(geometry)
+        all_points.extend(points)
+
+    longitude = [point[0] for point in all_points]
+    latitude = [point[1] for point in all_points]
+
+    boundaries_mesh = pd.DataFrame({"long": longitude, "lat": latitude})
+    boundaries_mesh = latlon_to_cartesian_albers(boundaries_mesh, lat = "lat", long = "long")
+    
     # Discounting amounts to take inflation into account
     storm_data["DISCOUNT_DAMAGE_PROPERTY"] = storm_data["INFLATION_INDEX"] * storm_data["DAMAGE_PROPERTY"]
     storm_data["DISCOUNT_DAMAGE_CROPS"] = storm_data["INFLATION_INDEX"] * storm_data["DAMAGE_CROPS"]
@@ -44,6 +99,7 @@ if __name__ == "__main__":
         print("/!\ Warning: some of the meteorological event type were not succesfully mapped to a broader category.")
 
     storm_data.to_csv("./Data/Prod_datasets/Storm_events_details_full_clean.csv", index = False)
+    boundaries_mesh.to_csv("./Data/US_map/boundaries_US_mesh.csv")
 
     print("Data successfully processed and saved in CSV file in ./Data/Prod_datasets/")
 
