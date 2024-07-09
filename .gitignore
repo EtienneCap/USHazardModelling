@@ -4,3 +4,5 @@
 *.Rproj
 *.RData
 .Rhistory
+
+/R Code/R Data/*

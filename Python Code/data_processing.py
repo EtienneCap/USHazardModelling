@@ -35,7 +35,7 @@ if __name__ == "__main__":
     import pyproj
     import geoplot as gplt
     import geopandas as gpd
-    from shapely import Polygon, MultiPolygon
+    from shapely import Point, Polygon, MultiPolygon
 
     print("Loading datasets and mapping tables")
 
@@ -78,8 +78,27 @@ if __name__ == "__main__":
     longitude = [point[0] for point in all_points]
     latitude = [point[1] for point in all_points]
 
-    boundaries_mesh = pd.DataFrame({"long": longitude, "lat": latitude})
+    boundaries_mesh = pd.DataFrame({"long": longitude, "lat": latitude}).iloc[:-1, :]
     boundaries_mesh = latlon_to_cartesian_albers(boundaries_mesh, lat = "lat", long = "long")
+
+    # Creating the evaluation mesh for the fdaPDE package
+    usa_polygon = contiguous_usa.geometry[0]
+    min_x, min_y, max_x, max_y = usa_polygon.bounds
+
+    spacing = .5 # degree spacing for grid points
+    x_coords = np.arange(np.floor(min_x), np.ceil(max_x), spacing)
+    y_coords = np.arange(np.floor(min_y), np.ceil(max_y), spacing)
+
+    grid_points = []
+    for x in x_coords:
+        for y in y_coords:
+            point = Point(x, y)
+            if usa_polygon.contains(point):
+                grid_points.append((point.x, point.y))
+
+    # Create a DataFrame from grid points
+    eval_mesh = pd.DataFrame({"long": [point[0] for point in grid_points], "lat": [point[1] for point in grid_points]})
+    eval_mesh = latlon_to_cartesian_albers(eval_mesh, lat = "lat", long = "long")
     
     # Discounting amounts to take inflation into account
     storm_data["DISCOUNT_DAMAGE_PROPERTY"] = storm_data["INFLATION_INDEX"] * storm_data["DAMAGE_PROPERTY"]
@@ -99,7 +118,8 @@ if __name__ == "__main__":
         print("/!\ Warning: some of the meteorological event type were not succesfully mapped to a broader category.")
 
     storm_data.to_csv("./Data/Prod_datasets/Storm_events_details_full_clean.csv", index = False)
-    boundaries_mesh.to_csv("./Data/US_map/boundaries_US_mesh.csv")
+    boundaries_mesh.to_csv("./Data/US_map/boundaries_US_mesh.csv", index = False)
+    eval_mesh.to_csv("./Data/US_map/evaluation_US_mesh.csv", index = False)
 
     print("Data successfully processed and saved in CSV file in ./Data/Prod_datasets/")
 
