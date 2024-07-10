@@ -11,10 +11,12 @@ def latlong_to_cartesian(storm_dataset, lat = "lat", long = "long", R = 6371):
 
 def latlon_to_cartesian_albers(storm_dataset, lat = "lat", long = "long"):
     # Albers Equal-Area projection
-    albers_equal_area = pyproj.Proj(proj='aea', lat_1=29.5, lat_2=45.5, lat_0=23, lon_0=-96, datum='WGS84')
+    albers_equal_area = pyproj.Proj(proj='aea', lat_1=29.5, lat_2=45.5, lat_0=24.44, lon_0=-124.615, datum='WGS84')
+    _, max_north = albers_equal_area(-95.1533, 49.39)
+    max_east, _ = albers_equal_area(-66.94, 44.815)
     x, y = albers_equal_area(storm_dataset[long], storm_dataset[lat])
-    storm_dataset["X_CART"] = x
-    storm_dataset["Y_CART"] = y
+    storm_dataset["X_CART"] = x/max_east
+    storm_dataset["Y_CART"] = y/max_north
     return storm_dataset
 
 
@@ -41,7 +43,7 @@ if __name__ == "__main__":
 
     # Loading tables
     FIPS_mapping = pd.read_csv("./Data/mapping_tables/FIPS_coordinate_mapping.csv")
-    storm_data = pd.read_csv("./Data/Prod_datasets/Storm_events_details_full_clean.csv")
+    storm_data = pd.read_csv("./Data/Prod_datasets/Storm_events_details_full_raw.csv")
 
     print("Starting the data processing routine.")
 
@@ -82,7 +84,7 @@ if __name__ == "__main__":
     boundaries_mesh = latlon_to_cartesian_albers(boundaries_mesh, lat = "lat", long = "long")
 
     # Creating the evaluation mesh for the fdaPDE package
-    usa_polygon = contiguous_usa.geometry[0]
+    usa_polygon = contiguous_usa.geometry.iloc[0]
     min_x, min_y, max_x, max_y = usa_polygon.bounds
 
     spacing = .5 # degree spacing for grid points

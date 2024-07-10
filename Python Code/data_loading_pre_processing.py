@@ -1,4 +1,4 @@
-def clean_detailed_dataset(data):
+def clean_detailed_dataset(data, inflation_traj):
     data.drop(columns = ["BEGIN_YEARMONTH", "BEGIN_DAY", "BEGIN_TIME", "END_YEARMONTH", "END_DAY", "END_TIME"], inplace = True)
     data["BEGIN_DATE_TIME"] = pd.to_datetime(data["BEGIN_DATE_TIME"], format = "mixed")
     data["END_DATE_TIME"] = pd.to_datetime(data["END_DATE_TIME"], format = "mixed")
@@ -140,9 +140,9 @@ if __name__ == "__main__":
         _, ext = os.path.splitext(path+"/"+file_name)
         if ext == ".csv":
             data = pd.read_csv(path+"/"+file_name)
-            os.remove(path+"/"+file_name)
+            
             if "details" in file_name:
-                data = clean_detailed_dataset(data)
+                data = clean_detailed_dataset(data, inflation_traj)
                 name = "StormEvents_details_" + file_name[29:44]
                 if(any(data.duplicated())):
                     raise "Stop duplicates"
@@ -154,7 +154,7 @@ if __name__ == "__main__":
                 name = "StormEvents_locations_" + file_name[31:46]
             else:
                 print("Unknown dataset type: {}".format(file_name))
-
+            os.remove(path+"/"+file_name)
             data.to_csv("./Data/NOAA_Storm_events_clean/"+name+".csv") 
             
     
@@ -188,6 +188,6 @@ if __name__ == "__main__":
     except:
         a = 0
     print("Saving the dataset into a CSV file.")
-    storm_data.to_csv("./Data/Prod_datasets/Storm_events_details_full_clean.csv", index = False)
+    storm_data.to_csv("./Data/Prod_datasets/Storm_events_details_full_raw.csv", index = False)
 
     print("Data cleaning and pre-processing finished.")

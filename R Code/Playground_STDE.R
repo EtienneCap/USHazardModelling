@@ -27,7 +27,7 @@ contour(x, y, z, main = "Intensity plot", xlab = "X", ylab = "Y")
 
 # Homogeneous poisson process
 
-lambda = 200
+lambda = 500
 
 t_mesh = seq(0, 10, length.out = 21)
 
@@ -154,9 +154,6 @@ FEMfunction_STDEPDE <- FEM.time(solution_STDEPDE$g, mesh_time, FEMbasis, FLAG_PA
 
 
 t <- mesh_time
-t_discrete <- seq(from = 0.1, to = 0.9, by = 0.1)
-
-
 
 mean_sol_STDEPDE <- matrix(nrow = nrow(mesh.eval$nodes), ncol = length(t))
 

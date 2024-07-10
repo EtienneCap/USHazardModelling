@@ -8,6 +8,11 @@ import ftplib
 import gzip
 import shutil
 
+import pyproj
+import geoplot as gplt
+import geopandas as gpd
+from shapely import Point, Polygon, MultiPolygon
+
 
 def run_file(filepath):
     with open(filepath) as file:
@@ -16,7 +21,7 @@ def run_file(filepath):
 
 if __name__ == "__main__":
     # Downloading the NOAA files and loading them to clean them
-    run_file("./Code/data_loading_pre_processing.py")
+    run_file("./Python Code/data_loading_pre_processing.py")
 
     # Processing the data
-    run_file("./Code/data_processing.py")
+    run_file("./Python Code/data_processing.py")
