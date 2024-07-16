@@ -17,7 +17,7 @@ storm_analysis = storm_data %>%
   # filter(YEAR < 2013) %>%
   group_by(EPISODE_ID) %>%
   summarise(YEAR = first(YEAR),
-            DAMAGE_PROPERTY = sum(DAMAGE_PROPERTY),
+            DAMAGE_PROPERTY = sum(DAMAGE_PROPERTY, na.rm = T),
             X_CART = mean(X_CART),
             Y_CART = mean(Y_CART),
             EPSIODE_NARRATIVE = first(EPISODE_NARRATIVE))
@@ -37,7 +37,11 @@ storm_analysis = storm_analysis[complete.cases(storm_analysis %>% select(c("X_CA
 # 
 # 
 # locations_mesh = matrix(data = c(locations_mesh$X_CART, locations_mesh$Y_CART), ncol = 2)
-locations = storm_analysis %>% select(c("X_CART", "Y_CART", "YEAR")) %>% na.omit()
+locations = storm_analysis %>% select(c("X_CART", "Y_CART", "YEAR")) %>% 
+  na.omit() %>%
+  mutate(X_CART = X_CART + rnorm(nrow(storm_analysis), sd = 0.0003),
+         Y_CART = Y_CART + rnorm(nrow(storm_analysis), sd = 0.0003))
+ 
 
 begin_year = min(locations$YEAR)
 
@@ -54,7 +58,7 @@ boundaries_US = boundaries_US[-nrow(boundaries_US),]
 boundary_nodes = matrix(data = c(boundaries_US$X_CART, boundaries_US$Y_CART), ncol = 2)
 boundary_segments = matrix(data = c(seq(1, dim(boundary_nodes)[1], 1), c(seq(2, dim(boundary_nodes)[1], 1)), 1), ncol = 2)
 
-mesh = create.mesh.2D(nodes = boundary_nodes, segments = boundary_segments)
+mesh = create.mesh.2D(nodes = rbind(boundary_nodes, locations), segments = boundary_segments)
 mesh = refine.mesh.2D(mesh, maximum_area = 0.001, minimum_angle = 25)
 FEMbasis <- create.FEM.basis(mesh)
 plot(mesh)
@@ -72,20 +76,20 @@ plot(mesh.eval)
 
 mesh_time = seq(range(time_locations)[1], range(time_locations)[2], by = 1)
 
-lambda_space = 10^seq(from = -4, to = -2, by = 1)
-lambda_time = 10^seq(from = -4, to = -2, by = 1)
+# lambda_space = 10^seq(from = -4, to = -2, by = 1)
+# lambda_time = 10^seq(from = -4, to = -2, by = 1)
 
-# lambda_space = 1e-2
-# lambda_time = 1e-2
+lambda_space = 1e-2
+lambda_time = 1e-2
 
 tryCatch({rm(storm_data)}, error = function(e){print(e)})
 
 solution_STDEPDE <- DE.FEM.time(data = locations, data_time = time_locations, FEMbasis = FEMbasis,
                                 mesh_time = mesh_time, lambda = lambda_space, tol1 = 1e-5, tol2 = 0,
                                 lambda_time = lambda_time, fvec = NULL, heatStep = 0.1,
-                                heatIter = 10, print = T, nfolds = 4, nsimulations = 750,
+                                heatIter = 10, print = T, nfolds = NULL, nsimulations = 750,
                                 step_method = "Wolfe_Method", direction_method = "L-BFGS5",
-                                preprocess_method = "RightCV") 
+                                preprocess_method = "NoCrossValidation") 
 
 saveRDS(solution_STDEPDE, paste0("./R Code/R Data/sol_", tolower(peril),".rds"))
 

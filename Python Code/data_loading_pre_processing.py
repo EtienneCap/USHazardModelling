@@ -1,7 +1,9 @@
 def clean_detailed_dataset(data, inflation_traj):
+    data["BEGIN_DATE"] = data["BEGIN_YEARMONTH"].astype(str).str.slice(0,4) + "-" +  data["BEGIN_YEARMONTH"].astype(str).str.slice(4,6) + "-" + data["BEGIN_DAY"].astype(str) + " " + data["BEGIN_DATE_TIME"].str.slice(9, 18)
+    data["END_DATE"] = data["END_YEARMONTH"].astype(str).str.slice(0,4) + "-" +  data["END_YEARMONTH"].astype(str).str.slice(4,6) + "-" + data["END_DAY"].astype(str) + " " + data["END_DATE_TIME"].str.slice(9, 18)
     data.drop(columns = ["BEGIN_YEARMONTH", "BEGIN_DAY", "BEGIN_TIME", "END_YEARMONTH", "END_DAY", "END_TIME"], inplace = True)
-    data["BEGIN_DATE_TIME"] = pd.to_datetime(data["BEGIN_DATE_TIME"], format = "mixed")
-    data["END_DATE_TIME"] = pd.to_datetime(data["END_DATE_TIME"], format = "mixed")
+    data["BEGIN_DATE_TIME"] = pd.to_datetime(data["BEGIN_DATE"], format = "%Y-%m-%d %H:%M:%S")
+    data["END_DATE_TIME"] = pd.to_datetime(data["END_DATE"], format = "%Y-%m-%d %H:%M:%S")
 
     # Copy of the original data
     data["DAMAGE_PROPERTY_ORIGINAL"] = data["DAMAGE_PROPERTY"]
