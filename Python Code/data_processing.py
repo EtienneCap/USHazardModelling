@@ -42,12 +42,12 @@ if __name__ == "__main__":
     print("Loading datasets and mapping tables")
 
     # Loading tables
-    FIPS_mapping = pd.read_csv("./Data/mapping_tables/FIPS_coordinate_mapping.csv")
+    FIPS_mapping = pd.read_csv("./Data/mapping_tables/FIPS_coordinate_mapping_2.csv")
     storm_data = pd.read_csv("./Data/Prod_datasets/Storm_events_details_full_raw.csv")
 
     print("Starting the data processing routine.")
 
-    # storm_data["US_FIPS"] = (storm_data["STATE_FIPS"] * 1000 + storm_data["CZ_FIPS"]).astype("Int64").astype('str')
+    storm_data["US_FIPS"] = (storm_data["STATE_FIPS"] * 1000 + storm_data["CZ_FIPS"]).astype("Int64").astype('str')
     FIPS_mapping["US_FIPS"] = FIPS_mapping["US_FIPS"].astype("Int64").astype('str')
 
     # # Mapping the FIPS code to their coordinates
@@ -61,7 +61,7 @@ if __name__ == "__main__":
     storm_data.drop(columns=["average_lat", "average_long", "lat", "long"], inplace = True)
     storm_data.rename(columns = {"lat_fin":'lat', "long_fin":"long"}, inplace = True)
 
-    # # Adding the Cartesian coordinates
+    ## Adding the Cartesian coordinates
     storm_data = latlon_to_cartesian_albers(storm_data, lat = "lat", long = "long")
 
     # Creating the USA border maps for the US mesh
