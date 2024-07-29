@@ -50,7 +50,7 @@ if __name__ == "__main__":
     storm_data["US_FIPS"] = (storm_data["STATE_FIPS"] * 1000 + storm_data["CZ_FIPS"]).astype("Int64").astype('str')
     FIPS_mapping["US_FIPS"] = FIPS_mapping["US_FIPS"].astype("Int64").astype('str')
 
-    # # Mapping the FIPS code to their coordinates
+    # Mapping the FIPS code to their coordinates
     storm_data = storm_data.join(FIPS_mapping[["CZ_TYPE", "US_FIPS", "lat", "long"]].set_index(["US_FIPS", "CZ_TYPE"]), on = ["US_FIPS", "CZ_TYPE"])
     storm_data["average_lat"] = (storm_data["BEGIN_LAT"] + storm_data["END_LAT"])/2
     storm_data["average_long"] = (storm_data["BEGIN_LON"] + storm_data["END_LON"])/2

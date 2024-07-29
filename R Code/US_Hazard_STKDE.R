@@ -1,6 +1,7 @@
 library(tidyverse)
 library(spatstat.geom)
 
+
 ### Handling the storm data
 storm_data = read.csv("./Data/Prod_datasets/Storm_events_details_full_clean.csv")
 
