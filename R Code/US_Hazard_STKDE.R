@@ -22,15 +22,15 @@ storm_analysis = storm_data %>%
             Y_CART = mean(Y_CART),
             EPSIODE_NARRATIVE = first(EPISODE_NARRATIVE))
 
-storm_analysis = storm_analysis[complete.cases(storm_analysis %>% select(c("X_CART", "Y_CART"))),] 
+storm_analysis = storm_analysis[complete.cases(storm_analysis %>% dplyr::select(c("X_CART", "Y_CART"))),] 
 # Jittering
 storm_analysis = storm_analysis %>%
   mutate(X_CART = X_CART + rnorm(nrow(storm_analysis), sd = 0.0003),
          Y_CART = Y_CART + rnorm(nrow(storm_analysis), sd = 0.0003))
 
-years = unique(data$YEAR) %>% sort()
+years = unique(storm_analysis$YEAR) %>% sort()
 
-# locations = storm_analysis %>% select(c("X_CART", "Y_CART", "YEAR")) %>% na.omit()
+# locations = storm_analysis %>% dplyr::select(c("X_CART", "Y_CART", "YEAR")) %>% na.omit()
 # 
 # begin_year = min(locations$YEAR)
 # 
@@ -49,7 +49,7 @@ poly = list(x = boundaries_US$X_CART, y = boundaries_US$Y_CART)
 window = spatstat.geom::owin(poly = poly)
 
 inside_bool = spatstat.geom::inside.owin(x = storm_analysis$X_CART, y = storm_analysis$Y_CART, w = window)
-data = (storm_analysis %>% select(c("X_CART", "Y_CART", "YEAR")))[inside_bool, ]
+data = (storm_analysis %>% dplyr::select(c("X_CART", "Y_CART", "YEAR")))[inside_bool, ]
 
 ppp_data = spatstat.geom::ppp(data$X_CART, data$Y_CART, window = window)
 
