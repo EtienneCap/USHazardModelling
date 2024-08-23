@@ -4,6 +4,3 @@
 *.Rproj
 *.RData
 .Rhistory
-/R code/Result_GPD_fit/*
-/R Code/Result_gamma_fit/*
-/R Code/R Data/*
