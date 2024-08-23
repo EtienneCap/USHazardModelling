@@ -1,0 +1,11 @@
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
+!CZ_FIPS_coordinates.csv
+!CZ_FIPS_coordinates_2.csv
+!NWS_forecast_zone.csv
+!SOI_data.csv
+!US_STATE.csv
+!US_HPI_by_state.csv
+!US_GDP_by_state.csv

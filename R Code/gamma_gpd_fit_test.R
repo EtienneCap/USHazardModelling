@@ -79,6 +79,9 @@ lambda_bxcx = 1
 storm_analysis = storm_analysis_raw %>% 
   mutate(quart = quarter(BEGIN_DATE_TIME)) %>%
   mutate(MONTH = month(BEGIN_DATE_TIME)) %>%
+  # left_join(GDP_state %>% dplyr::select(c("GeoFips", "GDP", "YEAR")), by = c("YEAR" = "YEAR", "STATE_FIPS" = "GeoFips")) %>%
+  # left_join(SOI_data, by = c("YEAR", "MONTH")) %>%
+  # left_join(HPI_state %>% dplyr::select(c("yr", "period", "place_name", "HPI")), by = c("YEAR" = "yr", "quart" = "period", "STATE" = "place_name")) %>%
   left_join(US_regions %>% dplyr::select(c("STATE", "REGION", "CLIM_REGION", "CUSTOM_REGION")), by = "STATE") %>%
   mutate(REGION = factor(REGION)) %>%
   mutate(DAMAGE_LOG = log10(DAMAGE)) %>%

@@ -1,0 +1,52 @@
+,State,Abbreviation,FIPS,Region,Clim_Region,New_reg
+0,Alabama,AL,1,South,Southeast,Southeast
+1,Alaska,AK,2,West Coast,,
+2,Arizona,AZ,4,West Coast,Southwest,South
+3,Arkansas,AR,5,South,South,South
+4,California,CA,6,West Coast,West,West
+5,Colorado,CO,8,Center,Southwest,South
+6,Connecticut,CT,9,East Coast,Northeast,Northeast
+7,Delaware,DE,10,East Coast,Northeast,Northeast
+8,District of Columbia,DC,11,East Coast,Northeast,Northeast
+9,Florida,FL,12,East Coast,Southeast,Southeast
+10,Georgia,GA,13,East Coast,Southeast,Southeast
+11,Hawaii,HI,15,West Coast,,
+12,Idaho,ID,16,North,Northwest,Northwest
+13,Illinois,IL,17,Center,Ohio Valley,North - Ohio Valley
+14,Indiana,IN,18,North,Ohio Valley,North - Ohio Valley
+15,Iowa,IA,19,Center,Upper Midwest,North - Ohio Valley
+16,Kansas,KS,20,Center,South,South
+17,Kentucky,KY,21,East Coast,Ohio Valley,North - Ohio Valley
+18,Louisiana,LA,22,South,South,South
+19,Maine,ME,23,East Coast,Northeast,Northeast
+20,Maryland,MD,24,East Coast,Northeast,Northeast
+21,Massachusetts,MA,25,East Coast,Northeast,Northeast
+22,Michigan,MI,26,North,Upper Midwest,North - Ohio Valley
+23,Minnesota,MN,27,North,Upper Midwest,North - Ohio Valley
+24,Mississippi,MS,28,South,South,South
+25,Missouri,MO,29,Center,Ohio Valley,North - Ohio Valley
+26,Montana,MT,30,North,Northern Rockies and Plains,North - Ohio Valley
+27,Nebraska,NE,31,Center,Northern Rockies and Plains,North - Ohio Valley
+28,Nevada,NV,32,West Coast,West,West
+29,New Hampshire,NH,33,East Coast,Northeast,Northeast
+30,New Jersey,NJ,34,East Coast,Northeast,Northeast
+31,New Mexico,NM,35,West Coast,Southwest,South
+32,New York,NY,36,East Coast,Northeast,Northeast
+33,North Carolina,NC,37,East Coast,Southeast,Southeast
+34,North Dakota,ND,38,North,Northern Rockies and Plains,North - Ohio Valley
+35,Ohio,OH,39,East Coast,Ohio Valley,North - Ohio Valley
+36,Oklahoma,OK,40,South,South,South
+37,Oregon,OR,41,West Coast,Northwest,Northwest
+38,Pennsylvania,PA,42,East Coast,Northeast,Northeast
+39,Rhode Island,RI,44,East Coast,Northeast,Northeast
+40,South Carolina,SC,45,East Coast,Southeast,Southeast
+41,South Dakota,SD,46,North,Northern Rockies and Plains,North - Ohio Valley
+42,Tennessee,TN,47,South,Ohio Valley,North - Ohio Valley
+43,Texas,TX,48,South,South,South
+44,Utah,UT,49,Center,Southwest,South
+45,Vermont,VT,50,East Coast,Northeast,Northeast
+46,Virginia,VA,51,East Coast,Southeast,Southeast
+47,Washington,WA,53,West Coast,Northwest,Northwest
+48,West Virginia,WV,54,East Coast,Northeast,Northeast
+49,Wisconsin,WI,55,North,Upper Midwest,North - Ohio Valley
+50,Wyoming,WY,56,Center,Northern Rockies and Plains,North - Ohio Valley

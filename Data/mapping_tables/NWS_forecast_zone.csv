@@ -1,0 +1,3713 @@
+"STATE","ZONE","NAME","LON","LAT"
+"AK",17,"Cape Fairweather to Cape Suckling Coastal Area",-140.5769,59.9186
+"AK",18,"Taiya Inlet and Klondike Highway",-135.3379,59.5601
+"AK",19,"Haines Borough and Lynn Canal",-135.4305,59.0948
+"AK",20,"Glacier Bay",-136.3756,58.7916
+"AK",21,"Eastern Chichagof Island",-135.4494,57.8972
+"AK",22,"Salisbury Sound to Cape Fairweather Coastal Area",-136.5865,58.1508
+"AK",23,"Cape Decision to Salisbury Sound Coastal Area",-135.1569,56.8995
+"AK",24,"Eastern Baranof Island and Southern Admiralty Island",-134.5918,57.3054
+"AK",25,"Juneau Borough and Northern Admiralty Island",-133.7988,58.0197
+"AK",26,"Inner Channels from Kupreanof Island to Etolin Island",-132.9829,56.5977
+"AK",27,"Dixon Entrance to Cape Decision Coastal Area",-133.0104,55.2934
+"AK",28,"Southern Inner Channels",-132.0523,55.5366
+"AK",29,"Misty Fjords",-130.8113,55.753
+"AK",101,"Anchorage",-149.5182,61.1948
+"AK",111,"Matanuska Valley",-149.1656,61.5885
+"AK",121,"Western Kenai Peninsula",-150.709,60.3254
+"AK",125,"Western Prince William Sound",-148.9949,60.3981
+"AK",131,"Northeast Prince William Sound",-146.3607,61.1551
+"AK",135,"Southeast Prince William Sound",-145.182,60.5499
+"AK",141,"Copper River Basin",-144.9308,61.9008
+"AK",145,"Susitna Valley",-150.6874,62.122
+"AK",152,"Lower Kuskokwim Valley",-156.3169,61.5198
+"AK",155,"Kuskokwim Delta",-162.914,60.6698
+"AK",161,"Bristol Bay",-157.2451,59.2984
+"AK",171,"Kodiak Island",-154.1629,58.2911
+"AK",181,"Alaska Peninsula",-161.2033,55.6116
+"AK",185,"Eastern Aleutians",-167.2048,53.5983
+"AK",187,"Central Aleutians",-175.0715,52.0613
+"AK",191,"Western Aleutians",175.5393,52.3658
+"AK",195,"Pribilof Islands",-169.979,56.9092
+"AK",201,"Western Arctic Coast",-160.3323,70.0813
+"AK",202,"Northern Arctic Coast",-155.3712,70.6873
+"AK",203,"Central Beaufort Sea Coast",-149.5616,70.2069
+"AK",204,"Eastern Beaufort Sea Coast",-143.7831,69.8866
+"AK",205,"Northwestern Brooks Range",-157.3,69.2115
+"AK",206,"Northeastern Brooks Range",-148.2525,69.0427
+"AK",207,"Chukchi Sea Coast",-165.286,66.8027
+"AK",208,"Lower Kobuk and Noatak Valleys",-162.214,67.8186
+"AK",209,"Baldwin Peninsula and Selawik Valley",-160.8656,66.6468
+"AK",210,"Northern and Interior Seward Peninsula",-162.5763,65.4916
+"AK",211,"Southern Seward Peninsula Coast",-164.4924,64.6146
+"AK",212,"Eastern Norton Sound and Nulato Hills",-161.0572,63.9319
+"AK",213,"St Lawrence Island and Bering Strait Coast",-168.3102,64.5057
+"AK",214,"Yukon Delta",-163.8145,62.1405
+"AK",215,"Lower Yukon Valley",-159.5937,62.714
+"AK",216,"Lower Koyukuk and Middle Yukon Valleys",-156.605,64.7408
+"AK",217,"Upper Kobuk and Noatak Valleys",-157.2832,67.3545
+"AK",218,"Southeastern Brooks Range",-146.8934,67.8926
+"AK",219,"Upper Koyukuk Valley",-152.5178,66.3788
+"AK",220,"Yukon Flats and Surrounding Uplands",-145.5753,66.4063
+"AK",221,"Central Interior",-151.4866,64.7065
+"AK",222,"Middle Tanana Valley",-147.348,64.9934
+"AK",223,"Deltana and Tanana Flats",-146.6153,64.2155
+"AK",224,"Upper Tanana Valley and the Fortymile Country",-142.878,64.409
+"AK",225,"Denali",-150.0988,63.5852
+"AK",226,"Eastern Alaska Range",-144.4681,63.0805
+"AK",227,"Upper Kuskokwim Valley",-154.2532,62.9842
+"AL",1,"Lauderdale",-87.6544,34.9015
+"AL",2,"Colbert",-87.8049,34.7005
+"AL",3,"Franklin",-87.8438,34.4417
+"AL",4,"Lawrence",-87.311,34.522
+"AL",5,"Limestone",-86.9813,34.8101
+"AL",6,"Madison",-86.5502,34.7631
+"AL",7,"Morgan",-86.8529,34.4535
+"AL",8,"Marshall",-86.3066,34.3669
+"AL",9,"Jackson",-85.9993,34.7794
+"AL",10,"DeKalb",-85.8041,34.4598
+"AL",11,"Marion",-87.8871,34.1366
+"AL",12,"Lamar",-88.0969,33.7792
+"AL",13,"Fayette",-87.7389,33.7212
+"AL",14,"Winston",-87.3737,34.1492
+"AL",15,"Walker",-87.2973,33.8034
+"AL",16,"Cullman",-86.8676,34.132
+"AL",17,"Blount",-86.5674,33.9809
+"AL",18,"Etowah",-86.0348,34.0453
+"AL",19,"Calhoun",-85.8261,33.7714
+"AL",20,"Cherokee",-85.6038,34.176
+"AL",21,"Cleburne",-85.5188,33.6745
+"AL",22,"Pickens",-88.0887,33.2809
+"AL",23,"Tuscaloosa",-87.525,33.2895
+"AL",24,"Jefferson",-86.8965,33.5543
+"AL",25,"Shelby",-86.6607,33.2643
+"AL",26,"St. Clair",-86.3147,33.7157
+"AL",27,"Talladega",-86.1659,33.38
+"AL",28,"Clay",-85.8605,33.2691
+"AL",29,"Randolph",-85.4591,33.2938
+"AL",30,"Sumter",-88.1988,32.591
+"AL",31,"Greene",-87.9522,32.8531
+"AL",32,"Hale",-87.6291,32.7627
+"AL",33,"Perry",-87.2942,32.6385
+"AL",34,"Bibb",-87.1264,32.9986
+"AL",35,"Chilton",-86.7188,32.8479
+"AL",36,"Coosa",-86.2476,32.9362
+"AL",37,"Tallapoosa",-85.7975,32.8624
+"AL",38,"Chambers",-85.392,32.9144
+"AL",39,"Marengo",-87.7895,32.2476
+"AL",40,"Dallas",-87.1065,32.3258
+"AL",41,"Autauga",-86.6428,32.5349
+"AL",42,"Lowndes",-86.6501,32.1547
+"AL",43,"Elmore",-86.1492,32.5966
+"AL",44,"Montgomery",-86.2076,32.2202
+"AL",45,"Macon",-85.6926,32.386
+"AL",46,"Bullock",-85.7161,32.1005
+"AL",47,"Lee",-85.3556,32.6012
+"AL",48,"Russell",-85.1849,32.2884
+"AL",49,"Pike",-85.9409,31.8024
+"AL",50,"Barbour",-85.3932,31.8696
+"AL",51,"Choctaw",-88.2628,32.0192
+"AL",52,"Washington",-88.2071,31.4077
+"AL",53,"Clarke",-87.8309,31.6709
+"AL",54,"Wilcox",-87.3082,31.9892
+"AL",55,"Monroe",-87.3658,31.5706
+"AL",56,"Conecuh",-86.9936,31.4293
+"AL",57,"Butler",-86.6803,31.7524
+"AL",58,"Crenshaw",-86.3136,31.7315
+"AL",59,"Escambia",-87.1616,31.1262
+"AL",60,"Covington",-86.4512,31.2485
+"AL",65,"Coffee",-85.9882,31.4026
+"AL",66,"Dale",-85.611,31.4318
+"AL",67,"Henry",-85.2414,31.5147
+"AL",68,"Geneva",-85.839,31.095
+"AL",69,"Houston",-85.3025,31.1532
+"AL",261,"Mobile Inland",-88.1763,30.9712
+"AL",262,"Baldwin Inland",-87.7677,31.0199
+"AL",263,"Mobile Central",-88.2327,30.6559
+"AL",264,"Baldwin Central",-87.6925,30.5912
+"AL",265,"Mobile Coastal",-88.2224,30.4279
+"AL",266,"Baldwin Coastal",-87.6509,30.3528
+"AR",1,"Benton",-94.2573,36.3392
+"AR",2,"Carroll",-93.5382,36.341
+"AR",3,"Boone",-93.0915,36.3086
+"AR",4,"Marion",-92.6842,36.2684
+"AR",5,"Baxter",-92.337,36.2872
+"AR",6,"Fulton",-91.8183,36.3817
+"AR",7,"Sharp",-91.4799,36.1611
+"AR",8,"Randolph",-91.0278,36.3415
+"AR",9,"Clay",-90.4173,36.3685
+"AR",10,"Washington",-94.2147,35.98
+"AR",11,"Madison",-93.7246,36.011
+"AR",12,"Newton",-93.2179,35.92
+"AR",13,"Searcy",-92.6995,35.9109
+"AR",14,"Stone",-92.1567,35.8599
+"AR",15,"Izard",-91.9134,36.0949
+"AR",16,"Independence",-91.5698,35.7415
+"AR",17,"Lawrence",-91.1071,36.0413
+"AR",18,"Greene",-90.5591,36.1177
+"AR",19,"Crawford",-94.243,35.5889
+"AR",20,"Franklin",-93.8906,35.5123
+"AR",21,"Johnson",-93.4599,35.5701
+"AR",22,"Pope",-93.0342,35.4476
+"AR",23,"Van Buren",-92.5157,35.5807
+"AR",24,"Cleburne",-92.0267,35.5381
+"AR",25,"Jackson",-91.2146,35.5994
+"AR",26,"Craighead",-90.6328,35.8308
+"AR",27,"Poinsett",-90.6629,35.574
+"AR",28,"Mississippi",-90.054,35.7639
+"AR",29,"Sebastian",-94.274,35.1993
+"AR",30,"Logan",-93.7163,35.2153
+"AR",31,"Conway",-92.7014,35.2622
+"AR",32,"Faulkner",-92.3321,35.147
+"AR",33,"White",-91.7457,35.2563
+"AR",34,"Woodruff",-91.2431,35.1863
+"AR",35,"Cross",-90.7713,35.2958
+"AR",36,"Crittenden",-90.3089,35.2079
+"AR",37,"Scott",-94.0633,34.8608
+"AR",38,"Yell",-93.4113,35.0026
+"AR",39,"Perry",-92.9315,34.9474
+"AR",40,"Polk",-94.2281,34.4858
+"AR",41,"Montgomery",-93.6595,34.5388
+"AR",42,"Garland",-93.1504,34.5767
+"AR",43,"Saline",-92.6766,34.6466
+"AR",44,"Pulaski",-92.3118,34.7699
+"AR",45,"Lonoke",-91.8887,34.7542
+"AR",46,"Prairie",-91.5528,34.8297
+"AR",47,"Monroe",-91.2038,34.6778
+"AR",48,"St. Francis",-90.7478,35.022
+"AR",49,"Lee",-90.782,34.7806
+"AR",50,"Sevier",-94.2412,33.9973
+"AR",51,"Howard",-93.9935,34.0887
+"AR",52,"Pike",-93.6564,34.1636
+"AR",53,"Clark",-93.1764,34.051
+"AR",54,"Hot Spring",-92.946,34.3177
+"AR",55,"Grant",-92.4236,34.29
+"AR",56,"Jefferson",-91.9315,34.2688
+"AR",57,"Arkansas",-91.3749,34.2908
+"AR",58,"Phillips",-90.848,34.4283
+"AR",59,"Little River",-94.2343,33.7005
+"AR",60,"Hempstead",-93.6684,33.7354
+"AR",61,"Nevada",-93.3072,33.6641
+"AR",62,"Dallas",-92.6545,33.9698
+"AR",63,"Cleveland",-92.1852,33.8984
+"AR",64,"Lincoln",-91.7333,33.9575
+"AR",65,"Desha",-91.254,33.8333
+"AR",66,"Ouachita",-92.882,33.5933
+"AR",67,"Calhoun",-92.5031,33.558
+"AR",68,"Bradley",-92.1622,33.4659
+"AR",69,"Drew",-91.72,33.5895
+"AR",70,"Miller",-93.8918,33.3124
+"AR",71,"Lafayette",-93.6073,33.2408
+"AR",72,"Columbia",-93.2273,33.2143
+"AR",73,"Union",-92.5973,33.1713
+"AR",74,"Ashley",-91.7679,33.1912
+"AR",75,"Chicot",-91.294,33.2672
+"AS",1,"Tutuila and Aunuu",-170.7128,-14.2995
+"AS",2,"Manua",-169.506,-14.2219
+"AS",3,"Swains Island",-171.0459,-11.0843
+"AZ",1,"Northwest Plateau",-113.3317,36.5921
+"AZ",2,"Lake Havasu and Fort Mohave",-114.3492,34.6762
+"AZ",3,"Northwest Deserts",-113.848,35.1839
+"AZ",4,"Kaibab Plateau",-112.2018,36.6514
+"AZ",5,"Marble and Glen Canyons",-111.6681,36.7777
+"AZ",6,"Grand Canyon Country",-112.3184,36.184
+"AZ",7,"Coconino Plateau",-112.5569,35.7341
+"AZ",8,"Yavapai County  Mountains",-112.6554,34.8361
+"AZ",9,"Northeast Plateaus and Mesas Hwy 264 Northward",-110.9711,36.4046
+"AZ",10,"Chinle Valley",-109.7068,36.5404
+"AZ",11,"Chuska Mountains and Defiance Plateau",-109.2344,35.8693
+"AZ",12,"Little Colorado River Valley in Coconino County",-111.1876,35.4788
+"AZ",13,"Little Colorado River Valley in Navajo County",-110.3128,34.844
+"AZ",14,"Little Colorado River Valley in Apache County",-109.4198,34.5768
+"AZ",15,"Western Mogollon Rim",-111.7689,35.2296
+"AZ",16,"Eastern Mogollon Rim",-110.8122,34.4418
+"AZ",17,"White Mountains",-109.6483,33.9272
+"AZ",18,"Northern Gila County",-110.9225,34.0401
+"AZ",36,"Lake Mead National Recreation Area",-114.3194,35.8011
+"AZ",37,"Yavapai County Valleys and Basins",-112.5126,34.4302
+"AZ",38,"Oak Creek and Sycamore Canyons",-111.8796,34.9117
+"AZ",39,"Black Mesa Area",-110.243,36.355
+"AZ",40,"Northeast Plateaus and Mesas South of Hwy 264",-110.1825,35.4889
+"AZ",501,"Western Pima County Including Ajo/Organ Pipe Cactus National Monument",-112.9766,32.2167
+"AZ",502,"Tohono O'odham Nation including Sells",-112.064,32.1434
+"AZ",503,"Upper Santa Cruz River and Altar Valleys including Nogales",-111.163,31.6207
+"AZ",504,"Tucson Metro Area including Tucson/Green Valley/Marana/Vail",-111.0565,32.1761
+"AZ",505,"South Central Pinal County including Eloy/Picacho Peak State Park",-111.3393,32.7452
+"AZ",506,"Southeast Pinal County including Kearny/Mammoth/Oracle",-110.7518,32.8255
+"AZ",507,"Upper San Pedro River Valley including Sierra Vista/Benson",-110.3073,31.9331
+"AZ",508,"Eastern Cochise County Below 5000 Feet including Douglas/Willcox",-109.5452,31.9147
+"AZ",509,"Upper Gila River and Aravaipa Valleys including Clifton/Safford",-109.7443,32.8686
+"AZ",510,"White Mountains of Graham and Greenlee Counties including Hannagan Meadow",-109.4881,33.3867
+"AZ",511,"Galiuro and Pinaleno Mountains including Mount Graham",-110.1153,32.6525
+"AZ",512,"Chiricahua Mountains including Chiricahua National Monument",-109.356,31.8616
+"AZ",513,"Dragoon/Mule/Huachuca and Santa Rita Mountains including Bisbee/Canelo Hills/Madera Canyon",-110.3833,31.6043
+"AZ",514,"Santa Catalina and Rincon Mountains including Mount Lemmon/Summerhaven",-110.6808,32.3364
+"AZ",515,"Baboquivari Mountains including Kitt Peak",-111.5931,31.8186
+"AZ",530,"Parker Valley",-114.4567,33.6989
+"AZ",531,"Kofa",-114.028,33.2172
+"AZ",532,"Yuma",-114.5114,32.6544
+"AZ",533,"Central La Paz",-113.8131,33.8116
+"AZ",534,"Aguila Valley",-112.9785,33.8662
+"AZ",535,"Southeast Yuma County",-113.7572,32.3859
+"AZ",536,"Gila River Valley",-113.804,32.822
+"AZ",537,"Northwest Valley",-112.477,33.7421
+"AZ",538,"Tonopah Desert",-112.9704,33.3971
+"AZ",539,"Gila Bend",-113.0566,32.8542
+"AZ",540,"Buckeye/Avondale",-112.4004,33.3912
+"AZ",541,"Cave Creek/New River",-112.0129,33.8086
+"AZ",542,"Deer Valley",-112.1301,33.7122
+"AZ",543,"Central Phoenix",-112.0552,33.4331
+"AZ",544,"North Phoenix/Glendale",-112.1525,33.5716
+"AZ",545,"New River Mesa",-111.8887,33.926
+"AZ",546,"Scottsdale/Paradise Valley",-111.8891,33.5351
+"AZ",547,"Rio Verde/Salt River",-111.51,33.7012
+"AZ",548,"East Valley",-111.8134,33.3765
+"AZ",549,"Fountain Hills/East Mesa",-111.6592,33.5349
+"AZ",550,"South Mountain/Ahwatukee",-112.0449,33.2829
+"AZ",551,"Southeast Valley/Queen Creek",-111.7353,33.2616
+"AZ",552,"Superior",-111.188,33.2702
+"AZ",553,"Northwest Pinal County",-111.7511,33.0208
+"AZ",554,"West Pinal County",-112.1203,32.8658
+"AZ",555,"Apache Junction/Gold Canyon",-111.3827,33.2584
+"AZ",556,"Tonto Basin",-111.1275,33.7079
+"AZ",557,"Mazatzal Mountains",-111.4206,33.8233
+"AZ",558,"Pinal/Superstition Mountains",-110.9698,33.3639
+"AZ",559,"Sonoran Desert Natl Monument",-112.5235,32.802
+"AZ",560,"San Carlos",-110.532,33.3416
+"AZ",561,"Dripping Springs",-110.7853,33.102
+"AZ",562,"Globe/Miami",-110.8175,33.4344
+"AZ",563,"Southeast Gila County",-110.4548,33.6107
+"CA",6,"San Francisco",-122.4424,37.7558
+"CA",13,"Shasta Lake Area / Northern Shasta County",-122.2247,40.9299
+"CA",14,"Burney Basin / Eastern Shasta County",-121.4882,40.9423
+"CA",15,"Northern Sacramento Valley",-122.2949,40.2198
+"CA",16,"Central Sacramento Valley",-121.926,39.3764
+"CA",17,"Southern Sacramento Valley",-121.5625,38.6268
+"CA",18,"Carquinez Strait and Delta",-121.7622,38.1433
+"CA",19,"Northern San Joaquin Valley",-121.041,37.7581
+"CA",34,"San Luis Obispo County Central Coast",-120.7407,35.327
+"CA",35,"Santa Barbara County Central Coast",-120.4263,34.7217
+"CA",36,"Santa Ynez Valley",-120.0816,34.6833
+"CA",37,"San Luis Obispo County Interior Valleys",-120.3516,35.4918
+"CA",38,"Cuyama Valley",-119.7374,34.9422
+"CA",39,"Santa Barbara County South Coast",-119.9036,34.4568
+"CA",40,"Ventura County Coast",-119.1284,34.2261
+"CA",41,"Los Angeles County Coast including Downtown Los Angeles",-118.3004,33.9281
+"CA",43,"San Diego County Coastal Areas",-117.2007,32.9298
+"CA",44,"Ventura County Interior Valleys",-119.1198,34.3941
+"CA",45,"Ventura County Coastal Valleys",-118.8478,34.2471
+"CA",46,"Santa Monica Mountains Recreational Area",-118.6898,34.0839
+"CA",48,"San Bernardino and Riverside County Valleys-The Inland Empire",-117.2517,33.8468
+"CA",50,"San Diego County Inland Valleys",-116.9615,33.0253
+"CA",51,"San Luis Obispo County Mountains",-120.0448,35.1415
+"CA",52,"Santa Barbara County Mountains",-119.8211,34.7466
+"CA",53,"Ventura County Mountains",-119.1351,34.6292
+"CA",54,"Los Angeles County Mountains excluding the Santa Monica Range",-118.223,34.4294
+"CA",55,"San Bernardino County Mountains",-117.0606,34.2094
+"CA",56,"Riverside County Mountains",-116.6252,33.6162
+"CA",57,"Santa Ana Mountains and Foothills",-117.4605,33.6273
+"CA",58,"San Diego County Mountains",-116.5618,33.0415
+"CA",59,"Antelope Valley",-118.0679,34.6664
+"CA",60,"Apple and Lucerne Valleys",-117.0201,34.5432
+"CA",61,"Coachella Valley",-116.2371,33.6887
+"CA",62,"San Diego County Deserts",-116.2679,33.0924
+"CA",63,"Mountains Southwestern Shasta County to Northern Lake County",-122.7565,39.8175
+"CA",64,"Clear Lake/Southern Lake County",-122.6644,38.9962
+"CA",65,"San Gorgonio Pass Near Banning",-116.613,33.9303
+"CA",66,"Northeast Foothills/Sacramento Valley",-121.7566,40.1117
+"CA",67,"Motherlode",-120.7698,38.6192
+"CA",68,"Western Plumas County/Lassen Park",-121.3501,40.1971
+"CA",69,"West Slope Northern Sierra Nevada",-120.3423,38.7829
+"CA",70,"Surprise Valley California",-120.0862,41.6116
+"CA",71,"Lassen-Eastern Plumas-Eastern Sierra Counties",-120.5471,40.466
+"CA",72,"Greater Lake Tahoe Area",-119.9683,38.9481
+"CA",73,"Mono",-118.8867,37.939
+"CA",80,"Western Siskiyou County",-123.164,41.5562
+"CA",81,"Central Siskiyou County",-122.5631,41.7362
+"CA",82,"South Central Siskiyou County",-122.1846,41.2704
+"CA",83,"North Central and Southeast Siskiyou County",-121.8967,41.5425
+"CA",84,"Northeast Siskiyou and Northwest Modoc Counties",-121.6371,41.8639
+"CA",85,"Modoc County",-120.7585,41.5611
+"CA",87,"Catalina and Santa Barbara Islands",-118.4412,33.3833
+"CA",88,"Santa Clarita Valley",-118.5579,34.4534
+"CA",89,"West-Central San Joaquin Valley",-120.5021,36.6211
+"CA",90,"East-Central San Joaquin Valley",-120.1167,37.051
+"CA",91,"Southwestern San Joaquin Valley",-119.7597,35.7786
+"CA",92,"Southeastern San Joaquin Valley",-119.1856,35.7797
+"CA",93,"Mariposa, Madera, and Fresno County Foothills",-119.7374,37.2843
+"CA",94,"Tulare County Foothills",-118.9101,36.2599
+"CA",95,"Kern County Mountains",-118.5713,35.3524
+"CA",96,"Sierra Nevada from Yosemite to Kings Canyon",-119.1907,37.3856
+"CA",97,"Tulare County Mountains",-118.4645,36.2518
+"CA",98,"Indian Wells Valley",-117.8015,35.6271
+"CA",99,"Southeastern Kern County Desert",-118.03,35.0727
+"CA",101,"Coastal Del Norte",-124.1152,41.7379
+"CA",102,"Del Norte Interior",-123.8512,41.7446
+"CA",103,"Northern Humboldt Coast",-124.1208,40.8112
+"CA",104,"Southwestern Humboldt",-124.1428,40.2708
+"CA",105,"Northern Humboldt Interior",-123.7436,41.1031
+"CA",106,"Southern Humboldt Interior",-123.7949,40.4135
+"CA",107,"Northern Trinity",-122.9759,40.9086
+"CA",108,"Southern Trinity",-123.2788,40.3374
+"CA",109,"Mendocino Coast",-123.7271,39.3778
+"CA",110,"Northwestern Mendocino Interior",-123.4371,39.6359
+"CA",111,"Northeastern Mendocino Interior",-123.1396,39.7603
+"CA",112,"Southwestern Mendocino Interior",-123.4915,39.1561
+"CA",113,"Southeastern Mendocino Interior",-123.1953,39.0904
+"CA",505,"Coastal North Bay Including Point Reyes National Seashore",-122.9543,38.2364
+"CA",506,"North Bay Interior Valleys",-122.6419,38.3698
+"CA",507,"North Bay Mountains",-122.6939,38.5515
+"CA",508,"San Francisco Bay Shoreline",-122.165,37.5938
+"CA",509,"San Francisco Peninsula Coast",-122.3923,37.374
+"CA",510,"East Bay Interior Valleys",-121.8801,37.8804
+"CA",511,"East Bay Hills and the Diablo Range",-121.6591,37.4504
+"CA",512,"Santa Cruz Mountains",-122.04,37.1726
+"CA",513,"Santa Clara Valley Including San Jose",-121.7971,37.2196
+"CA",516,"Southern Salinas Valley/Arroyo Seco and Lake San Antonio",-121.0546,36.1014
+"CA",517,"Santa Lucia Mountains and Los Padres National Forest",-121.4188,36.1606
+"CA",518,"Mountains Of San Benito County And Interior Monterey County Including Pinnacles National Park",-120.9214,36.3718
+"CA",519,"Eastern Sierra Slopes of Inyo County",-118.341,36.8269
+"CA",520,"Owens Valley",-118.0127,36.5133
+"CA",521,"White Mountains of Inyo County",-118.0388,37.0104
+"CA",522,"Death Valley National Park",-117.1006,36.4199
+"CA",523,"Western Mojave Desert",-117.0005,35.3053
+"CA",524,"Eastern Mojave Desert, Including the Mojave National Preserve",-115.7069,35.1398
+"CA",525,"Morongo Basin",-116.0948,34.3424
+"CA",526,"Cadiz Basin",-115.0956,34.3849
+"CA",527,"San Bernardino County-Upper Colorado River Valley",-114.5011,34.4988
+"CA",528,"Northern Salinas Valley/Hollister Valley and Carmel Valley",-121.5047,36.6769
+"CA",529,"Northern Monterey Bay",-121.9005,36.9757
+"CA",530,"Southern Monterey Bay and Big Sur Coast",-121.7566,36.6165
+"CA",547,"Los Angeles County San Fernando Valley",-118.4799,34.2043
+"CA",548,"Los Angeles County San Gabriel Valley",-117.9738,34.0657
+"CA",549,"San Miguel and Santa Rosa Islands",-120.1462,33.9774
+"CA",550,"Santa Cruz and Anacapa Islands",-119.7416,34.0138
+"CA",552,"Orange County Coastal",-117.8648,33.6191
+"CA",554,"Orange County Inland",-117.7705,33.7234
+"CA",560,"Joshua Tree NP West",-116.0848,33.9359
+"CA",561,"Joshua Tree NP East",-115.6534,33.9563
+"CA",562,"Imperial County Southwest",-116.039,32.8129
+"CA",563,"Salton Sea",-115.8096,33.3091
+"CA",564,"Chuckwalla Mountains",-115.2724,33.3715
+"CA",565,"Imperial County Southeast",-114.9902,32.886
+"CA",566,"Imperial County West",-115.9008,32.9908
+"CA",567,"Imperial Valley",-115.5185,32.9245
+"CA",568,"Chiriaco Summit",-115.6832,33.6785
+"CA",569,"Palo Verde Valley",-114.6527,33.4256
+"CA",570,"Chuckwalla Valley",-115.0182,33.8125
+"CO",1,"Lower Yampa River Basin",-108.6994,40.444
+"CO",2,"Central Yampa River Basin",-107.9134,40.4046
+"CO",3,"Roan and Tavaputs Plateaus",-108.4377,39.5758
+"CO",4,"Elkhead and Park Mountains",-106.9552,40.5653
+"CO",5,"Upper Yampa River Basin",-106.9616,40.3903
+"CO",6,"Grand Valley",-108.6809,39.1541
+"CO",7,"Debeque to Silt Corridor",-107.9773,39.4422
+"CO",8,"Central Colorado River Basin",-107.0292,39.6286
+"CO",9,"Grand and Battlement Mesas",-107.8549,39.1332
+"CO",10,"Gore and Elk Mountains/Central Mountain Valleys",-106.8147,39.4353
+"CO",11,"Central Gunnison and Uncompahgre River Basin",-107.9201,38.6735
+"CO",12,"West Elk and Sawatch Mountains",-107.0042,38.8011
+"CO",13,"Flattops",-107.4376,39.9766
+"CO",14,"Upper Gunnison River Valley",-107.1881,38.4776
+"CO",17,"Uncompahgre Plateau/Dallas Divide",-108.4296,38.5539
+"CO",18,"Northwestern San Juan Mountains",-107.5504,38.0588
+"CO",19,"Southwest San Juan Mountains",-107.6597,37.5206
+"CO",20,"Paradox Valley/Lower Dolores River",-108.7095,38.1963
+"CO",21,"Four Corners/Upper Dolores River",-108.7278,37.3809
+"CO",22,"Animas River Basin",-107.8775,37.1488
+"CO",23,"San Juan River Basin",-107.2004,37.1383
+"CO",30,"Jackson County Below 9000 Feet",-106.309,40.6766
+"CO",31,"West Jackson and West Grand Counties Above 9000 Feet",-106.6092,40.6175
+"CO",32,"Grand and Summit Counties Below 9000 Feet",-106.209,40.0726
+"CO",33,"South and East Jackson/Larimer/North and Northeast Grand/Northwest Boulder Counties Above 9000 Feet",-105.9071,40.488
+"CO",34,"South and Southeast Grand/West Central and Southwest Boulder/Gilpin/Clear Creek/Summit/North and West Park Counties Above 9000 Feet",-105.8505,39.6044
+"CO",35,"Larimer and Boulder Counties Between 6000 and 9000 Feet",-105.4708,40.6099
+"CO",36,"Jefferson and West Douglas Counties Above  6000 Feet/Gilpin/Clear Creek/Northeast Park Counties Below 9000 Feet",-105.2681,39.4838
+"CO",37,"Central and Southeast Park County",-105.6737,38.9845
+"CO",38,"Larimer County Below 6000 Feet/Northwest Weld County",-104.8423,40.7183
+"CO",39,"Boulder And Jefferson Counties Below 6000 Feet/West Broomfield County",-105.156,39.9606
+"CO",40,"North Douglas County Below 6000 Feet/Denver/West Adams and Arapahoe Counties/East Broomfield County",-104.804,39.7656
+"CO",41,"Elbert/Central and East Douglas Counties Above 6000 Feet",-104.5091,39.3075
+"CO",42,"Northeast Weld County",-104.0025,40.7427
+"CO",43,"Central and South Weld County",-104.5924,40.2668
+"CO",44,"Morgan County",-103.8098,40.2627
+"CO",45,"Central and East Adams and Arapahoe Counties",-104.1048,39.7839
+"CO",46,"North and Northeast Elbert County Below 6000 Feet/North Lincoln County",-103.6814,39.356
+"CO",47,"Southeast Elbert County Below 6000 Feet/South Lincoln County",-103.5944,38.8048
+"CO",48,"Logan County",-103.1101,40.7247
+"CO",49,"Washington County",-103.2013,39.971
+"CO",50,"Sedgwick County",-102.3518,40.8758
+"CO",51,"Phillips County",-102.3575,40.5939
+"CO",58,"Western Mosquito Range/East Lake County Above 11000 Ft",-106.2141,39.2545
+"CO",59,"Leadville Vicinity/Lake County Below 11000 Ft",-106.3446,39.1873
+"CO",60,"Eastern Sawatch Mountains above 11000 Ft",-106.3586,38.8197
+"CO",61,"Western Chaffee County Between 9000 and 11000 Ft",-106.2559,38.7415
+"CO",62,"Central Chaffee County Below 9000 Ft",-106.0928,38.6873
+"CO",63,"Western Mosquito Range/East Chaffee County above 9000Ft",-106.0253,38.8243
+"CO",64,"Saguache County West of Continental Divide Below 10000 Ft",-106.7044,38.3063
+"CO",65,"Saguache County East of Continental Divide below 10000 Ft",-106.3423,38.1071
+"CO",66,"La Garita Mountains Above 10000 Ft",-106.7318,38.0229
+"CO",67,"Upper Rio Grande Valley/Eastern San Juan Mountains Below 10000 Ft",-106.5413,37.469
+"CO",68,"Eastern San Juan Mountains Above 10000 Ft",-106.7002,37.4272
+"CO",69,"Del Norte Vicinity/Northern San Luis Valley Below 8500 Ft",-106.0347,37.9152
+"CO",70,"Alamosa  Vicinity/Central San Luis Valley Below 8500 Ft",-105.8929,37.5614
+"CO",71,"Southern San Luis Valley",-105.7537,37.2224
+"CO",72,"Northern Sangre de Cristo Mountains Between 8500 And 11000 Ft",-105.5379,37.9018
+"CO",73,"Northern Sangre de Cristo Mountains above 11000 Ft",-105.617,37.9767
+"CO",74,"Southern Sangre De Cristo Mountains Between 7500 and 11000 Ft",-105.0257,37.2245
+"CO",75,"Southern Sangre De Cristo Mountains Above 11000 Ft",-105.1708,37.2046
+"CO",76,"Northwestern Fremont County  Above 8500Ft",-105.6475,38.6011
+"CO",77,"Western/Central Fremont County Below 8500 Ft",-105.5559,38.4248
+"CO",78,"Wet Mountain Valley Below 8500 Ft",-105.4502,38.1353
+"CO",79,"Wet Mountains between 6300 and 10000Ft",-105.1469,38.046
+"CO",80,"Wet Mountains above 10000 Ft",-105.1345,37.9888
+"CO",81,"Teller County/Rampart Range above 7500fT/Pike's Peak Between 7500 And 11000 Ft",-105.113,38.8708
+"CO",82,"Pikes Peak above 11000 Ft",-105.0464,38.8156
+"CO",83,"Canon City Vicinity/Eastern Fremont County",-105.1148,38.4443
+"CO",84,"Northern El Paso County/Monument Ridge/Rampart Range Below 7500 Ft",-104.4498,39.0124
+"CO",85,"Colorado Springs Vicinity/Southern El Paso County/Rampart Range Below 7400 Ft",-104.5034,38.7125
+"CO",86,"Pueblo Vicinity/Pueblo County Below 6300 Feet",-104.4872,38.1821
+"CO",87,"Walsenburg Vicinity/Upper Huerfano River Basin Below 7500 Ft",-104.8578,37.6899
+"CO",88,"Trinidad Vicinity/Western Las Animas County Below 7500 Ft",-104.3935,37.3538
+"CO",89,"Crowley County",-103.7849,38.3266
+"CO",90,"Yuma County",-102.4243,40.0029
+"CO",91,"Kit Carson County",-102.6029,39.3054
+"CO",92,"Cheyenne County",-102.6034,38.8279
+"CO",93,"La Junta Vicinity/Otero County",-103.7164,37.9027
+"CO",94,"Eastern Las Animas County",-103.5645,37.3221
+"CO",95,"Western Kiowa County",-103.0919,38.424
+"CO",96,"Eastern Kiowa County",-102.3891,38.4414
+"CO",97,"Las Animas Vicinity/Bent County",-103.0717,37.9551
+"CO",98,"Lamar Vicinity/Prowers County",-102.3933,37.9552
+"CO",99,"Springfield Vicinity/Baca County",-102.5605,37.3192
+"CT",1,"Northern Litchfield",-73.2502,41.8851
+"CT",2,"Hartford",-72.7328,41.8064
+"CT",3,"Tolland",-72.3365,41.855
+"CT",4,"Windham",-71.9875,41.83
+"CT",5,"Northern Fairfield",-73.3629,41.353
+"CT",6,"Northern New Haven",-72.9956,41.4648
+"CT",7,"Northern Middlesex",-72.5551,41.4977
+"CT",8,"Northern New London",-72.0992,41.5317
+"CT",9,"Southern Fairfield",-73.435,41.1301
+"CT",10,"Southern New Haven",-72.8154,41.3108
+"CT",11,"Southern Middlesex",-72.4497,41.3211
+"CT",12,"Southern New London",-72.1039,41.3616
+"CT",13,"Southern Litchfield",-73.2368,41.6344
+"DC",1,"District of Columbia",-77.0146,38.9093
+"DE",1,"New Castle",-75.6489,39.581
+"DE",2,"Kent",-75.5688,39.0867
+"DE",3,"Inland Sussex",-75.4181,38.6653
+"DE",4,"Delaware Beaches",-75.0919,38.6114
+"FL",7,"North Walton",-86.2133,30.8499
+"FL",8,"Central Walton",-86.112,30.593
+"FL",9,"Holmes",-85.8143,30.8679
+"FL",10,"Washington",-85.6656,30.6106
+"FL",11,"Jackson",-85.2194,30.7956
+"FL",12,"Inland Bay",-85.5408,30.366
+"FL",13,"Calhoun",-85.1972,30.4061
+"FL",14,"Inland Gulf",-85.211,30.0103
+"FL",15,"Inland Franklin",-84.8653,29.9462
+"FL",16,"Gadsden",-84.6137,30.5795
+"FL",17,"Leon",-84.2779,30.4581
+"FL",18,"Inland Jefferson",-83.8865,30.4578
+"FL",19,"Madison",-83.47,30.4442
+"FL",20,"Hamilton",-82.9478,30.4964
+"FL",21,"Suwannee",-82.9915,30.1956
+"FL",22,"Columbia",-82.6215,30.2243
+"FL",23,"Baker",-82.2846,30.331
+"FL",24,"Inland Nassau",-81.8808,30.602
+"FL",25,"Inland Duval",-81.7825,30.3142
+"FL",26,"Liberty",-84.8829,30.2414
+"FL",27,"Inland Wakulla",-84.4473,30.2025
+"FL",28,"Inland Taylor",-83.5767,30.0954
+"FL",29,"Lafayette",-83.1811,29.9855
+"FL",30,"Union",-82.3714,30.0439
+"FL",31,"Bradford",-82.1689,29.9502
+"FL",32,"Clay",-81.8579,29.9831
+"FL",33,"Inland St. Johns",-81.4979,29.8671
+"FL",34,"Inland Dixie",-83.1235,29.6711
+"FL",35,"Gilchrist",-82.8005,29.7259
+"FL",36,"Alachua",-82.3576,29.6749
+"FL",37,"Putnam",-81.7442,29.6086
+"FL",38,"Inland Flagler",-81.3306,29.4499
+"FL",40,"Marion",-82.0567,29.2103
+"FL",41,"Inland Volusia",-81.2756,29.0622
+"FL",43,"Sumter",-82.081,28.7046
+"FL",44,"Northern Lake County",-81.6301,28.9313
+"FL",45,"Orange",-81.3238,28.5148
+"FL",46,"Seminole",-81.2362,28.717
+"FL",47,"Southern Brevard County",-80.7165,28.0475
+"FL",50,"Pinellas",-82.722,27.928
+"FL",52,"Polk",-81.6978,27.9489
+"FL",53,"Osceola",-81.1495,28.0627
+"FL",54,"Indian River",-80.6158,27.6929
+"FL",56,"Hardee",-81.8099,27.4927
+"FL",57,"Highlands",-81.3409,27.3434
+"FL",58,"Okeechobee",-80.9015,27.4283
+"FL",59,"St. Lucie",-80.4836,27.3764
+"FL",61,"DeSoto",-81.8093,27.1863
+"FL",63,"Glades",-81.2397,26.9605
+"FL",64,"Martin",-80.3893,27.0844
+"FL",66,"Hendry",-81.1718,26.5473
+"FL",67,"Inland Palm Beach County",-80.5109,26.6172
+"FL",68,"Metro Palm Beach County",-80.1464,26.6222
+"FL",69,"Coastal Collier County",-81.6016,26.015
+"FL",70,"Inland Collier County",-81.293,26.138
+"FL",71,"Inland Broward County",-80.6145,26.1632
+"FL",72,"Metro Broward County",-80.2706,26.1257
+"FL",73,"Inland Miami-Dade County",-80.6396,25.6928
+"FL",74,"Metropolitan Miami Dade",-80.3008,25.8194
+"FL",75,"Mainland Monroe",-81.0326,25.5205
+"FL",76,"Monroe Upper Keys",-80.4176,25.1496
+"FL",77,"Monroe Middle Keys",-80.9876,24.7471
+"FL",78,"Monroe Lower Keys",-81.5527,24.6514
+"FL",108,"South Walton",-86.171,30.4183
+"FL",112,"Coastal Bay",-85.6654,30.2213
+"FL",114,"Coastal Gulf",-85.2726,29.8173
+"FL",115,"Coastal Franklin",-84.7899,29.8382
+"FL",118,"Coastal Jefferson",-84.0221,30.1477
+"FL",124,"Coastal Nassau",-81.5495,30.6366
+"FL",125,"Coastal Duval",-81.5262,30.352
+"FL",127,"Coastal Wakulla",-84.475,30.006
+"FL",128,"Coastal Taylor",-83.6702,29.9258
+"FL",133,"Coastal St. Johns",-81.3629,29.9525
+"FL",134,"Coastal Dixie",-83.2252,29.4931
+"FL",138,"Coastal Flagler",-81.1875,29.5436
+"FL",139,"Coastal Levy",-82.893,29.2421
+"FL",141,"Coastal Volusia",-80.9907,29.0562
+"FL",142,"Coastal Citrus",-82.6088,28.8126
+"FL",144,"Southern Lake County",-81.8061,28.5634
+"FL",147,"Northern Brevard County",-80.7806,28.5586
+"FL",148,"Coastal Hernando",-82.6112,28.5709
+"FL",149,"Coastal Pasco",-82.6809,28.2916
+"FL",151,"Coastal Hillsborough",-82.4242,27.7744
+"FL",155,"Coastal Manatee",-82.5395,27.4983
+"FL",160,"Coastal Sarasota",-82.277,27.0267
+"FL",162,"Coastal Charlotte",-82.1085,26.9689
+"FL",165,"Coastal Lee",-81.978,26.5608
+"FL",168,"Coastal Palm Beach County",-80.0806,26.7053
+"FL",172,"Coastal Broward County",-80.1266,26.1498
+"FL",173,"Coastal Miami Dade County",-80.3116,25.5826
+"FL",174,"Far South Miami-Dade County",-80.6497,25.299
+"FL",201,"Escambia Inland",-87.4148,30.8244
+"FL",202,"Escambia Coastal",-87.3033,30.4541
+"FL",203,"Santa Rosa Inland",-87.0179,30.77
+"FL",204,"Santa Rosa Coastal",-87.0128,30.4942
+"FL",205,"Okaloosa Inland",-86.5993,30.7459
+"FL",206,"Okaloosa Coastal",-86.5784,30.4587
+"FL",239,"Inland Levy",-82.6633,29.3606
+"FL",242,"Inland Citrus",-82.4142,28.8489
+"FL",248,"Inland Hernando",-82.3719,28.5482
+"FL",249,"Inland Pasco",-82.3345,28.3127
+"FL",251,"Inland Hillsborough",-82.2469,27.9311
+"FL",255,"Inland Manatee",-82.2406,27.4658
+"FL",260,"Inland Sarasota",-82.2669,27.2
+"FL",262,"Inland Charlotte",-81.7547,26.9037
+"FL",265,"Inland Lee",-81.8553,26.6504
+"GA",1,"Dade",-85.5045,34.8546
+"GA",2,"Walker",-85.3009,34.7356
+"GA",3,"Catoosa",-85.1381,34.9036
+"GA",4,"Whitfield",-84.9673,34.8056
+"GA",5,"Murray",-84.7481,34.7885
+"GA",6,"Fannin",-84.3197,34.8641
+"GA",7,"Gilmer",-84.4554,34.6915
+"GA",8,"Union",-83.9907,34.8342
+"GA",9,"Towns",-83.7373,34.9167
+"GA",10,"Rabun",-83.4021,34.8818
+"GA",11,"Chattooga",-85.3454,34.475
+"GA",12,"Gordon",-84.8757,34.5034
+"GA",13,"Pickens",-84.4656,34.4643
+"GA",14,"Dawson",-84.1704,34.4438
+"GA",15,"Lumpkin",-84.0031,34.5721
+"GA",16,"White",-83.7472,34.6464
+"GA",17,"Habersham",-83.5312,34.631
+"GA",18,"Stephens",-83.2935,34.554
+"GA",19,"Floyd",-85.2143,34.2632
+"GA",20,"Bartow",-84.8405,34.2379
+"GA",21,"Cherokee",-84.4764,34.2439
+"GA",22,"Forsyth",-84.1253,34.2255
+"GA",23,"Hall",-83.8197,34.3168
+"GA",24,"Banks",-83.4974,34.3541
+"GA",25,"Jackson",-83.5663,34.1339
+"GA",26,"Franklin",-83.2292,34.3755
+"GA",27,"Madison",-83.209,34.1279
+"GA",28,"Hart",-82.964,34.3511
+"GA",29,"Elbert",-82.8403,34.1169
+"GA",30,"Polk",-85.1882,34.0018
+"GA",31,"Paulding",-84.8672,33.9202
+"GA",32,"Cobb",-84.5767,33.9415
+"GA",33,"North Fulton",-84.3557,33.935
+"GA",34,"Gwinnett",-84.0235,33.9617
+"GA",35,"Barrow",-83.7127,33.9932
+"GA",36,"Clarke",-83.3674,33.9513
+"GA",37,"Oconee",-83.437,33.8349
+"GA",38,"Oglethorpe",-83.0806,33.8807
+"GA",39,"Wilkes",-82.7432,33.782
+"GA",40,"Lincoln",-82.4512,33.7936
+"GA",41,"Haralson",-85.211,33.7942
+"GA",42,"Carroll",-85.0797,33.5828
+"GA",43,"Douglas",-84.7677,33.7015
+"GA",44,"South Fulton",-84.6065,33.6085
+"GA",45,"DeKalb",-84.2263,33.7715
+"GA",46,"Rockdale",-84.0267,33.6545
+"GA",47,"Walton",-83.7338,33.7816
+"GA",48,"Newton",-83.8503,33.5551
+"GA",49,"Morgan",-83.4924,33.5908
+"GA",50,"Greene",-83.1667,33.5789
+"GA",51,"Taliaferro",-82.8787,33.5662
+"GA",52,"Heard",-85.1283,33.297
+"GA",53,"Coweta",-84.7633,33.3535
+"GA",54,"Fayette",-84.4941,33.414
+"GA",55,"Clayton",-84.3577,33.5419
+"GA",56,"Spalding",-84.2841,33.2609
+"GA",57,"Henry",-84.1554,33.4534
+"GA",58,"Butts",-83.9572,33.2891
+"GA",59,"Jasper",-83.6881,33.3164
+"GA",60,"Putnam",-83.3728,33.3218
+"GA",61,"Hancock",-83.001,33.2703
+"GA",62,"Warren",-82.6767,33.4089
+"GA",63,"McDuffie",-82.4814,33.4829
+"GA",64,"Columbia",-82.264,33.5442
+"GA",65,"Richmond",-82.0735,33.3596
+"GA",66,"Troup",-85.0283,33.0335
+"GA",67,"Meriwether",-84.6883,33.0406
+"GA",68,"Pike",-84.3892,33.0922
+"GA",69,"Upson",-84.2993,32.8813
+"GA",70,"Lamar",-84.1394,33.0765
+"GA",71,"Monroe",-83.9187,33.0141
+"GA",72,"Jones",-83.5605,33.0251
+"GA",73,"Baldwin",-83.2499,33.069
+"GA",74,"Washington",-82.7959,32.9695
+"GA",75,"Glascock",-82.6107,33.2293
+"GA",76,"Jefferson",-82.4181,33.0549
+"GA",77,"Burke",-82.0008,33.0612
+"GA",78,"Harris",-84.909,32.736
+"GA",79,"Talbot",-84.533,32.6995
+"GA",80,"Taylor",-84.2504,32.5556
+"GA",81,"Crawford",-83.9864,32.7145
+"GA",82,"Bibb",-83.6979,32.8067
+"GA",83,"Twiggs",-83.4272,32.6672
+"GA",84,"Wilkinson",-83.1713,32.8024
+"GA",85,"Johnson",-82.6601,32.7015
+"GA",86,"Emanuel",-82.3018,32.5898
+"GA",87,"Jenkins",-81.9636,32.7925
+"GA",88,"Screven",-81.6119,32.7507
+"GA",89,"Muscogee",-84.877,32.51
+"GA",90,"Chattahoochee",-84.787,32.347
+"GA",91,"Marion",-84.5246,32.3534
+"GA",92,"Schley",-84.3149,32.262
+"GA",93,"Macon",-84.0425,32.3584
+"GA",94,"Peach",-83.8269,32.5688
+"GA",95,"Houston",-83.6662,32.459
+"GA",96,"Bleckley",-83.3279,32.4344
+"GA",97,"Laurens",-82.9222,32.4637
+"GA",98,"Treutlen",-82.5673,32.4039
+"GA",99,"Candler",-82.0737,32.4035
+"GA",100,"Bulloch",-81.7432,32.3969
+"GA",101,"Effingham",-81.3407,32.3675
+"GA",102,"Stewart",-84.8352,32.0785
+"GA",103,"Webster",-84.551,32.0466
+"GA",104,"Sumter",-84.1971,32.04
+"GA",105,"Dooly",-83.7987,32.1572
+"GA",106,"Crisp",-83.7681,31.923
+"GA",107,"Pulaski",-83.4764,32.2328
+"GA",108,"Wilcox",-83.4322,31.9733
+"GA",109,"Dodge",-83.1684,32.1722
+"GA",110,"Telfair",-82.9389,31.9298
+"GA",111,"Wheeler",-82.7246,32.1171
+"GA",112,"Montgomery",-82.5338,32.1746
+"GA",113,"Toombs",-82.3306,32.1206
+"GA",114,"Tattnall",-82.0582,32.0458
+"GA",115,"Evans",-81.8869,32.1568
+"GA",116,"Inland Bryan",-81.4749,32.0403
+"GA",117,"Coastal Bryan",-81.2001,31.8127
+"GA",118,"Inland Chatham",-81.2277,32.0769
+"GA",119,"Coastal Chatham",-81.0342,31.9181
+"GA",120,"Quitman",-85.0188,31.8674
+"GA",121,"Clay",-84.9803,31.6264
+"GA",122,"Randolph",-84.7542,31.7626
+"GA",123,"Calhoun",-84.6249,31.5292
+"GA",124,"Terrell",-84.4368,31.7768
+"GA",125,"Dougherty",-84.2164,31.5333
+"GA",126,"Lee",-84.141,31.7796
+"GA",127,"Worth",-83.851,31.5515
+"GA",128,"Turner",-83.6242,31.7163
+"GA",129,"Tift",-83.5266,31.4575
+"GA",130,"Ben Hill",-83.2205,31.7598
+"GA",131,"Irwin",-83.2764,31.6023
+"GA",132,"Coffee",-82.8493,31.5492
+"GA",133,"Jeff Davis",-82.637,31.8056
+"GA",134,"Bacon",-82.4527,31.5537
+"GA",135,"Appling",-82.289,31.7493
+"GA",136,"Wayne",-81.9168,31.5515
+"GA",137,"Long",-81.746,31.7528
+"GA",138,"Inland Liberty",-81.5354,31.851
+"GA",139,"Coastal Liberty",-81.2029,31.6625
+"GA",140,"Inland McIntosh",-81.4877,31.5278
+"GA",141,"Coastal McIntosh",-81.3214,31.4658
+"GA",142,"Early",-84.9037,31.3229
+"GA",143,"Miller",-84.7307,31.164
+"GA",144,"Baker",-84.4447,31.3262
+"GA",145,"Mitchell",-84.1942,31.2254
+"GA",146,"Colquitt",-83.7688,31.1884
+"GA",147,"Cook",-83.4305,31.154
+"GA",148,"Berrien",-83.2297,31.2761
+"GA",149,"Atkinson",-82.88,31.2971
+"GA",150,"Ware",-82.4238,31.0535
+"GA",151,"Pierce",-82.2133,31.3589
+"GA",152,"Brantley",-81.9819,31.197
+"GA",153,"Inland Glynn",-81.639,31.2698
+"GA",154,"Coastal Glynn",-81.4443,31.1958
+"GA",155,"Seminole",-84.8812,30.7935
+"GA",156,"Decatur",-84.7577,30.7993
+"GA",157,"Grady",-84.2344,30.8747
+"GA",158,"Thomas",-83.9194,30.8637
+"GA",159,"Brooks",-83.5803,30.842
+"GA",160,"Lowndes",-83.2677,30.8339
+"GA",161,"Lanier",-83.0626,31.038
+"GA",162,"Echols",-82.8939,30.7101
+"GA",163,"Clinch",-82.7063,30.9151
+"GA",164,"Charlton",-82.138,30.7818
+"GA",165,"Inland Camden",-81.7688,30.9642
+"GA",166,"Coastal Camden",-81.5544,30.8884
+"GU",1,"Guam",144.7749,13.4419
+"GU",2,"Rota",145.2126,14.1558
+"GU",3,"Tinian",145.6241,15.0014
+"GU",4,"Saipan",145.7523,15.1889
+"GU",5,"Agrihan",145.6922,17.9724
+"GU",11,"Koror",134.5351,7.4442
+"GU",13,"Kayangel",134.7129,8.0735
+"GU",21,"Yap",138.1244,9.5366
+"GU",22,"Ngulu",137.5079,8.3022
+"GU",23,"Ulithi",139.7906,10.0157
+"GU",24,"Sorol",140.6973,8.2143
+"GU",25,"Woleai",143.9153,7.3719
+"GU",26,"Satawal",147.0372,7.3605
+"GU",31,"Chuuk",151.7531,7.3676
+"GU",32,"Puluwat",149.1912,7.3741
+"GU",33,"Lukunor",153.8127,5.4999
+"GU",41,"Pohnpei",158.2252,6.8807
+"GU",42,"Mokil",159.7796,6.6639
+"GU",43,"Pingelap",160.7078,6.2129
+"GU",51,"Kosrae",162.9783,5.3127
+"GU",61,"Majuro",171.1789,7.1086
+"GU",62,"Ujelang",160.9747,9.765
+"GU",64,"Ailinglaplap",168.7633,7.3959
+"GU",65,"Jaluit",169.6132,5.9419
+"GU",67,"Wotje",170.2022,9.5882
+"GU",68,"Mili",171.903,6.0565
+"HI",1,"Niihau",-160.157,21.897
+"HI",2,"Kauai Windward",-159.4303,22.0637
+"HI",3,"Kauai Leeward",-159.6679,22.0137
+"HI",4,"Kauai Mountains",-159.543,22.0963
+"HI",5,"Oahu South Shore",-157.9505,21.3343
+"HI",6,"Waianae Coast",-158.1814,21.4654
+"HI",7,"Oahu North Shore",-158.1223,21.5795
+"HI",8,"Oahu Koolau",-157.9036,21.4957
+"HI",9,"Olomana",-157.7459,21.3809
+"HI",10,"Central Oahu",-158.027,21.4843
+"HI",11,"Waianae Mountains",-158.1327,21.4683
+"HI",12,"Molokai Windward",-156.8445,21.1338
+"HI",13,"Molokai Leeward",-157.1051,21.1376
+"HI",14,"Lanai Makai",-156.9394,20.8504
+"HI",15,"Lanai Mauka",-156.9138,20.8177
+"HI",16,"Kahoolawe",-156.6118,20.5503
+"HI",17,"Maui Windward West",-156.5762,20.9195
+"HI",18,"Maui Leeward West",-156.6446,20.8913
+"HI",19,"Maui Central Valley",-156.44,20.845
+"HI",20,"Windward Haleakala",-156.175,20.8017
+"HI",21,"Leeward Haleakala",-156.3388,20.6916
+"HI",22,"Haleakala Summit",-156.2266,20.7185
+"HI",23,"Kona",-155.8769,19.5371
+"HI",24,"South Big Island",-155.477,19.2106
+"HI",25,"Big Island North and East",-155.291,19.7729
+"HI",26,"Kohala",-155.7657,19.9531
+"HI",27,"Big Island Interior",-155.5801,19.5883
+"HI",28,"Big Island Summit",-155.5591,19.5513
+"IA",1,"Lyon",-96.2103,43.3805
+"IA",2,"Osceola",-95.6238,43.3785
+"IA",3,"Dickinson",-95.151,43.3779
+"IA",4,"Emmet",-94.6784,43.3779
+"IA",5,"Kossuth",-94.2067,43.2042
+"IA",6,"Winnebago",-93.7342,43.3775
+"IA",7,"Worth",-93.2609,43.3774
+"IA",8,"Mitchell",-92.7891,43.3564
+"IA",9,"Howard",-92.3172,43.3568
+"IA",10,"Winneshiek",-91.8437,43.2906
+"IA",11,"Allamakee",-91.3781,43.2843
+"IA",12,"Sioux",-96.1779,43.0826
+"IA",13,"O'Brien",-95.625,43.0838
+"IA",14,"Clay",-95.151,43.0826
+"IA",15,"Palo Alto",-94.6782,43.082
+"IA",16,"Hancock",-93.7343,43.0818
+"IA",17,"Cerro Gordo",-93.2608,43.0816
+"IA",18,"Floyd",-92.789,43.06
+"IA",19,"Chickasaw",-92.3176,43.0601
+"IA",20,"Plymouth",-96.2142,42.7378
+"IA",21,"Cherokee",-95.6239,42.7357
+"IA",22,"Buena Vista",-95.1513,42.7355
+"IA",23,"Pocahontas",-94.6789,42.7341
+"IA",24,"Humboldt",-94.2073,42.7764
+"IA",25,"Wright",-93.7352,42.7331
+"IA",26,"Franklin",-93.2624,42.7325
+"IA",27,"Butler",-92.7902,42.7316
+"IA",28,"Bremer",-92.3182,42.7747
+"IA",29,"Fayette",-91.8443,42.8625
+"IA",30,"Clayton",-91.3414,42.8447
+"IA",31,"Woodbury",-96.0449,42.3897
+"IA",32,"Ida",-95.5136,42.3868
+"IA",33,"Sac",-95.1055,42.3862
+"IA",34,"Calhoun",-94.6405,42.3852
+"IA",35,"Webster",-94.1818,42.4278
+"IA",36,"Hamilton",-93.7068,42.3837
+"IA",37,"Hardin",-93.2404,42.3838
+"IA",38,"Grundy",-92.791,42.4019
+"IA",39,"Black Hawk",-92.3085,42.4701
+"IA",40,"Buchanan",-91.8379,42.4707
+"IA",41,"Delaware",-91.3673,42.4711
+"IA",42,"Dubuque",-90.8824,42.4688
+"IA",43,"Monona",-95.96,42.0516
+"IA",44,"Crawford",-95.3821,42.0372
+"IA",45,"Carroll",-94.8607,42.0362
+"IA",46,"Greene",-94.3969,42.0362
+"IA",47,"Boone",-93.9318,42.0366
+"IA",48,"Story",-93.4651,42.0362
+"IA",49,"Marshall",-92.9988,42.0358
+"IA",50,"Tama",-92.5326,42.0798
+"IA",51,"Benton",-92.0657,42.0801
+"IA",52,"Linn",-91.5989,42.0789
+"IA",53,"Jones",-91.1314,42.1212
+"IA",54,"Jackson",-90.5742,42.1717
+"IA",55,"Harrison",-95.8167,41.6829
+"IA",56,"Shelby",-95.3103,41.6851
+"IA",57,"Audubon",-94.9058,41.6846
+"IA",58,"Guthrie",-94.501,41.6838
+"IA",59,"Dallas",-94.0398,41.6849
+"IA",60,"Polk",-93.5734,41.6855
+"IA",61,"Jasper",-93.0537,41.686
+"IA",62,"Poweshiek",-92.5314,41.6864
+"IA",63,"Iowa",-92.0656,41.6863
+"IA",64,"Johnson",-91.5881,41.6715
+"IA",65,"Cedar",-91.1324,41.7723
+"IA",66,"Clinton",-90.532,41.898
+"IA",67,"Muscatine",-91.1127,41.4839
+"IA",68,"Scott",-90.6232,41.6371
+"IA",69,"Pottawattamie",-95.5423,41.3364
+"IA",70,"Cass",-94.9278,41.3315
+"IA",71,"Adair",-94.471,41.3307
+"IA",72,"Madison",-94.0155,41.3307
+"IA",73,"Warren",-93.5614,41.3343
+"IA",74,"Marion",-93.0995,41.3344
+"IA",75,"Mahaska",-92.6409,41.3351
+"IA",76,"Keokuk",-92.1787,41.3364
+"IA",77,"Washington",-91.7179,41.3356
+"IA",78,"Louisa",-91.2597,41.2185
+"IA",79,"Mills",-95.6214,41.0332
+"IA",80,"Montgomery",-95.1563,41.0301
+"IA",81,"Adams",-94.6992,41.029
+"IA",82,"Union",-94.2424,41.0277
+"IA",83,"Clarke",-93.7851,41.029
+"IA",84,"Lucas",-93.3277,41.0293
+"IA",85,"Monroe",-92.869,41.0297
+"IA",86,"Wapello",-92.4095,41.0306
+"IA",87,"Jefferson",-91.9489,41.0318
+"IA",88,"Henry",-91.5446,40.9879
+"IA",89,"Des Moines",-91.1815,40.9232
+"IA",90,"Fremont",-95.6047,40.7456
+"IA",91,"Page",-95.1502,40.7391
+"IA",92,"Taylor",-94.6965,40.7374
+"IA",93,"Ringgold",-94.244,40.7352
+"IA",94,"Decatur",-93.7863,40.7377
+"IA",95,"Wayne",-93.3274,40.7395
+"IA",96,"Appanoose",-92.8687,40.7432
+"IA",97,"Davis",-92.4097,40.7477
+"IA",98,"Van Buren",-91.95,40.7532
+"IA",99,"Lee",-91.4792,40.642
+"ID",1,"Northern Panhandle",-116.5661,48.4447
+"ID",2,"Coeur d'Alene Area",-116.8182,47.6003
+"ID",3,"Idaho Palouse",-116.8785,46.9308
+"ID",4,"Central Panhandle Mountains",-116.1291,47.3003
+"ID",5,"Northern Clearwater Mountains",-115.5769,46.7138
+"ID",6,"Southern Clearwater Mountains",-115.2666,45.8352
+"ID",7,"Orofino/Grangeville Region",-116.0712,46.2094
+"ID",8,"Lower Hells Canyon/Salmon River Region",-116.4493,45.6641
+"ID",9,"Western Lemhi County",-114.3901,45.1209
+"ID",10,"Eastern Lemhi County",-113.5852,44.8081
+"ID",11,"West Central Mountains",-115.8966,44.7716
+"ID",12,"Lower Treasure Valley",-116.692,43.7962
+"ID",13,"Boise Mountains",-115.4718,43.7521
+"ID",14,"Upper Treasure Valley",-115.8643,43.1035
+"ID",15,"Southwest Highlands",-116.0477,42.3439
+"ID",16,"Western Magic Valley",-114.5943,42.7508
+"ID",26,"Lewiston Area",-116.7031,46.4507
+"ID",27,"Lewis and Southern Nez Perce Counties",-116.5889,46.1926
+"ID",28,"Camas Prairie",-114.8183,43.301
+"ID",29,"Owyhee Mountains",-116.7748,42.9537
+"ID",30,"Southern Twin  Falls County",-114.6784,42.2255
+"ID",33,"Upper Weiser River",-116.5799,44.476
+"ID",51,"Shoshone/Lava Beds",-113.8956,43.0804
+"ID",52,"Arco/Mud Lake Desert",-112.7958,43.6353
+"ID",53,"Upper Snake River Plain",-111.9224,43.7916
+"ID",54,"Lower Snake River Plain",-112.6045,43.1242
+"ID",55,"Eastern Magic Valley",-113.4605,42.7002
+"ID",56,"Southern Hills/Albion Mountains",-113.8364,42.1932
+"ID",57,"Raft River Region",-113.0516,42.2756
+"ID",58,"Marsh and Arbon Highlands",-112.2919,42.6797
+"ID",59,"Franklin/Eastern Oneida Region",-112.1984,42.2039
+"ID",60,"Bear River Range",-111.5742,42.2521
+"ID",61,"Bear Lake Valley",-111.2738,42.2447
+"ID",62,"Blackfoot Mountains",-111.747,42.9895
+"ID",63,"Caribou Range",-111.2925,42.9919
+"ID",64,"Big Hole Mountains",-111.2986,43.6154
+"ID",65,"Teton Valley",-111.2616,43.8893
+"ID",66,"Centennial Mountains/Island Park",-111.489,44.3674
+"ID",67,"Beaverhead/Lemhi Highlands",-112.5387,44.2232
+"ID",68,"Lost River Valleys",-113.4263,43.8834
+"ID",69,"Lost River Range",-113.5633,44.122
+"ID",70,"Challis/Pahsimeroi Valleys",-114.0841,44.4002
+"ID",71,"Frank Church Wilderness",-114.5294,44.416
+"ID",72,"Sawtooth/Stanley Basin",-114.9227,44.2935
+"ID",73,"Sun Valley Region",-114.4186,43.7253
+"ID",74,"Big Lost Highlands/Copper Basin",-113.9943,43.8258
+"ID",75,"Wood River Foothills",-114.1369,43.4301
+"IL",1,"Jo Daviess",-90.2123,42.3657
+"IL",2,"Stephenson",-89.6625,42.3517
+"IL",3,"Winnebago",-89.1609,42.3363
+"IL",4,"Boone",-88.8234,42.3231
+"IL",5,"McHenry",-88.4524,42.3244
+"IL",6,"Lake",-88.0036,42.3231
+"IL",7,"Carroll",-89.9345,42.0688
+"IL",8,"Ogle",-89.3207,42.0427
+"IL",9,"Whiteside",-89.9141,41.7563
+"IL",10,"Lee",-89.3005,41.7461
+"IL",11,"De Kalb",-88.7704,41.8934
+"IL",12,"Kane",-88.4287,41.939
+"IL",13,"DuPage",-88.0857,41.852
+"IL",14,"Cook",-87.8167,41.8399
+"IL",15,"Rock Island",-90.5674,41.4674
+"IL",16,"Henry",-90.1314,41.3531
+"IL",17,"Bureau",-89.5287,41.4041
+"IL",18,"Putnam",-89.2858,41.2045
+"IL",19,"La Salle",-88.8859,41.3439
+"IL",20,"Kendall",-88.4289,41.5906
+"IL",21,"Grundy",-88.4185,41.2849
+"IL",22,"Will",-87.9787,41.445
+"IL",23,"Kankakee",-87.8618,41.1377
+"IL",24,"Mercer",-90.7414,41.2053
+"IL",25,"Henderson",-90.9251,40.8181
+"IL",26,"Warren",-90.615,40.8488
+"IL",27,"Knox",-90.2133,40.9318
+"IL",28,"Stark",-89.7975,41.0934
+"IL",29,"Peoria",-89.76,40.7881
+"IL",30,"Marshall",-89.3448,41.0332
+"IL",31,"Woodford",-89.2111,40.7882
+"IL",32,"Livingston",-88.5578,40.8914
+"IL",33,"Iroquois",-87.8243,40.7474
+"IL",34,"Hancock",-91.1647,40.4037
+"IL",35,"McDonough",-90.678,40.4562
+"IL",36,"Fulton",-90.2075,40.4728
+"IL",37,"Tazewell",-89.5135,40.5075
+"IL",38,"McLean",-88.8473,40.4908
+"IL",39,"Ford",-88.2233,40.5972
+"IL",40,"Schuyler",-90.6151,40.158
+"IL",41,"Mason",-89.9168,40.2397
+"IL",42,"Logan",-89.3676,40.1245
+"IL",43,"De Witt",-88.9041,40.1746
+"IL",44,"Piatt",-88.5911,40.0104
+"IL",45,"Champaign",-88.1991,40.1401
+"IL",46,"Vermilion",-87.7329,40.1836
+"IL",47,"Cass",-90.2474,39.9736
+"IL",48,"Menard",-89.8022,40.0274
+"IL",49,"Scott",-90.4747,39.6442
+"IL",50,"Morgan",-90.2015,39.7156
+"IL",51,"Sangamon",-89.6589,39.7582
+"IL",52,"Christian",-89.2773,39.5458
+"IL",53,"Macon",-88.9617,39.8599
+"IL",54,"Moultrie",-88.6194,39.6414
+"IL",55,"Douglas",-88.2174,39.7695
+"IL",56,"Coles",-88.2218,39.5202
+"IL",57,"Edgar",-87.7456,39.6786
+"IL",58,"Greene",-90.3905,39.3562
+"IL",59,"Macoupin",-89.9244,39.261
+"IL",60,"Montgomery",-89.4789,39.231
+"IL",61,"Shelby",-88.8055,39.3911
+"IL",62,"Cumberland",-88.2402,39.2732
+"IL",63,"Clark",-87.7878,39.3335
+"IL",64,"Bond",-89.4356,38.8868
+"IL",65,"Fayette",-89.0242,39.0002
+"IL",66,"Effingham",-88.5899,39.0597
+"IL",67,"Jasper",-88.1538,39.01
+"IL",68,"Crawford",-87.7595,39.0028
+"IL",69,"Clinton",-89.4224,38.6065
+"IL",70,"Marion",-88.919,38.6496
+"IL",71,"Clay",-88.4902,38.7542
+"IL",72,"Richland",-88.085,38.7124
+"IL",73,"Lawrence",-87.7266,38.72
+"IL",74,"Washington",-89.4105,38.3522
+"IL",75,"Jefferson",-88.924,38.3006
+"IL",76,"Wayne",-88.4256,38.4295
+"IL",77,"Edwards",-88.0532,38.4165
+"IL",78,"Wabash",-87.8443,38.4461
+"IL",79,"Randolph",-89.8253,38.0521
+"IL",80,"Perry",-89.3671,38.0838
+"IL",81,"Franklin",-88.9242,37.9923
+"IL",82,"Hamilton",-88.5392,38.0816
+"IL",83,"White",-88.1795,38.0875
+"IL",84,"Jackson",-89.3821,37.7852
+"IL",85,"Williamson",-88.9299,37.7303
+"IL",86,"Saline",-88.5408,37.7533
+"IL",87,"Gallatin",-88.2305,37.7628
+"IL",88,"Union",-89.2551,37.4712
+"IL",89,"Johnson",-88.8809,37.4596
+"IL",90,"Pope",-88.5615,37.4126
+"IL",91,"Hardin",-88.2669,37.5182
+"IL",92,"Alexander",-89.3376,37.1915
+"IL",93,"Pulaski",-89.1267,37.2228
+"IL",94,"Massac",-88.7078,37.219
+"IL",95,"Adams",-91.1886,39.9878
+"IL",96,"Brown",-90.7504,39.9618
+"IL",97,"Pike",-90.8863,39.6225
+"IL",98,"Calhoun",-90.6675,39.1692
+"IL",99,"Jersey",-90.3566,39.0856
+"IL",100,"Madison",-89.9051,38.8299
+"IL",101,"St. Clair",-89.9284,38.4703
+"IL",102,"Monroe",-90.1774,38.2785
+"IN",1,"Lake",-87.3817,41.4156
+"IN",2,"Porter",-87.0672,41.4605
+"IN",3,"La Porte",-86.74,41.546
+"IN",4,"St. Joseph",-86.2898,41.6167
+"IN",5,"Elkhart",-85.8587,41.5974
+"IN",6,"Lagrange",-85.4265,41.6427
+"IN",7,"Steuben",-85.0008,41.6439
+"IN",8,"Noble",-85.4174,41.3986
+"IN",9,"De Kalb",-84.9991,41.3976
+"IN",10,"Newton",-87.3975,40.9559
+"IN",11,"Jasper",-87.1162,41.023
+"IN",12,"Starke",-86.6478,41.281
+"IN",13,"Pulaski",-86.6989,41.0419
+"IN",14,"Marshall",-86.2618,41.325
+"IN",15,"Fulton",-86.2636,41.047
+"IN",16,"Kosciusko",-85.8607,41.2441
+"IN",17,"Whitley",-85.5052,41.1394
+"IN",18,"Allen",-85.0665,41.0908
+"IN",19,"Benton",-87.3109,40.6063
+"IN",20,"White",-86.8654,40.7499
+"IN",21,"Carroll",-86.5635,40.5828
+"IN",22,"Cass",-86.346,40.7615
+"IN",23,"Miami",-86.0451,40.7695
+"IN",24,"Wabash",-85.794,40.8457
+"IN",25,"Huntington",-85.4881,40.8292
+"IN",26,"Wells",-85.2212,40.7291
+"IN",27,"Adams",-84.9366,40.7455
+"IN",28,"Warren",-87.3533,40.3469
+"IN",29,"Tippecanoe",-86.8941,40.3886
+"IN",30,"Clinton",-86.4752,40.3017
+"IN",31,"Howard",-86.1169,40.4836
+"IN",32,"Grant",-85.6548,40.5158
+"IN",33,"Blackford",-85.3248,40.4735
+"IN",34,"Jay",-85.0057,40.438
+"IN",35,"Fountain",-87.2419,40.1209
+"IN",36,"Montgomery",-86.8933,40.0404
+"IN",37,"Boone",-86.4687,40.0508
+"IN",38,"Tipton",-86.0519,40.3114
+"IN",39,"Hamilton",-86.052,40.0725
+"IN",40,"Madison",-85.7194,40.1616
+"IN",41,"Delaware",-85.3969,40.2276
+"IN",42,"Randolph",-85.0114,40.1576
+"IN",43,"Vermillion",-87.464,39.8538
+"IN",44,"Parke",-87.2063,39.7736
+"IN",45,"Putnam",-86.845,39.6663
+"IN",46,"Hendricks",-86.51,39.7695
+"IN",47,"Marion",-86.1384,39.7816
+"IN",48,"Hancock",-85.7732,39.8235
+"IN",49,"Henry",-85.3965,39.9311
+"IN",50,"Wayne",-85.0099,39.8644
+"IN",51,"Vigo",-87.39,39.4306
+"IN",52,"Clay",-87.1158,39.3928
+"IN",53,"Owen",-86.8376,39.3129
+"IN",54,"Morgan",-86.4462,39.4815
+"IN",55,"Johnson",-86.1017,39.4899
+"IN",56,"Shelby",-85.7918,39.5236
+"IN",57,"Rush",-85.4657,39.6199
+"IN",58,"Fayette",-85.1787,39.6401
+"IN",59,"Union",-84.9251,39.6255
+"IN",60,"Sullivan",-87.4146,39.0888
+"IN",61,"Greene",-86.962,39.0363
+"IN",62,"Monroe",-86.5231,39.1609
+"IN",63,"Brown",-86.2274,39.1962
+"IN",64,"Bartholomew",-85.8977,39.2059
+"IN",65,"Decatur",-85.5013,39.3069
+"IN",66,"Franklin",-85.0603,39.4148
+"IN",67,"Knox",-87.418,38.6891
+"IN",68,"Daviess",-87.0721,38.7024
+"IN",69,"Martin",-86.8031,38.708
+"IN",70,"Lawrence",-86.4834,38.8412
+"IN",71,"Jackson",-86.0376,38.9064
+"IN",72,"Jennings",-85.6281,38.9969
+"IN",73,"Ripley",-85.2624,39.1034
+"IN",74,"Dearborn",-84.9733,39.1453
+"IN",75,"Ohio",-84.965,38.9501
+"IN",76,"Orange",-86.4951,38.5418
+"IN",77,"Washington",-86.1053,38.6
+"IN",78,"Scott",-85.7474,38.6851
+"IN",79,"Jefferson",-85.4385,38.7858
+"IN",80,"Switzerland",-85.037,38.8262
+"IN",81,"Gibson",-87.5846,38.3118
+"IN",82,"Pike",-87.2322,38.3988
+"IN",83,"Dubois",-86.8798,38.3643
+"IN",84,"Crawford",-86.4517,38.2923
+"IN",85,"Posey",-87.8684,38.0218
+"IN",86,"Vanderburgh",-87.5857,38.0254
+"IN",87,"Warrick",-87.2721,38.0922
+"IN",88,"Spencer",-87.0077,38.0142
+"IN",89,"Perry",-86.638,38.0797
+"IN",90,"Harrison",-86.1113,38.1952
+"IN",91,"Floyd",-85.9068,38.3194
+"IN",92,"Clark",-85.7073,38.4773
+"KS",1,"Cheyenne",-101.7312,39.7858
+"KS",2,"Rawlins",-101.0758,39.7852
+"KS",3,"Decatur",-100.4599,39.7847
+"KS",4,"Norton",-99.9034,39.7844
+"KS",5,"Phillips",-99.3469,39.7845
+"KS",6,"Smith",-98.7855,39.7851
+"KS",7,"Jewell",-98.2184,39.7847
+"KS",8,"Republic",-97.6506,39.8278
+"KS",9,"Washington",-97.0874,39.7842
+"KS",10,"Marshall",-96.5229,39.7836
+"KS",11,"Nemaha",-96.0141,39.7835
+"KS",12,"Brown",-95.5642,39.8266
+"KS",13,"Sherman",-101.72,39.3514
+"KS",14,"Thomas",-101.0555,39.3509
+"KS",15,"Sheridan",-100.4418,39.3503
+"KS",16,"Graham",-99.8833,39.3497
+"KS",17,"Rooks",-99.3251,39.3501
+"KS",18,"Osborne",-98.7679,39.3503
+"KS",19,"Mitchell",-98.2095,39.3933
+"KS",20,"Cloud",-97.6495,39.4804
+"KS",21,"Clay",-97.1651,39.3497
+"KS",22,"Riley",-96.7352,39.2965
+"KS",23,"Pottawatomie",-96.3425,39.379
+"KS",24,"Jackson",-95.7937,39.417
+"KS",25,"Atchison",-95.3129,39.532
+"KS",26,"Jefferson",-95.3834,39.2358
+"KS",27,"Wallace",-101.7636,38.9166
+"KS",28,"Logan",-101.1485,38.9173
+"KS",29,"Gove",-100.4829,38.9161
+"KS",30,"Trego",-99.8729,38.9143
+"KS",31,"Ellis",-99.3173,38.9148
+"KS",32,"Russell",-98.7623,38.9149
+"KS",33,"Lincoln",-98.2078,39.0454
+"KS",34,"Ottawa",-97.6503,39.1326
+"KS",35,"Dickinson",-97.1527,38.8664
+"KS",36,"Geary",-96.7526,39.0024
+"KS",37,"Morris",-96.6499,38.6875
+"KS",38,"Wabaunsee",-96.205,38.9533
+"KS",39,"Shawnee",-95.7564,39.0415
+"KS",40,"Douglas",-95.2924,38.8845
+"KS",41,"Greeley",-101.806,38.4805
+"KS",42,"Wichita",-101.3474,38.4821
+"KS",43,"Scott",-100.9069,38.4822
+"KS",44,"Lane",-100.4664,38.4814
+"KS",45,"Ness",-99.9162,38.4795
+"KS",46,"Rush",-99.3092,38.5233
+"KS",47,"Barton",-98.7565,38.479
+"KS",48,"Ellsworth",-98.2048,38.6966
+"KS",49,"Saline",-97.6501,38.7839
+"KS",50,"Rice",-98.2011,38.3471
+"KS",51,"McPherson",-97.648,38.3916
+"KS",52,"Marion",-97.0969,38.3588
+"KS",53,"Chase",-96.594,38.302
+"KS",54,"Lyon",-96.1527,38.4563
+"KS",55,"Osage",-95.7269,38.6524
+"KS",56,"Franklin",-95.2859,38.5646
+"KS",57,"Miami",-94.8381,38.5636
+"KS",58,"Coffey",-95.7342,38.237
+"KS",59,"Anderson",-95.2933,38.2143
+"KS",60,"Linn",-94.8429,38.2123
+"KS",61,"Hamilton",-101.7913,37.9991
+"KS",62,"Kearny",-101.3199,38.0002
+"KS",63,"Finney",-100.7369,38.0444
+"KS",64,"Hodgeman",-99.8979,38.0875
+"KS",65,"Pawnee",-99.2368,38.1814
+"KS",66,"Stafford",-98.7175,38.0311
+"KS",67,"Reno",-98.0861,37.9529
+"KS",68,"Harvey",-97.4274,38.0432
+"KS",69,"Butler",-96.8391,37.7812
+"KS",70,"Greenwood",-96.2327,37.8778
+"KS",71,"Woodson",-95.7402,37.8867
+"KS",72,"Allen",-95.3014,37.8858
+"KS",73,"Bourbon",-94.8493,37.8552
+"KS",74,"Stanton",-101.7842,37.563
+"KS",75,"Grant",-101.308,37.5622
+"KS",76,"Haskell",-100.8712,37.5623
+"KS",77,"Gray",-100.4378,37.7382
+"KS",78,"Ford",-99.8879,37.6917
+"KS",79,"Edwards",-99.312,37.8876
+"KS",80,"Kiowa",-99.286,37.5582
+"KS",81,"Pratt",-98.7396,37.6478
+"KS",82,"Kingman",-98.1364,37.5589
+"KS",83,"Sedgwick",-97.4611,37.6848
+"KS",84,"Morton",-101.7993,37.1914
+"KS",85,"Stevens",-101.3121,37.1924
+"KS",86,"Seward",-100.8513,37.1933
+"KS",87,"Meade",-100.3662,37.2382
+"KS",88,"Clark",-99.8203,37.2355
+"KS",89,"Comanche",-99.2719,37.1913
+"KS",90,"Barber",-98.6848,37.2289
+"KS",91,"Harper",-98.0755,37.1916
+"KS",92,"Sumner",-97.4765,37.2373
+"KS",93,"Cowley",-96.8375,37.2377
+"KS",94,"Elk",-96.2441,37.4537
+"KS",95,"Wilson",-95.7434,37.5593
+"KS",96,"Neosho",-95.3068,37.5586
+"KS",97,"Crawford",-94.8518,37.5073
+"KS",98,"Chautauqua",-96.2453,37.1501
+"KS",99,"Montgomery",-95.7429,37.1925
+"KS",100,"Labette",-95.2976,37.1913
+"KS",101,"Cherokee",-94.8462,37.1693
+"KS",102,"Doniphan",-95.147,39.7885
+"KS",103,"Leavenworth",-95.0379,39.1993
+"KS",104,"Wyandotte",-94.7646,39.1145
+"KS",105,"Johnson",-94.8223,38.8838
+"KY",1,"Fulton",-89.1873,36.5541
+"KY",2,"Hickman",-88.9761,36.6781
+"KY",3,"Carlisle",-88.9709,36.8532
+"KY",4,"Ballard",-88.9992,37.0584
+"KY",5,"McCracken",-88.7127,37.0539
+"KY",6,"Graves",-88.6512,36.723
+"KY",7,"Livingston",-88.3536,37.2097
+"KY",8,"Marshall",-88.3293,36.8834
+"KY",9,"Calloway",-88.2723,36.6211
+"KY",10,"Crittenden",-88.0972,37.3527
+"KY",11,"Lyon",-88.0832,37.0191
+"KY",12,"Trigg",-87.8734,36.8064
+"KY",13,"Caldwell",-87.8679,37.1453
+"KY",14,"Union",-87.9453,37.6584
+"KY",15,"Webster",-87.6832,37.5183
+"KY",16,"Hopkins",-87.5409,37.3088
+"KY",17,"Christian",-87.4904,36.8941
+"KY",18,"Henderson",-87.5729,37.7961
+"KY",19,"Daviess",-87.0873,37.7318
+"KY",20,"McLean",-87.2636,37.5291
+"KY",21,"Muhlenberg",-87.1421,37.2157
+"KY",22,"Todd",-87.1791,36.8356
+"KY",23,"Hancock",-86.778,37.8415
+"KY",24,"Breckinridge",-86.4293,37.7732
+"KY",25,"Meade",-86.2169,37.9695
+"KY",26,"Ohio",-86.849,37.4783
+"KY",27,"Grayson",-86.3439,37.4608
+"KY",28,"Hardin",-85.9635,37.6979
+"KY",29,"Bullitt",-85.6959,37.97
+"KY",30,"Jefferson",-85.6595,38.1872
+"KY",31,"Oldham",-85.4485,38.3995
+"KY",32,"Trimble",-85.3374,38.613
+"KY",33,"Henry",-85.1189,38.4484
+"KY",34,"Shelby",-85.1948,38.2155
+"KY",35,"Franklin",-84.877,38.2391
+"KY",36,"Scott",-84.5839,38.2915
+"KY",37,"Harrison",-84.3315,38.4418
+"KY",38,"Spencer",-85.3279,38.0325
+"KY",39,"Anderson",-84.9909,38.004
+"KY",40,"Woodford",-84.7435,38.0423
+"KY",41,"Fayette",-84.4588,38.0423
+"KY",42,"Bourbon",-84.2171,38.2068
+"KY",43,"Nicholas",-84.0153,38.3356
+"KY",44,"Fleming",-83.6967,38.3701
+"KY",45,"Nelson",-85.4662,37.8051
+"KY",46,"Washington",-85.1747,37.7534
+"KY",47,"Mercer",-84.8744,37.8111
+"KY",48,"Jessamine",-84.5809,37.872
+"KY",49,"Clark",-84.1475,37.9709
+"KY",50,"Montgomery",-83.9132,38.0336
+"KY",51,"Bath",-83.7428,38.1449
+"KY",52,"Rowan",-83.4211,38.1963
+"KY",53,"Larue",-85.698,37.5457
+"KY",54,"Marion",-85.2696,37.5525
+"KY",55,"Boyle",-84.8667,37.6244
+"KY",56,"Garrard",-84.5376,37.6396
+"KY",57,"Madison",-84.278,37.7202
+"KY",58,"Estill",-83.9643,37.6924
+"KY",59,"Powell",-83.8239,37.8312
+"KY",60,"Menifee",-83.5989,37.9414
+"KY",61,"Butler",-86.6816,37.2074
+"KY",62,"Edmonson",-86.2385,37.2087
+"KY",63,"Hart",-85.8847,37.2999
+"KY",64,"Green",-85.5531,37.2639
+"KY",65,"Taylor",-85.3279,37.3664
+"KY",66,"Casey",-84.9283,37.3223
+"KY",67,"Lincoln",-84.6607,37.4552
+"KY",68,"Rockcastle",-84.316,37.3652
+"KY",69,"Jackson",-84.0058,37.4198
+"KY",70,"Logan",-86.8788,36.8597
+"KY",71,"Warren",-86.4239,36.9936
+"KY",72,"Simpson",-86.5823,36.7419
+"KY",73,"Allen",-86.1904,36.7513
+"KY",74,"Barren",-85.9336,36.9656
+"KY",75,"Monroe",-85.7164,36.7122
+"KY",76,"Metcalfe",-85.6291,36.9905
+"KY",77,"Adair",-85.2806,37.1041
+"KY",78,"Russell",-85.0586,36.9911
+"KY",79,"Pulaski",-84.5771,37.1039
+"KY",80,"Laurel",-84.1178,37.1107
+"KY",81,"Cumberland",-85.3884,36.7866
+"KY",82,"Clinton",-85.1361,36.7275
+"KY",83,"Wayne",-84.8285,36.8013
+"KY",84,"McCreary",-84.4841,36.7371
+"KY",85,"Whitley",-84.1452,36.7582
+"KY",86,"Knox",-83.8539,36.8907
+"KY",87,"Bell",-83.674,36.7307
+"KY",88,"Harlan",-83.2179,36.857
+"KY",89,"Carroll",-85.1235,38.6679
+"KY",90,"Gallatin",-84.8592,38.7569
+"KY",91,"Boone",-84.7279,38.97
+"KY",92,"Kenton",-84.5331,38.9333
+"KY",93,"Campbell",-84.3793,38.9465
+"KY",94,"Owen",-84.828,38.5197
+"KY",95,"Grant",-84.6245,38.6488
+"KY",96,"Pendleton",-84.3602,38.6957
+"KY",97,"Bracken",-84.0901,38.6888
+"KY",98,"Robertson",-84.0521,38.5188
+"KY",99,"Mason",-83.824,38.5952
+"KY",100,"Lewis",-83.3781,38.5317
+"KY",101,"Greenup",-82.9223,38.5456
+"KY",102,"Carter",-83.0495,38.3181
+"KY",103,"Boyd",-82.6877,38.3596
+"KY",104,"Elliott",-83.0976,38.1179
+"KY",105,"Lawrence",-82.7347,38.0679
+"KY",106,"Morgan",-83.2589,37.9223
+"KY",107,"Johnson",-82.8314,37.8467
+"KY",108,"Wolfe",-83.4931,37.7393
+"KY",109,"Magoffin",-83.0648,37.7066
+"KY",110,"Floyd",-82.7457,37.5572
+"KY",111,"Lee",-83.7163,37.5947
+"KY",112,"Breathitt",-83.3241,37.5216
+"KY",113,"Knott",-82.954,37.354
+"KY",114,"Owsley",-83.6832,37.4193
+"KY",115,"Perry",-83.2215,37.2443
+"KY",116,"Clay",-83.7146,37.1598
+"KY",117,"Leslie",-83.3811,37.0941
+"KY",118,"Letcher",-82.8553,37.1212
+"KY",119,"Martin",-82.5132,37.8016
+"KY",120,"Pike",-82.3958,37.469
+"LA",1,"Caddo",-93.8821,32.5797
+"LA",2,"Bossier",-93.6052,32.6794
+"LA",3,"Webster",-93.335,32.7135
+"LA",4,"Claiborne",-92.9957,32.8226
+"LA",5,"Lincoln",-92.6647,32.6016
+"LA",6,"Union",-92.3748,32.8319
+"LA",7,"Morehouse",-91.8017,32.8205
+"LA",8,"West Carroll",-91.4567,32.7885
+"LA",9,"East Carroll",-91.2351,32.7326
+"LA",10,"De Soto",-93.7373,32.0554
+"LA",11,"Red River",-93.34,32.0933
+"LA",12,"Bienville",-93.056,32.3472
+"LA",13,"Jackson",-92.5577,32.302
+"LA",14,"Ouachita",-92.1545,32.4785
+"LA",15,"Richland",-91.7636,32.4177
+"LA",16,"Madison",-91.2427,32.3643
+"LA",17,"Sabine",-93.5547,31.564
+"LA",18,"Natchitoches",-93.0963,31.7236
+"LA",19,"Winn",-92.6368,31.9442
+"LA",20,"Grant",-92.5594,31.5997
+"LA",21,"Caldwell",-92.1167,32.0922
+"LA",22,"La Salle",-92.1604,31.6767
+"LA",23,"Franklin",-91.6738,32.1332
+"LA",24,"Catahoula",-91.8471,31.6661
+"LA",25,"Tensas",-91.34,32.0017
+"LA",26,"Concordia",-91.6397,31.4458
+"LA",27,"Vernon",-93.1842,31.1083
+"LA",28,"Rapides",-92.5332,31.1986
+"LA",29,"Avoyelles",-92.0013,31.0762
+"LA",30,"Beauregard",-93.3434,30.6485
+"LA",31,"Allen",-92.8279,30.6528
+"LA",32,"Evangeline",-92.4059,30.729
+"LA",33,"St. Landry",-92.0058,30.5989
+"LA",34,"Pointe Coupee",-91.6009,30.7097
+"LA",35,"West Feliciana",-91.42,30.8798
+"LA",36,"East Feliciana",-91.0455,30.8451
+"LA",37,"St. Helena",-90.7103,30.822
+"LA",39,"Washington",-90.0405,30.8534
+"LA",40,"St. Tammany",-89.9401,30.4481
+"LA",41,"Calcasieu",-93.3579,30.2292
+"LA",42,"Jefferson Davis",-92.8138,30.2669
+"LA",43,"Acadia",-92.412,30.2906
+"LA",44,"Lafayette",-92.0639,30.2063
+"LA",45,"Upper St. Martin",-91.7267,30.2282
+"LA",46,"Iberville",-91.3494,30.2585
+"LA",47,"West Baton Rouge",-91.3134,30.4634
+"LA",48,"East Baton Rouge",-91.0957,30.5383
+"LA",49,"Ascension",-90.9113,30.2035
+"LA",50,"Livingston",-90.7393,30.4507
+"LA",52,"Vermilion",-92.3241,29.8455
+"LA",53,"Iberia",-91.7307,29.8941
+"LA",54,"St. Mary",-91.4492,29.7196
+"LA",55,"Lower St. Martin",-91.2705,29.8466
+"LA",56,"Assumption",-91.0625,29.9008
+"LA",57,"St. James",-90.7962,30.0263
+"LA",58,"St. John The Baptist",-90.5462,30.0792
+"LA",59,"Upper Lafourche",-90.5708,29.7251
+"LA",60,"St. Charles",-90.3631,29.8836
+"LA",61,"Upper Jefferson",-90.142,29.8205
+"LA",62,"Orleans",-89.9037,30.0385
+"LA",63,"Upper Plaquemines",-89.9757,29.7812
+"LA",64,"Upper St. Bernard",-89.8732,29.9129
+"LA",65,"Upper Terrebonne",-90.8384,29.639
+"LA",66,"Lower Terrebonne",-90.8713,29.3783
+"LA",67,"Lower Lafourche",-90.2534,29.3739
+"LA",68,"Lower Jefferson",-90.0566,29.5064
+"LA",69,"Lower Plaquemines",-89.6038,29.4206
+"LA",70,"Lower St. Bernard",-89.5461,29.8487
+"LA",71,"Northern Tangipahoa",-90.4379,30.8274
+"LA",72,"Southern Tangipahoa",-90.3917,30.5051
+"LA",73,"West Cameron",-93.5882,29.8924
+"LA",74,"East Cameron",-92.9126,29.8597
+"MA",1,"Northern Berkshire",-73.1518,42.56
+"MA",2,"Western Franklin",-72.7907,42.6171
+"MA",3,"Eastern Franklin",-72.4514,42.5591
+"MA",4,"Northern Worcester",-71.9778,42.4539
+"MA",5,"Central Middlesex County",-71.3797,42.4633
+"MA",6,"Western Essex",-71.0659,42.7153
+"MA",7,"Eastern Essex",-70.8674,42.6372
+"MA",8,"Western Hampshire",-72.8687,42.3891
+"MA",9,"Western Hampden",-72.9334,42.1675
+"MA",10,"Eastern Hampshire",-72.5146,42.3044
+"MA",11,"Eastern Hampden",-72.493,42.1202
+"MA",12,"Southern Worcester",-71.7709,42.1513
+"MA",13,"Western Norfolk",-71.2658,42.1423
+"MA",14,"Southeast Middlesex",-71.1571,42.4194
+"MA",15,"Suffolk",-71.0818,42.3308
+"MA",16,"Eastern Norfolk",-71.0093,42.2217
+"MA",17,"Northern Bristol",-71.1849,41.9171
+"MA",18,"Western Plymouth",-70.8932,41.9679
+"MA",19,"Eastern Plymouth",-70.7171,42.0271
+"MA",20,"Southern Bristol",-71.0384,41.6746
+"MA",21,"Southern Plymouth",-70.7761,41.7415
+"MA",22,"Barnstable",-70.2982,41.7257
+"MA",23,"Dukes",-70.6561,41.3966
+"MA",24,"Nantucket",-70.0744,41.2781
+"MA",25,"Southern Berkshire",-73.2511,42.2158
+"MA",26,"Northwest Middlesex County",-71.6598,42.6386
+"MD",1,"Garrett",-79.2739,39.5286
+"MD",3,"Washington",-77.8142,39.6037
+"MD",4,"Frederick",-77.3981,39.4722
+"MD",5,"Carroll",-77.0227,39.5631
+"MD",6,"Northern Baltimore",-76.6934,39.5386
+"MD",8,"Cecil",-75.9384,39.5749
+"MD",11,"Southern Baltimore",-76.4065,39.2947
+"MD",12,"Kent",-76.1294,39.1885
+"MD",13,"Prince Georges",-77.0099,38.7014
+"MD",14,"Anne Arundel",-76.6088,39.0074
+"MD",15,"Queen Anne's",-76.0131,39.0738
+"MD",16,"Charles",-76.9899,38.5077
+"MD",17,"St. Marys",-76.6076,38.3052
+"MD",18,"Calvert",-76.4806,38.3839
+"MD",19,"Talbot",-76.0892,38.7767
+"MD",20,"Caroline",-75.8317,38.8717
+"MD",21,"Dorchester",-76.0083,38.4797
+"MD",22,"Wicomico",-75.621,38.3734
+"MD",23,"Somerset",-75.8235,38.0906
+"MD",24,"Inland Worcester",-75.3833,38.2142
+"MD",25,"Maryland Beaches",-75.1598,38.251
+"MD",501,"Extreme Western Allegany",-78.9284,39.6015
+"MD",502,"Central and Eastern Allegany",-78.597,39.6304
+"MD",503,"Northwest Montgomery",-77.3042,39.1971
+"MD",504,"Central and Southeast Montgomery",-77.1144,39.0817
+"MD",505,"Northwest Howard",-77.0369,39.3075
+"MD",506,"Central and Southeast Howard",-76.8655,39.2156
+"MD",507,"Northwest Harford",-76.3987,39.6258
+"MD",508,"Southeast Harford",-76.1634,39.5263
+"ME",1,"Northwest Aroostook",-69.1077,46.948
+"ME",2,"Northeast Aroostook",-68.2182,46.7264
+"ME",3,"Northern Somerset",-69.9716,46.2366
+"ME",4,"Northern Piscataquis",-69.24,46.1825
+"ME",5,"Northern Penobscot",-68.6456,45.9454
+"ME",6,"Southeast Aroostook",-68.1173,46.0032
+"ME",7,"Northern Oxford",-70.8789,44.8431
+"ME",8,"Northern Franklin",-70.5249,45.0717
+"ME",9,"Central Somerset",-70.068,45.48
+"ME",10,"Central Piscataquis",-69.4281,45.5609
+"ME",11,"Central Penobscot",-68.4069,45.3901
+"ME",12,"Southern Oxford",-70.6709,44.2631
+"ME",13,"Southern Franklin",-70.1818,44.6571
+"ME",14,"Southern Somerset",-69.6632,44.8398
+"ME",15,"Southern Penobscot",-68.8441,44.9362
+"ME",16,"Interior Hancock",-68.3239,44.851
+"ME",17,"Central Washington",-67.6338,45.0094
+"ME",18,"Interior York",-70.7784,43.559
+"ME",19,"Interior Cumberland",-70.5103,43.8955
+"ME",20,"Androscoggin",-70.2045,44.1654
+"ME",21,"Kennebec",-69.7672,44.4093
+"ME",22,"Interior Waldo",-69.1709,44.5406
+"ME",23,"Coastal York",-70.6005,43.3339
+"ME",24,"Coastal Cumberland",-70.186,43.7448
+"ME",25,"Sagadahoc",-69.8613,43.9705
+"ME",26,"Lincoln",-69.5431,44.0752
+"ME",27,"Knox",-69.173,44.15
+"ME",28,"Coastal Waldo",-69.0512,44.349
+"ME",29,"Coastal Hancock",-68.3928,44.4349
+"ME",30,"Coastal Washington",-67.5411,44.6796
+"ME",31,"Southern Piscataquis",-69.1568,45.2475
+"ME",32,"Northern Washington",-67.742,45.4767
+"MI",1,"Keweenaw",-88.4287,47.6104
+"MI",2,"Ontonagon",-89.315,46.6644
+"MI",3,"Houghton",-88.6207,47.0531
+"MI",4,"Baraga",-88.3652,46.6626
+"MI",5,"Marquette",-87.6415,46.4314
+"MI",6,"Alger",-86.6019,46.4099
+"MI",7,"Luce",-85.5443,46.4707
+"MI",8,"Chippewa",-84.574,46.2986
+"MI",9,"Gogebic",-89.6944,46.4089
+"MI",10,"Iron",-88.5306,46.2087
+"MI",11,"Dickinson",-87.8704,46.0091
+"MI",12,"Menominee",-87.5573,45.5792
+"MI",13,"Delta",-86.9244,45.9197
+"MI",14,"Southern Schoolcraft",-86.1917,46.052
+"MI",15,"Mackinac",-85.0921,46.0812
+"MI",16,"Emmet",-84.8905,45.5205
+"MI",17,"Cheboygan",-84.4999,45.4468
+"MI",18,"Presque Isle",-83.9173,45.3402
+"MI",19,"Charlevoix",-85.1283,45.302
+"MI",20,"Leelanau",-85.8123,44.9366
+"MI",21,"Antrim",-85.1377,45.0003
+"MI",22,"Otsego",-84.5988,45.0214
+"MI",23,"Montmorency",-84.1273,45.0275
+"MI",24,"Alpena",-83.6277,45.0348
+"MI",25,"Benzie",-86.0158,44.6395
+"MI",26,"Grand Traverse",-85.559,44.6709
+"MI",27,"Kalkaska",-85.0902,44.6846
+"MI",28,"Crawford",-84.6103,44.6836
+"MI",29,"Oscoda",-84.1297,44.6817
+"MI",30,"Alcona",-83.5938,44.6854
+"MI",31,"Manistee",-86.0571,44.3332
+"MI",32,"Wexford",-85.5785,44.3384
+"MI",33,"Missaukee",-85.0947,44.3373
+"MI",34,"Roscommon",-84.6116,44.3356
+"MI",35,"Ogemaw",-84.1266,44.3349
+"MI",36,"Iosco",-83.636,44.3559
+"MI",37,"Mason",-86.2497,43.9954
+"MI",38,"Lake",-85.8017,43.99
+"MI",39,"Osceola",-85.3252,43.9899
+"MI",40,"Clare",-84.8478,43.9879
+"MI",41,"Gladwin",-84.3882,43.9906
+"MI",42,"Arenac",-83.8948,44.0656
+"MI",43,"Oceana",-86.2673,43.6407
+"MI",44,"Newaygo",-85.8009,43.5542
+"MI",45,"Mecosta",-85.3245,43.6409
+"MI",46,"Isabella",-84.8467,43.6406
+"MI",47,"Midland",-84.3879,43.6468
+"MI",48,"Bay",-83.9921,43.7072
+"MI",49,"Huron",-83.0193,43.8333
+"MI",50,"Muskegon",-86.1481,43.2912
+"MI",51,"Montcalm",-85.1524,43.311
+"MI",52,"Gratiot",-84.6048,43.2927
+"MI",53,"Saginaw",-84.0532,43.335
+"MI",54,"Tuscola",-83.4168,43.4641
+"MI",55,"Sanilac",-82.8201,43.4235
+"MI",56,"Ottawa",-85.9939,42.9601
+"MI",57,"Kent",-85.5492,43.0322
+"MI",58,"Ionia",-85.0746,42.9451
+"MI",59,"Clinton",-84.6015,42.9436
+"MI",60,"Shiawassee",-84.1467,42.9537
+"MI",61,"Genesee",-83.7067,43.0217
+"MI",62,"Lapeer",-83.2218,43.0901
+"MI",63,"St. Clair",-82.6823,42.9425
+"MI",64,"Allegan",-85.8884,42.5913
+"MI",65,"Barry",-85.309,42.595
+"MI",66,"Eaton",-84.8384,42.5961
+"MI",67,"Ingham",-84.3736,42.5971
+"MI",68,"Livingston",-83.9115,42.603
+"MI",69,"Oakland",-83.3855,42.6604
+"MI",70,"Macomb",-82.9322,42.6956
+"MI",71,"Van Buren",-86.0189,42.2513
+"MI",72,"Kalamazoo",-85.5312,42.2454
+"MI",73,"Calhoun",-85.0055,42.2466
+"MI",74,"Jackson",-84.4233,42.2485
+"MI",75,"Washtenaw",-83.8385,42.2534
+"MI",76,"Wayne",-83.2865,42.284
+"MI",77,"Berrien",-86.4123,41.9546
+"MI",78,"Cass",-85.9936,41.9153
+"MI",79,"St. Joseph",-85.5278,41.9145
+"MI",80,"Branch",-85.059,41.9161
+"MI",81,"Hillsdale",-84.593,41.8878
+"MI",82,"Lenawee",-84.0664,41.8951
+"MI",83,"Monroe",-83.5373,41.9292
+"MI",84,"Southern Houghton",-88.8192,46.607
+"MI",85,"Northern Schoolcraft",-86.2069,46.3325
+"MN",1,"West Polk",-96.7048,47.8466
+"MN",2,"Norman",-96.4551,47.3265
+"MN",3,"Clay",-96.4906,46.8924
+"MN",4,"Kittson",-96.7826,48.7766
+"MN",5,"Roseau",-95.8108,48.7751
+"MN",6,"Lake Of The Woods",-94.9048,48.7718
+"MN",7,"West Marshall",-96.7657,48.3592
+"MN",8,"East Marshall",-95.9961,48.3571
+"MN",9,"North Beltrami",-95.0124,48.1627
+"MN",10,"Koochiching",-93.7834,48.2453
+"MN",11,"North St. Louis",-92.5323,48.1523
+"MN",12,"Northern Cook/Northern Lake",-91.1966,47.8295
+"MN",13,"Pennington",-96.0367,48.0662
+"MN",14,"Red Lake",-96.0953,47.8717
+"MN",15,"East Polk",-95.918,47.6577
+"MN",16,"North Clearwater",-95.3891,47.752
+"MN",17,"South Beltrami",-94.8022,47.6313
+"MN",18,"North Itasca",-93.7298,47.6644
+"MN",19,"Central St. Louis",-92.4352,47.4461
+"MN",20,"Southern Lake/North Shore",-91.4479,47.282
+"MN",21,"Southern Cook/North Shore",-90.4121,47.8034
+"MN",22,"Mahnomen",-95.809,47.3252
+"MN",23,"South Clearwater",-95.3643,47.3228
+"MN",24,"Hubbard",-94.9166,47.1087
+"MN",25,"North Cass",-94.2344,47.1039
+"MN",26,"South Itasca",-93.4742,47.2596
+"MN",27,"West Becker",-95.9229,46.9358
+"MN",28,"East Becker",-95.4143,46.9334
+"MN",29,"Wilkin",-96.4683,46.3571
+"MN",30,"West Otter Tail",-96.0175,46.4061
+"MN",31,"East Otter Tail",-95.4624,46.4109
+"MN",32,"Wadena",-94.9694,46.5858
+"MN",33,"South Cass",-94.5522,46.5646
+"MN",34,"Crow Wing",-94.0709,46.4824
+"MN",35,"Northern Aitkin",-93.4185,46.826
+"MN",36,"South Aitkin",-93.4126,46.4095
+"MN",37,"Carlton/South St. Louis",-92.5801,46.7516
+"MN",38,"Pine",-92.7414,46.1208
+"MN",39,"Traverse",-96.4716,45.7721
+"MN",40,"Grant",-96.0121,45.934
+"MN",41,"Douglas",-95.4535,45.9337
+"MN",42,"Todd",-94.8976,46.0706
+"MN",43,"Morrison",-94.2684,46.0126
+"MN",44,"Mille Lacs",-93.6301,45.938
+"MN",45,"Kanabec",-93.2935,45.9453
+"MN",46,"Big Stone",-96.411,45.4261
+"MN",47,"Stevens",-96.0003,45.5861
+"MN",48,"Pope",-95.4445,45.586
+"MN",49,"Stearns",-94.613,45.5522
+"MN",50,"Benton",-93.9989,45.6991
+"MN",51,"Sherburne",-93.7745,45.4439
+"MN",52,"Isanti",-93.2952,45.5615
+"MN",53,"Chisago",-92.9083,45.5025
+"MN",54,"Lac Qui Parle",-96.1735,44.9955
+"MN",55,"Swift",-95.6814,45.2827
+"MN",56,"Chippewa",-95.5666,45.0223
+"MN",57,"Kandiyohi",-95.0048,45.1524
+"MN",58,"Meeker",-94.5274,45.1231
+"MN",59,"Wright",-93.963,45.1739
+"MN",60,"Hennepin",-93.4768,45.0045
+"MN",61,"Anoka",-93.2464,45.2732
+"MN",62,"Ramsey",-93.0994,45.0171
+"MN",63,"Washington",-92.8839,45.0383
+"MN",64,"Yellow Medicine",-95.8683,44.7162
+"MN",65,"Renville",-94.9472,44.7268
+"MN",66,"McLeod",-94.2724,44.8235
+"MN",67,"Sibley",-94.2321,44.5795
+"MN",68,"Carver",-93.8025,44.8208
+"MN",69,"Scott",-93.5358,44.6484
+"MN",70,"Dakota",-93.0656,44.6718
+"MN",71,"Lincoln",-96.2671,44.4126
+"MN",72,"Lyon",-95.839,44.4135
+"MN",73,"Redwood",-95.2539,44.4037
+"MN",74,"Brown",-94.7277,44.2421
+"MN",75,"Nicollet",-94.2474,44.35
+"MN",76,"Le Sueur",-93.73,44.3714
+"MN",77,"Rice",-93.2966,44.3541
+"MN",78,"Goodhue",-92.7225,44.4099
+"MN",79,"Wabasha",-92.2303,44.2842
+"MN",80,"Murray",-95.7632,44.0221
+"MN",81,"Cottonwood",-95.1812,44.0071
+"MN",82,"Watonwan",-94.6141,43.9783
+"MN",83,"Blue Earth",-94.0671,44.0346
+"MN",84,"Waseca",-93.5873,44.0221
+"MN",85,"Steele",-93.226,44.0223
+"MN",86,"Dodge",-92.862,44.0225
+"MN",87,"Olmsted",-92.4018,44.0036
+"MN",88,"Winona",-91.7791,43.9869
+"MN",89,"Nobles",-95.7534,43.6742
+"MN",90,"Jackson",-95.1541,43.6741
+"MN",91,"Martin",-94.5511,43.6742
+"MN",92,"Faribault",-93.9479,43.6739
+"MN",93,"Freeborn",-93.3489,43.6738
+"MN",94,"Mower",-92.7525,43.6714
+"MN",95,"Fillmore",-92.0901,43.674
+"MN",96,"Houston",-91.4928,43.6714
+"MN",97,"Pipestone",-96.2586,44.023
+"MN",98,"Rock",-96.2532,43.6747
+"MO",1,"Atchison",-95.427,40.4307
+"MO",2,"Nodaway",-94.8834,40.3607
+"MO",3,"Worth",-94.4222,40.4791
+"MO",4,"Gentry",-94.4099,40.2121
+"MO",5,"Harrison",-93.9921,40.3547
+"MO",6,"Mercer",-93.5685,40.4223
+"MO",7,"Putnam",-93.0161,40.4789
+"MO",8,"Schuyler",-92.5209,40.4702
+"MO",9,"Scotland",-92.1471,40.4526
+"MO",10,"Clark",-91.7384,40.4103
+"MO",11,"Holt",-95.215,40.0946
+"MO",12,"Andrew",-94.802,39.9834
+"MO",13,"De Kalb",-94.4047,39.8932
+"MO",14,"Daviess",-93.9855,39.9607
+"MO",15,"Grundy",-93.5653,40.114
+"MO",16,"Sullivan",-93.1115,40.2107
+"MO",17,"Adair",-92.6007,40.1906
+"MO",18,"Knox",-92.1481,40.1282
+"MO",19,"Lewis",-91.7222,40.0969
+"MO",20,"Buchanan",-94.8062,39.6598
+"MO",21,"Clinton",-94.4046,39.6018
+"MO",22,"Caldwell",-93.9828,39.6557
+"MO",23,"Livingston",-93.5483,39.7821
+"MO",24,"Linn",-93.1072,39.8702
+"MO",25,"Macon",-92.5646,39.8308
+"MO",26,"Shelby",-92.0766,39.7978
+"MO",27,"Marion",-91.6224,39.806
+"MO",28,"Platte",-94.7736,39.3804
+"MO",29,"Clay",-94.4208,39.3105
+"MO",30,"Ray",-93.9899,39.3524
+"MO",31,"Carroll",-93.5052,39.4268
+"MO",32,"Chariton",-92.9626,39.5145
+"MO",33,"Randolph",-92.4971,39.4402
+"MO",34,"Monroe",-92.0007,39.4955
+"MO",35,"Ralls",-91.522,39.5276
+"MO",36,"Pike",-91.1714,39.3438
+"MO",37,"Jackson",-94.3461,39.0085
+"MO",38,"Lafayette",-93.7855,39.0656
+"MO",39,"Saline",-93.2022,39.1366
+"MO",40,"Howard",-92.6958,39.1427
+"MO",41,"Boone",-92.3096,38.9907
+"MO",42,"Audrain",-91.8416,39.2158
+"MO",43,"Cass",-94.3548,38.647
+"MO",44,"Johnson",-93.8063,38.7441
+"MO",45,"Pettis",-93.2851,38.7283
+"MO",46,"Cooper",-92.8103,38.8439
+"MO",47,"Moniteau",-92.5831,38.6327
+"MO",48,"Cole",-92.2816,38.5055
+"MO",49,"Osage",-91.8618,38.4604
+"MO",50,"Callaway",-91.926,38.8355
+"MO",51,"Montgomery",-91.4702,38.9415
+"MO",52,"Lincoln",-90.9602,39.0581
+"MO",53,"Bates",-94.34,38.2573
+"MO",54,"Henry",-93.7927,38.3852
+"MO",55,"Benton",-93.2879,38.2948
+"MO",56,"Morgan",-92.8861,38.4239
+"MO",57,"Miller",-92.4284,38.2145
+"MO",58,"Maries",-91.9249,38.1616
+"MO",59,"Gasconade",-91.5079,38.4409
+"MO",60,"Warren",-91.1607,38.7646
+"MO",61,"St. Charles",-90.6752,38.7819
+"MO",62,"Franklin",-91.075,38.4112
+"MO",63,"St. Louis",-90.443,38.6407
+"MO",64,"St. Louis City",-90.245,38.6358
+"MO",65,"Jefferson",-90.5378,38.261
+"MO",66,"Vernon",-94.3424,37.8506
+"MO",67,"St. Clair",-93.776,38.0371
+"MO",68,"Hickory",-93.3207,37.9408
+"MO",69,"Camden",-92.766,38.0271
+"MO",70,"Pulaski",-92.2076,37.8246
+"MO",71,"Phelps",-91.7924,37.8771
+"MO",72,"Crawford",-91.304,37.9764
+"MO",73,"Washington",-90.8774,37.9617
+"MO",74,"St. Francois",-90.4729,37.8104
+"MO",75,"Ste. Genevieve",-90.1952,37.894
+"MO",76,"Perry",-89.8244,37.7071
+"MO",77,"Barton",-94.3471,37.5023
+"MO",78,"Cedar",-93.8566,37.7238
+"MO",79,"Polk",-93.4005,37.6165
+"MO",80,"Dallas",-93.0236,37.6804
+"MO",81,"Laclede",-92.5903,37.6583
+"MO",82,"Texas",-91.9651,37.3173
+"MO",83,"Dent",-91.5079,37.6066
+"MO",84,"Iron",-90.7735,37.5552
+"MO",85,"Madison",-90.345,37.4781
+"MO",86,"Bollinger",-90.0259,37.3222
+"MO",87,"Cape Girardeau",-89.6845,37.3839
+"MO",88,"Jasper",-94.3406,37.2035
+"MO",89,"Dade",-93.8503,37.432
+"MO",90,"Greene",-93.342,37.2581
+"MO",91,"Webster",-92.8759,37.2809
+"MO",92,"Wright",-92.4687,37.2701
+"MO",93,"Newton",-94.3392,36.9055
+"MO",94,"Lawrence",-93.8329,37.1064
+"MO",95,"Christian",-93.1889,36.9696
+"MO",96,"Douglas",-92.4988,36.9326
+"MO",97,"Howell",-91.8865,36.774
+"MO",98,"Shannon",-91.4005,37.1574
+"MO",99,"Reynolds",-90.9691,37.3623
+"MO",100,"Wayne",-90.4614,37.1126
+"MO",101,"McDonald",-94.3484,36.6287
+"MO",102,"Barry",-93.8291,36.7099
+"MO",103,"Stone",-93.4559,36.7469
+"MO",104,"Taney",-93.041,36.6547
+"MO",105,"Ozark",-92.4446,36.6493
+"MO",106,"Oregon",-91.4033,36.6867
+"MO",107,"Carter",-90.9623,36.9413
+"MO",108,"Ripley",-90.8639,36.6528
+"MO",109,"Butler",-90.4065,36.7164
+"MO",110,"Stoddard",-89.9444,36.8555
+"MO",111,"Scott",-89.5686,37.053
+"MO",112,"Mississippi",-89.2911,36.8281
+"MO",113,"Dunklin",-90.0909,36.2719
+"MO",114,"New Madrid",-89.6516,36.5942
+"MO",115,"Pemiscot",-89.7858,36.2111
+"MS",1,"DeSoto",-89.9918,34.8754
+"MS",2,"Marshall",-89.5031,34.7623
+"MS",3,"Benton",-89.1885,34.8173
+"MS",4,"Tippah",-88.9089,34.7684
+"MS",5,"Alcorn",-88.5803,34.8808
+"MS",6,"Tishomingo",-88.2393,34.7404
+"MS",7,"Tunica",-90.3755,34.652
+"MS",8,"Tate",-89.9448,34.6503
+"MS",9,"Prentiss",-88.5201,34.6183
+"MS",10,"Coahoma",-90.6027,34.2292
+"MS",11,"Quitman",-90.2891,34.2514
+"MS",12,"Panola",-89.9505,34.3639
+"MS",13,"Lafayette",-89.4849,34.3568
+"MS",14,"Union",-89.0038,34.4905
+"MS",15,"Pontotoc",-89.0374,34.2254
+"MS",16,"Lee",-88.6804,34.2899
+"MS",17,"Itawamba",-88.3613,34.28
+"MS",18,"Bolivar",-90.8804,33.7955
+"MS",19,"Sunflower",-90.5887,33.6023
+"MS",20,"Tallahatchie",-90.1732,33.9505
+"MS",21,"Yalobusha",-89.7076,34.0282
+"MS",22,"Calhoun",-89.3364,33.9364
+"MS",23,"Chickasaw",-88.9479,33.9208
+"MS",24,"Monroe",-88.4804,33.8923
+"MS",25,"Leflore",-90.301,33.5505
+"MS",26,"Grenada",-89.802,33.77
+"MS",27,"Carroll",-89.9202,33.4485
+"MS",28,"Montgomery",-89.6164,33.4941
+"MS",29,"Webster",-89.2848,33.6131
+"MS",30,"Clay",-88.7815,33.6557
+"MS",31,"Lowndes",-88.4433,33.4729
+"MS",32,"Choctaw",-89.2484,33.3473
+"MS",33,"Oktibbeha",-88.8793,33.425
+"MS",34,"Washington",-90.9474,33.2836
+"MS",35,"Humphreys",-90.5265,33.1287
+"MS",36,"Holmes",-90.0921,33.1235
+"MS",37,"Attala",-89.5817,33.0863
+"MS",38,"Winston",-89.0344,33.0885
+"MS",39,"Noxubee",-88.5698,33.1101
+"MS",40,"Issaquena",-90.9892,32.7414
+"MS",41,"Sharkey",-90.8132,32.8797
+"MS",42,"Yazoo",-90.3965,32.7804
+"MS",43,"Madison",-90.0338,32.6347
+"MS",44,"Leake",-89.5241,32.7535
+"MS",45,"Neshoba",-89.1176,32.7535
+"MS",46,"Kemper",-88.6412,32.7546
+"MS",47,"Warren",-90.8521,32.3574
+"MS",48,"Hinds",-90.4427,32.2667
+"MS",49,"Rankin",-89.9457,32.2641
+"MS",50,"Scott",-89.5376,32.4064
+"MS",51,"Newton",-89.1188,32.4002
+"MS",52,"Lauderdale",-88.6626,32.4043
+"MS",53,"Claiborne",-90.9118,31.9737
+"MS",54,"Copiah",-90.4488,31.8692
+"MS",55,"Simpson",-89.9195,31.9132
+"MS",56,"Smith",-89.5067,32.0177
+"MS",57,"Jasper",-89.1188,32.0191
+"MS",58,"Clarke",-88.6894,32.0414
+"MS",59,"Jefferson",-91.0371,31.7342
+"MS",60,"Adams",-91.3531,31.4832
+"MS",61,"Franklin",-90.8978,31.4772
+"MS",62,"Lincoln",-90.454,31.5324
+"MS",63,"Lawrence",-90.107,31.5502
+"MS",64,"Jefferson Davis",-89.823,31.5696
+"MS",65,"Covington",-89.5526,31.6332
+"MS",66,"Jones",-89.1688,31.6226
+"MS",67,"Wayne",-88.6958,31.6408
+"MS",68,"Wilkinson",-91.3109,31.161
+"MS",69,"Amite",-90.8045,31.1744
+"MS",70,"Pike",-90.4042,31.1749
+"MS",71,"Walthall",-90.1061,31.1485
+"MS",72,"Marion",-89.8224,31.2308
+"MS",73,"Lamar",-89.5087,31.2059
+"MS",74,"Forrest",-89.2579,31.1889
+"MS",75,"Perry",-88.9923,31.1721
+"MS",76,"Greene",-88.6392,31.2142
+"MS",77,"Pearl River",-89.5898,30.7686
+"MS",78,"Stone",-89.1177,30.79
+"MS",79,"George",-88.644,30.8626
+"MS",80,"Hancock",-89.4887,30.4164
+"MS",81,"Harrison",-89.1185,30.515
+"MS",82,"Jackson",-88.6362,30.5459
+"MT",1,"Kootenai/Cabinet Region",-115.2165,48.3391
+"MT",2,"West Glacier Region",-113.8037,48.2755
+"MT",3,"Flathead/Mission Valleys",-114.298,47.7732
+"MT",4,"Lower Clark Fork Region",-115.0063,47.3078
+"MT",5,"Missoula/Bitterroot Valleys",-114.1079,46.4888
+"MT",6,"Bitterroot/Sapphire Mountains",-113.9667,46.1931
+"MT",7,"Butte/Blackfoot Region",-112.9185,46.3886
+"MT",8,"Beaverhead",-112.8988,45.1328
+"MT",9,"Northern Rocky Mountain Front",-113.207,48.5649
+"MT",10,"Eastern Glacier",-112.6174,48.7446
+"MT",11,"Hill",-110.1113,48.6282
+"MT",12,"Cascade",-111.3472,47.308
+"MT",13,"Chouteau",-110.4352,47.8806
+"MT",14,"Central and Southern Lewis and Clark",-112.2607,46.9504
+"MT",15,"Madison",-111.9203,45.3008
+"MT",16,"Central and Southeast Phillips",-107.8379,48.1191
+"MT",17,"Central and Southern Valley",-106.6828,48.1821
+"MT",18,"Daniels",-105.5485,48.7838
+"MT",19,"Sheridan",-104.5046,48.7212
+"MT",20,"Western Roosevelt",-105.4045,48.3139
+"MT",21,"Petroleum",-108.2501,47.1175
+"MT",22,"Garfield",-106.9928,47.2777
+"MT",23,"McCone",-105.7953,47.6452
+"MT",24,"Richland",-104.5614,47.7879
+"MT",25,"Dawson",-104.8994,47.2664
+"MT",26,"Prairie",-105.3779,46.8605
+"MT",27,"Wibaux",-104.249,46.9653
+"MT",28,"Southern Wheatland",-109.8323,46.3825
+"MT",29,"Musselshell",-108.3977,46.4966
+"MT",30,"Treasure",-107.2717,46.2115
+"MT",31,"Northern Rosebud",-106.7762,46.3849
+"MT",32,"Custer",-105.5718,46.2527
+"MT",33,"Fallon",-104.4174,46.334
+"MT",34,"Northern Stillwater",-109.2176,45.8098
+"MT",35,"Yellowstone",-108.2744,45.9372
+"MT",36,"Powder River",-105.6301,45.395
+"MT",37,"Carter",-104.5362,45.5168
+"MT",38,"Southern Big Horn",-107.5062,45.2542
+"MT",39,"Eastern Carbon",-108.7777,45.2463
+"MT",40,"Northern Park",-110.6013,45.9621
+"MT",41,"Northern Sweet Grass",-109.8608,45.9585
+"MT",42,"Golden Valley",-109.1643,46.3251
+"MT",43,"Potomac/Seeley Lake Region",-113.584,47.2005
+"MT",44,"Toole",-111.6957,48.6552
+"MT",45,"Liberty",-111.0246,48.5617
+"MT",46,"Eastern Pondera",-111.983,48.2323
+"MT",47,"Blaine",-108.9586,48.4327
+"MT",48,"Southern Rocky Mountain Front",-112.5644,47.7128
+"MT",49,"Eastern Teton",-111.7767,47.8111
+"MT",50,"Judith Basin",-110.2661,47.0455
+"MT",51,"Fergus",-109.2243,47.2636
+"MT",52,"Jefferson",-112.0937,46.1485
+"MT",53,"Broadwater",-111.4954,46.3319
+"MT",54,"Meagher",-110.8856,46.5982
+"MT",55,"Gallatin",-111.1738,45.5683
+"MT",56,"Red Lodge Foothills",-109.2924,45.2833
+"MT",57,"Northern Big Horn",-107.4595,45.7318
+"MT",58,"Southern Rosebud",-106.4963,45.4286
+"MT",59,"Northern Phillips",-107.7403,48.7814
+"MT",60,"Southwest Phillips",-108.487,47.8159
+"MT",61,"Northern Valley",-106.6331,48.7789
+"MT",62,"Eastern Roosevelt",-104.5328,48.2705
+"MT",63,"Judith Gap",-109.6782,46.6384
+"MT",64,"Paradise Valley",-110.7098,45.3939
+"MT",65,"Livingston Area",-110.5011,45.6959
+"MT",66,"Beartooth Foothills",-109.8035,45.5734
+"MT",67,"Absaroka/Beartooth Mountains",-110.1893,45.2637
+"MT",68,"Crazy Mountains",-110.3156,46.0653
+"NC",1,"Ashe",-81.501,36.4346
+"NC",2,"Alleghany",-81.1286,36.4915
+"NC",3,"Surry",-80.6882,36.4148
+"NC",4,"Stokes",-80.2395,36.4018
+"NC",5,"Rockingham",-79.7751,36.3961
+"NC",6,"Caswell",-79.3337,36.3934
+"NC",7,"Person",-78.9717,36.3901
+"NC",8,"Granville",-78.653,36.304
+"NC",9,"Vance",-78.4083,36.3648
+"NC",10,"Warren",-78.1069,36.3966
+"NC",11,"Halifax",-77.6519,36.2575
+"NC",12,"Northampton",-77.3967,36.4177
+"NC",13,"Hertford",-76.9838,36.359
+"NC",14,"Gates",-76.7011,36.4451
+"NC",15,"Pasquotank",-76.2867,36.2974
+"NC",16,"Camden",-76.2101,36.3902
+"NC",17,"Western Currituck",-76.034,36.4012
+"NC",18,"Watauga",-81.6969,36.2313
+"NC",19,"Wilkes",-81.1638,36.2065
+"NC",20,"Yadkin",-80.6653,36.1605
+"NC",21,"Forsyth",-80.2563,36.1304
+"NC",22,"Guilford",-79.789,36.0794
+"NC",23,"Alamance",-79.3995,36.044
+"NC",24,"Orange",-79.1205,36.0614
+"NC",25,"Durham",-78.8764,36.0359
+"NC",26,"Franklin",-78.2857,36.0827
+"NC",27,"Nash",-77.9865,35.9672
+"NC",28,"Edgecombe",-77.5971,35.9129
+"NC",29,"Martin",-77.1072,35.8416
+"NC",30,"Bertie",-76.9791,36.0662
+"NC",31,"Chowan",-76.608,36.1507
+"NC",32,"Perquimans",-76.4419,36.2069
+"NC",33,"Avery",-81.9224,36.0766
+"NC",35,"Alexander",-81.1772,35.9211
+"NC",36,"Iredell",-80.8736,35.8072
+"NC",37,"Davie",-80.5446,35.9292
+"NC",38,"Davidson",-80.2127,35.7932
+"NC",39,"Randolph",-79.806,35.7103
+"NC",40,"Chatham",-79.2553,35.7028
+"NC",41,"Wake",-78.6504,35.7901
+"NC",42,"Johnston",-78.3657,35.5176
+"NC",43,"Wilson",-77.9185,35.7048
+"NC",44,"Pitt",-77.3748,35.5935
+"NC",45,"Washington",-76.5767,35.8221
+"NC",46,"Tyrrell",-76.2118,35.8161
+"NC",47,"Mainland Dare",-75.8577,35.7753
+"NC",48,"Madison",-82.7057,35.8581
+"NC",49,"Yancey",-82.3076,35.8989
+"NC",50,"Mitchell",-82.1634,36.0133
+"NC",51,"Swain",-83.4927,35.4867
+"NC",52,"Haywood",-82.9822,35.5561
+"NC",53,"Buncombe",-82.5302,35.6112
+"NC",56,"Catawba",-81.2144,35.6626
+"NC",57,"Rowan",-80.5247,35.6396
+"NC",58,"Graham",-83.8335,35.3502
+"NC",59,"Northern Jackson",-83.1778,35.3638
+"NC",60,"Cherokee",-84.0635,35.1339
+"NC",61,"Clay",-83.7502,35.0572
+"NC",62,"Macon",-83.4221,35.1504
+"NC",63,"Southern Jackson",-83.0799,35.1614
+"NC",64,"Transylvania",-82.7983,35.2022
+"NC",65,"Henderson",-82.4799,35.3362
+"NC",68,"Cleveland",-81.5554,35.334
+"NC",69,"Lincoln",-81.2239,35.4862
+"NC",70,"Gaston",-81.1801,35.2945
+"NC",71,"Mecklenburg",-80.8328,35.2468
+"NC",72,"Cabarrus",-80.5519,35.3868
+"NC",73,"Stanly",-80.2507,35.312
+"NC",74,"Montgomery",-79.9054,35.3324
+"NC",75,"Moore",-79.4813,35.3107
+"NC",76,"Lee",-79.1716,35.475
+"NC",77,"Harnett",-78.8693,35.3687
+"NC",78,"Wayne",-78.004,35.3638
+"NC",79,"Greene",-77.6756,35.4852
+"NC",80,"Beaufort",-76.8631,35.4947
+"NC",81,"Mainland Hyde",-76.2532,35.5375
+"NC",82,"Union",-80.5307,34.9884
+"NC",83,"Anson",-80.1027,34.9738
+"NC",84,"Richmond",-79.748,35.0059
+"NC",85,"Scotland",-79.4805,34.8411
+"NC",86,"Hoke",-79.2371,35.0174
+"NC",87,"Robeson",-79.1035,34.6401
+"NC",88,"Cumberland",-78.8273,35.0485
+"NC",89,"Sampson",-78.3712,34.9915
+"NC",90,"Duplin",-77.9333,34.9365
+"NC",91,"Lenoir",-77.6416,35.2393
+"NC",92,"Jones",-77.3555,35.0222
+"NC",93,"Craven",-77.0969,35.1262
+"NC",94,"Pamlico",-76.7488,35.1407
+"NC",95,"Carteret",-76.6707,34.8306
+"NC",96,"Bladen",-78.5632,34.6143
+"NC",98,"Onslow",-77.4342,34.7374
+"NC",99,"Columbus",-78.655,34.2655
+"NC",102,"Eastern Currituck",-75.844,36.4001
+"NC",103,"Outer Banks Dare",-75.6211,35.7594
+"NC",104,"Outer Banks Hyde",-75.9134,35.1288
+"NC",105,"Inland Pender",-77.9208,34.5328
+"NC",106,"Coastal Pender",-77.6424,34.3843
+"NC",107,"Inland New Hanover",-77.8982,34.2817
+"NC",108,"Coastal New Hanover",-77.8536,34.1515
+"NC",109,"Inland Brunswick",-78.2492,34.1066
+"NC",110,"Coastal Brunswick",-78.2222,33.9367
+"NC",501,"Caldwell Mountains",-81.6408,36.0301
+"NC",502,"Greater Caldwell",-81.4832,35.9012
+"NC",503,"Burke Mountains",-81.862,35.8886
+"NC",504,"Greater Burke",-81.6652,35.7148
+"NC",505,"McDowell Mountains",-82.1054,35.7082
+"NC",506,"Eastern McDowell",-81.9458,35.6327
+"NC",507,"Rutherford Mountains",-82.193,35.465
+"NC",508,"Greater Rutherford",-81.8892,35.3952
+"NC",509,"Polk Mountains",-82.293,35.2856
+"NC",510,"Eastern Polk",-82.1356,35.2776
+"ND",1,"Divide",-103.4873,48.8149
+"ND",2,"Burke",-102.5183,48.7909
+"ND",3,"Renville",-101.6581,48.7192
+"ND",4,"Bottineau",-100.8335,48.7921
+"ND",5,"Rolette",-99.8411,48.7724
+"ND",6,"Towner",-99.2459,48.6856
+"ND",7,"Cavalier",-98.465,48.7722
+"ND",8,"Pembina",-97.5517,48.7672
+"ND",9,"Williams",-103.4802,48.3437
+"ND",10,"Mountrail",-102.3556,48.2013
+"ND",11,"Ward",-101.5418,48.2218
+"ND",12,"McHenry",-100.6363,48.2346
+"ND",13,"Pierce",-99.9718,48.2496
+"ND",14,"Benson",-99.366,48.0694
+"ND",15,"Ramsey",-98.7201,48.269
+"ND",16,"Eastern Walsh County",-97.4998,48.3683
+"ND",17,"McKenzie",-103.3953,47.7402
+"ND",18,"Dunn",-102.6182,47.3568
+"ND",19,"Mercer",-101.8315,47.3092
+"ND",20,"Oliver",-101.3403,47.1153
+"ND",21,"McLean",-101.3218,47.607
+"ND",22,"Sheridan",-100.3456,47.5754
+"ND",23,"Wells",-99.661,47.5876
+"ND",24,"Eddy",-98.9016,47.7176
+"ND",25,"Foster",-98.8831,47.4571
+"ND",26,"Nelson",-98.1921,47.9216
+"ND",27,"Grand Forks",-97.457,47.9219
+"ND",28,"Griggs",-98.2371,47.4572
+"ND",29,"Steele",-97.7248,47.4562
+"ND",30,"Traill",-97.1615,47.4542
+"ND",31,"Golden Valley",-103.8467,46.9402
+"ND",32,"Billings",-103.3764,47.0235
+"ND",33,"Stark",-102.655,46.8107
+"ND",34,"Morton",-101.2811,46.7161
+"ND",35,"Burleigh",-100.4688,46.9774
+"ND",36,"Kidder",-99.7801,46.9802
+"ND",37,"Stutsman",-98.9588,46.9792
+"ND",38,"Barnes",-98.0716,46.9361
+"ND",39,"Cass",-97.2481,46.933
+"ND",40,"Slope",-103.4599,46.4472
+"ND",41,"Hettinger",-102.4604,46.4326
+"ND",42,"Grant",-101.6397,46.3583
+"ND",43,"Bowman",-103.5207,46.1126
+"ND",44,"Adams",-102.5285,46.0969
+"ND",45,"Sioux",-101.0405,46.1126
+"ND",46,"Emmons",-100.2388,46.2851
+"ND",47,"Logan",-99.4775,46.4574
+"ND",48,"La Moure",-98.5355,46.4569
+"ND",49,"Ransom",-97.6575,46.4561
+"ND",50,"McIntosh",-99.4412,46.1119
+"ND",51,"Dickey",-98.5046,46.1102
+"ND",52,"Sargent",-97.6306,46.1078
+"ND",53,"Richland",-96.9483,46.2646
+"ND",54,"Western Walsh County",-98.084,48.3714
+"NE",2,"Dawes",-103.1354,42.7197
+"NE",3,"Box Butte",-103.0857,42.2198
+"NE",4,"Sheridan",-102.409,42.5048
+"NE",5,"Eastern Cherry",-100.5076,42.5577
+"NE",6,"Keya Paha",-99.7124,42.8789
+"NE",7,"Boyd",-98.7665,42.8997
+"NE",8,"Brown",-99.9295,42.43
+"NE",9,"Rock",-99.45,42.4213
+"NE",10,"Holt",-98.7838,42.4557
+"NE",11,"Knox",-97.8919,42.6369
+"NE",12,"Cedar",-97.2523,42.5993
+"NE",13,"Dixon",-96.8677,42.4932
+"NE",14,"Dakota",-96.5646,42.3911
+"NE",15,"Thurston",-96.5441,42.1582
+"NE",16,"Antelope",-98.0667,42.1769
+"NE",17,"Pierce",-97.6013,42.2644
+"NE",18,"Wayne",-97.1193,42.2092
+"NE",19,"Scotts Bluff",-103.708,41.8506
+"NE",20,"Banner",-103.7104,41.546
+"NE",21,"Morrill",-103.0105,41.716
+"NE",22,"Garden",-102.3354,41.6194
+"NE",23,"Grant",-101.7405,41.915
+"NE",24,"Hooker",-101.1353,41.9159
+"NE",25,"Thomas",-100.5558,41.9135
+"NE",26,"Blaine",-99.9769,41.9128
+"NE",27,"Loup",-99.4544,41.9138
+"NE",28,"Garfield",-98.9914,41.9143
+"NE",29,"Wheeler",-98.5282,41.9148
+"NE",30,"Boone",-98.0673,41.7068
+"NE",31,"Madison",-97.6008,41.9166
+"NE",32,"Stanton",-97.1939,41.9168
+"NE",33,"Cuming",-96.7874,41.9164
+"NE",34,"Burt",-96.3287,41.8515
+"NE",35,"Arthur",-101.6959,41.5689
+"NE",36,"McPherson",-101.0605,41.5681
+"NE",37,"Logan",-100.4828,41.5665
+"NE",38,"Custer",-99.7261,41.3943
+"NE",39,"Valley",-98.9819,41.5673
+"NE",40,"Greeley",-98.5212,41.5675
+"NE",41,"Nance",-97.9923,41.3973
+"NE",42,"Platte",-97.5198,41.5701
+"NE",43,"Colfax",-97.0867,41.5731
+"NE",44,"Dodge",-96.6542,41.5777
+"NE",45,"Washington",-96.2218,41.5311
+"NE",46,"Sherman",-98.9763,41.2205
+"NE",47,"Howard",-98.5171,41.22
+"NE",48,"Merrick",-98.0376,41.1698
+"NE",49,"Polk",-97.5684,41.1869
+"NE",50,"Butler",-97.1306,41.2242
+"NE",51,"Saunders",-96.6373,41.2261
+"NE",52,"Douglas",-96.1544,41.2953
+"NE",53,"Sarpy",-96.1119,41.1131
+"NE",54,"Kimball",-103.715,41.1977
+"NE",55,"Cheyenne",-102.995,41.2198
+"NE",56,"Deuel",-102.3339,41.1116
+"NE",57,"Keith",-101.6613,41.1988
+"NE",58,"Perkins",-101.6496,40.8509
+"NE",59,"Lincoln",-100.7452,41.0478
+"NE",60,"Dawson",-99.8195,40.8699
+"NE",61,"Buffalo",-99.075,40.8551
+"NE",62,"Hall",-98.5022,40.8725
+"NE",63,"Hamilton",-98.0233,40.8735
+"NE",64,"York",-97.5971,40.8727
+"NE",65,"Seward",-97.1395,40.8723
+"NE",66,"Lancaster",-96.6878,40.7841
+"NE",67,"Cass",-96.1408,40.9098
+"NE",68,"Otoe",-96.1348,40.6485
+"NE",69,"Chase",-101.6979,40.5242
+"NE",70,"Hayes",-101.0618,40.5248
+"NE",71,"Frontier",-100.3942,40.5301
+"NE",72,"Gosper",-99.8307,40.5148
+"NE",73,"Phelps",-99.4145,40.5111
+"NE",74,"Kearney",-98.948,40.5067
+"NE",75,"Adams",-98.5012,40.5245
+"NE",76,"Clay",-98.0512,40.5244
+"NE",77,"Fillmore",-97.5965,40.5247
+"NE",78,"Saline",-97.1408,40.524
+"NE",79,"Dundy",-101.6879,40.1762
+"NE",80,"Hitchcock",-101.0422,40.1763
+"NE",81,"Red Willow",-100.4768,40.1758
+"NE",82,"Furnas",-99.9123,40.1764
+"NE",83,"Harlan",-99.4046,40.1765
+"NE",84,"Franklin",-98.9527,40.1763
+"NE",85,"Webster",-98.4999,40.1764
+"NE",86,"Nuckolls",-98.0472,40.1764
+"NE",87,"Thayer",-97.5948,40.1763
+"NE",88,"Jefferson",-97.1426,40.1757
+"NE",89,"Gage",-96.6893,40.2619
+"NE",90,"Johnson",-96.2649,40.3926
+"NE",91,"Nemaha",-95.8486,40.3881
+"NE",92,"Pawnee",-96.237,40.1314
+"NE",93,"Richardson",-95.7167,40.1249
+"NE",94,"Western Cherry",-101.4432,42.5381
+"NE",95,"North Sioux",-103.7719,42.7142
+"NE",96,"South Sioux",-103.7432,42.2153
+"NH",1,"Northern Coos",-71.2832,44.9761
+"NH",2,"Southern Coos",-71.3228,44.4715
+"NH",3,"Northern Grafton",-71.7514,44.0964
+"NH",4,"Northern Carroll",-71.1778,44.078
+"NH",5,"Southern Grafton",-71.9182,43.7209
+"NH",6,"Southern Carroll",-71.2178,43.7506
+"NH",7,"Sullivan",-72.2223,43.3612
+"NH",8,"Merrimack",-71.6802,43.2977
+"NH",9,"Belknap",-71.4233,43.5188
+"NH",10,"Strafford",-71.0293,43.2975
+"NH",11,"Cheshire",-72.2512,42.9193
+"NH",12,"Eastern Hillsborough",-71.4574,42.8448
+"NH",13,"Interior Rockingham",-71.1814,42.9853
+"NH",14,"Coastal Rockingham",-70.8291,43.0004
+"NH",15,"Western And Central Hillsborough",-71.7929,42.9363
+"NJ",1,"Sussex",-74.6902,41.1394
+"NJ",2,"Western Passaic",-74.3518,41.0934
+"NJ",4,"Eastern Passaic",-74.1999,40.9176
+"NJ",6,"Hudson",-74.0826,40.7067
+"NJ",7,"Warren",-74.997,40.8574
+"NJ",8,"Morris",-74.5445,40.8621
+"NJ",9,"Hunterdon",-74.9123,40.5672
+"NJ",10,"Somerset",-74.6163,40.5637
+"NJ",12,"Middlesex",-74.4113,40.4394
+"NJ",13,"Western Monmouth",-74.2614,40.2596
+"NJ",14,"Eastern Monmouth",-74.0295,40.2557
+"NJ",15,"Mercer",-74.7015,40.2833
+"NJ",16,"Salem",-75.3459,39.5873
+"NJ",17,"Gloucester",-75.1419,39.7173
+"NJ",18,"Camden",-74.9599,39.8038
+"NJ",19,"Northwestern Burlington",-74.7572,39.985
+"NJ",20,"Ocean",-74.3099,39.9191
+"NJ",21,"Cumberland",-75.1099,39.3736
+"NJ",22,"Atlantic",-74.6976,39.4906
+"NJ",23,"Cape May",-74.8227,39.1768
+"NJ",24,"Atlantic Coastal Cape May",-74.7718,39.0952
+"NJ",25,"Coastal Atlantic",-74.4448,39.3929
+"NJ",26,"Coastal Ocean",-74.1647,39.789
+"NJ",27,"Southeastern Burlington",-74.5605,39.7478
+"NJ",103,"Western Bergen",-74.1547,41.0243
+"NJ",104,"Eastern Bergen",-74.0224,40.9158
+"NJ",105,"Western Essex",-74.2767,40.8034
+"NJ",106,"Eastern Essex",-74.1293,40.69
+"NJ",107,"Western Union",-74.3579,40.6666
+"NJ",108,"Eastern Union",-74.2352,40.6496
+"NM",27,"Guadalupe Mountains of Eddy County",-104.7304,32.239
+"NM",28,"Eddy County Plains",-104.2534,32.4993
+"NM",29,"Northern Lea County",-103.4057,33.282
+"NM",33,"Central Lea County",-103.4363,32.7504
+"NM",34,"Southern Lea County",-103.3937,32.2502
+"NM",401,"Upper Gila River Valley",-108.6694,32.9678
+"NM",402,"Southern Gila Highlands/Black Range",-108.0523,33.0322
+"NM",403,"Southern Gila Foothills/Mimbres Valley",-108.0435,32.5961
+"NM",404,"Southwest Desert/Lower Gila River Valley",-108.6746,32.3908
+"NM",405,"Lowlands of the Bootheel",-108.5699,31.7623
+"NM",406,"Uplands of the Bootheel",-108.8399,31.5516
+"NM",407,"Southwest Desert/Mimbres Basin",-107.7431,32.1585
+"NM",408,"Eastern Black Range Foothills",-107.5193,33.0357
+"NM",409,"Sierra County Lakes",-107.0436,33.1033
+"NM",410,"Northern Dona Ana County",-106.9177,32.6132
+"NM",411,"Southern Dona Ana County/Mesilla Valley",-106.9151,32.1002
+"NM",412,"Central Tularosa Basin",-106.2624,33.04
+"NM",413,"Southern Tularosa Basin",-106.2354,32.3625
+"NM",414,"West Slopes Sacramento Mountains Below 7500 Feet",-105.7623,32.88
+"NM",415,"Sacramento Mountains Above 7500 Feet",-105.6803,32.9911
+"NM",416,"East Slopes Sacramento Mountains Below 7500 Feet",-105.447,32.9484
+"NM",417,"Otero Mesa",-105.4234,32.261
+"NM",501,"Northwest Plateau",-108.4158,36.4024
+"NM",502,"Chuska Mountains",-108.9307,36.0352
+"NM",503,"Far Northwest Highlands",-107.5054,36.8291
+"NM",504,"Northwest Highlands",-107.4374,36.0648
+"NM",505,"West Central Plateau",-108.8163,35.0264
+"NM",506,"West Central Mountains",-108.0592,35.0761
+"NM",507,"West Central Highlands",-107.3538,34.9677
+"NM",508,"Southwest Mountains",-108.0696,33.8976
+"NM",509,"San Francisco River Valley",-108.8879,33.4637
+"NM",510,"San Juan Mountains",-106.4448,36.6713
+"NM",511,"Jemez Mountains",-106.5983,35.9028
+"NM",512,"West Slopes Sangre de Cristo Mountains",-105.6352,36.0908
+"NM",513,"Northern Sangre de Cristos above 9500 feet/Red River",-105.3655,36.736
+"NM",514,"Southern Sangre de Cristos above 9500 feet",-105.6206,35.8964
+"NM",515,"East Slopes Sangre de Cristo Mountains",-105.17,36.2191
+"NM",516,"Upper Rio Grande Valley",-105.7837,36.6448
+"NM",517,"Lower Chama River Valley",-106.1194,36.1356
+"NM",518,"Santa Fe Metro Area",-106.1103,35.5276
+"NM",519,"Middle Rio Grande Valley/Albuquerque Metro Area",-106.7443,35.0023
+"NM",520,"Lower Rio Grande Valley",-106.8008,33.9223
+"NM",521,"Sandia/Manzano Mountains",-106.3122,34.9512
+"NM",522,"Estancia Valley",-105.9905,34.7989
+"NM",523,"Central Highlands",-105.5717,34.8594
+"NM",524,"South Central Highlands",-106.1646,34.1329
+"NM",525,"Upper Tularosa Valley",-106.04,33.6585
+"NM",526,"South Central Mountains",-105.5861,33.5869
+"NM",527,"Raton Ridge/Johnson Mesa",-104.3106,36.7769
+"NM",528,"Far Northeast Highlands",-104.5899,36.256
+"NM",529,"Northeast Highlands",-105.0043,35.5325
+"NM",530,"Union County",-103.4227,36.4519
+"NM",531,"Harding County",-103.8199,35.858
+"NM",532,"Eastern San Miguel County",-104.2478,35.4424
+"NM",533,"Guadalupe County",-104.7907,34.8633
+"NM",534,"Quay County",-103.5497,35.1043
+"NM",535,"Curry County",-103.3468,34.5742
+"NM",536,"Roosevelt County",-103.4802,34.0213
+"NM",537,"De Baca County",-104.412,34.3424
+"NM",538,"Chaves County Plains",-104.3111,33.4982
+"NM",539,"Eastern Lincoln County",-105.1628,33.7904
+"NM",540,"Southwest Chaves County",-105.0958,32.8186
+"NV",1,"Mineral and Southern Lyon Counties",-118.6034,38.6067
+"NV",2,"Greater Lake Tahoe Area",-119.9149,39.2153
+"NV",3,"Greater Reno-Carson City-Minden Area",-119.6557,39.4151
+"NV",4,"Western Nevada Basin and Range including Pyramid Lake",-118.49,40.0152
+"NV",5,"Northern Washoe County",-119.6686,41.1126
+"NV",14,"Esmeralda and Central Nye County",-116.9511,37.5763
+"NV",15,"Lincoln County",-114.8708,37.6577
+"NV",16,"Northeast Clark County",-114.5106,36.5978
+"NV",17,"Western Clark and Southern Nye County",-115.9843,36.5162
+"NV",18,"Sheep Range",-115.1511,36.7787
+"NV",19,"Spring Mountains-Red Rock Canyon",-115.6791,36.2348
+"NV",20,"Las Vegas Valley",-115.1712,36.1435
+"NV",21,"Lake Mead National Recreation Area",-114.5934,35.9413
+"NV",22,"Southern Clark County",-115.0222,35.5358
+"NV",30,"Humboldt County",-118.112,41.4068
+"NV",31,"Northern Elko County",-115.5974,41.5447
+"NV",33,"Southeastern Elko County",-114.2331,40.6482
+"NV",34,"Ruby Mountains and East Humboldt Range",-115.3765,40.5818
+"NV",35,"White Pine County",-114.8971,39.4382
+"NV",36,"Northern Lander County and Northern Eureka County",-116.7009,40.4899
+"NV",37,"Southern Lander County and Southern Eureka County",-116.7096,39.6136
+"NV",38,"Southwest Elko County",-115.7303,40.7184
+"NV",39,"South Central Elko County",-114.8566,40.5796
+"NV",40,"Northwestern Nye County",-117.2124,38.6684
+"NV",41,"Northeastern Nye County",-115.8689,38.5497
+"NY",1,"Niagara",-78.7427,43.2011
+"NY",2,"Orleans",-78.2312,43.2522
+"NY",3,"Monroe",-77.6959,43.1464
+"NY",4,"Wayne",-77.0292,43.1566
+"NY",5,"Northern Cayuga",-76.6084,43.1775
+"NY",6,"Oswego",-76.1412,43.4261
+"NY",7,"Jefferson",-75.9102,44.0409
+"NY",8,"Lewis",-75.4488,43.7847
+"NY",9,"Northern Oneida",-75.4692,43.3813
+"NY",10,"Northern Erie",-78.6925,42.9375
+"NY",11,"Genesee",-78.1936,43.001
+"NY",12,"Wyoming",-78.2245,42.7023
+"NY",13,"Livingston",-77.7754,42.7281
+"NY",14,"Ontario",-77.2998,42.8529
+"NY",15,"Yates",-77.1055,42.6335
+"NY",16,"Seneca",-76.8237,42.781
+"NY",17,"Southern Cayuga",-76.5302,42.8012
+"NY",18,"Onondaga",-76.1946,43.0058
+"NY",19,"Chautauqua",-79.3664,42.2282
+"NY",20,"Cattaraugus",-78.6789,42.2486
+"NY",21,"Allegany",-78.0276,42.2574
+"NY",22,"Steuben",-77.3838,42.2678
+"NY",23,"Schuyler",-76.8752,42.3938
+"NY",24,"Chemung",-76.76,42.1413
+"NY",25,"Tompkins",-76.4737,42.452
+"NY",26,"Northern St. Lawrence",-74.9156,44.8468
+"NY",27,"Northern Franklin",-74.4258,44.9016
+"NY",28,"Eastern Clinton",-73.5131,44.8026
+"NY",29,"Southeastern St. Lawrence",-74.8555,44.3207
+"NY",30,"Southern Franklin",-74.2734,44.5162
+"NY",31,"Western Clinton",-73.7931,44.7069
+"NY",32,"Northern Herkimer",-74.9693,43.7111
+"NY",33,"Hamilton",-74.4973,43.6611
+"NY",34,"Western Essex",-73.8551,44.0851
+"NY",35,"Eastern Essex",-73.4345,44.2489
+"NY",36,"Madison",-75.6697,42.9129
+"NY",37,"Southern Oneida",-75.4068,43.12
+"NY",38,"Southern Herkimer",-74.9549,43.0923
+"NY",39,"Southern Fulton",-74.4213,43.0404
+"NY",40,"Montgomery",-74.4397,42.9023
+"NY",41,"Northern Saratoga",-73.8582,43.1808
+"NY",42,"Northern Warren",-73.8646,43.5976
+"NY",43,"Northern Washington",-73.4239,43.5196
+"NY",44,"Cortland",-76.0702,42.595
+"NY",45,"Chenango",-75.6115,42.4936
+"NY",46,"Otsego",-75.0326,42.6338
+"NY",47,"Schoharie",-74.4421,42.5882
+"NY",48,"Western Schenectady",-74.1561,42.79
+"NY",49,"Eastern Schenectady",-73.9758,42.8421
+"NY",50,"Southern Saratoga",-73.8768,42.9413
+"NY",51,"Western Albany",-74.125,42.5646
+"NY",52,"Eastern Albany",-73.8796,42.6223
+"NY",53,"Western Rensselaer",-73.6159,42.7053
+"NY",54,"Eastern Rensselaer",-73.4058,42.7167
+"NY",55,"Tioga",-76.3063,42.1703
+"NY",56,"Broome",-75.8196,42.1602
+"NY",57,"Delaware",-74.9665,42.1982
+"NY",58,"Western Greene",-74.2376,42.257
+"NY",59,"Eastern Greene",-73.9147,42.312
+"NY",60,"Western Columbia",-73.733,42.2451
+"NY",61,"Eastern Columbia",-73.536,42.2548
+"NY",62,"Sullivan",-74.7681,41.7164
+"NY",63,"Western Ulster",-74.3795,41.9216
+"NY",64,"Eastern Ulster",-74.0616,41.8336
+"NY",65,"Western Dutchess",-73.8457,41.7716
+"NY",66,"Eastern Dutchess",-73.6193,41.7574
+"NY",67,"Orange",-74.3056,41.4022
+"NY",68,"Putnam",-73.7495,41.4267
+"NY",69,"Rockland",-74.0241,41.1529
+"NY",70,"Northern Westchester",-73.7474,41.2221
+"NY",71,"Southern Westchester",-73.8998,40.9601
+"NY",72,"New York (Manhattan)",-73.9689,40.7786
+"NY",73,"Bronx",-73.8669,40.8526
+"NY",74,"Richmond (Staten Is.)",-74.1557,40.5802
+"NY",75,"Kings (Brooklyn)",-73.9472,40.6447
+"NY",78,"Northwest Suffolk",-73.1715,40.8778
+"NY",79,"Northeast Suffolk",-72.5807,40.9921
+"NY",80,"Southwest Suffolk",-73.1828,40.7503
+"NY",81,"Southeast Suffolk",-72.4592,40.9109
+"NY",82,"Northern Fulton",-74.4228,43.1615
+"NY",83,"Southeast Warren",-73.7376,43.3468
+"NY",84,"Southern Washington",-73.436,43.1564
+"NY",85,"Southern Erie",-78.7608,42.6247
+"NY",87,"Southwestern St. Lawrence",-75.306,44.5174
+"NY",176,"Northern Queens",-73.8438,40.748
+"NY",177,"Northern Nassau",-73.5976,40.8335
+"NY",178,"Southern Queens",-73.7915,40.6651
+"NY",179,"Southern Nassau",-73.5836,40.6903
+"OH",1,"Williams",-84.5882,41.5603
+"OH",2,"Fulton",-84.1301,41.6018
+"OH",3,"Lucas",-83.6586,41.62
+"OH",4,"Defiance",-84.4906,41.324
+"OH",5,"Henry",-84.0682,41.3339
+"OH",6,"Wood",-83.623,41.3617
+"OH",7,"Ottawa",-83.1467,41.5381
+"OH",8,"Sandusky",-83.145,41.3565
+"OH",9,"Erie",-82.6178,41.3635
+"OH",10,"Lorain",-82.1512,41.2955
+"OH",11,"Cuyahoga",-81.6587,41.4243
+"OH",12,"Lake",-81.237,41.6968
+"OH",13,"Geauga",-81.1786,41.4995
+"OH",14,"Ashtabula Inland",-80.743,41.6796
+"OH",15,"Paulding",-84.5801,41.1166
+"OH",16,"Putnam",-84.1317,41.0221
+"OH",17,"Hancock",-83.6665,41.0019
+"OH",18,"Seneca",-83.1277,41.1239
+"OH",19,"Huron",-82.5984,41.1462
+"OH",20,"Medina",-81.8997,41.1176
+"OH",21,"Summit",-81.5321,41.1259
+"OH",22,"Portage",-81.1962,41.1676
+"OH",23,"Trumbull",-80.7604,41.3174
+"OH",24,"Van Wert",-84.5861,40.8554
+"OH",25,"Allen",-84.1057,40.7715
+"OH",26,"Hardin",-83.6594,40.6615
+"OH",27,"Wyandot",-83.3044,40.8424
+"OH",28,"Crawford",-82.9197,40.8509
+"OH",29,"Richland",-82.5365,40.7747
+"OH",30,"Ashland",-82.2707,40.8461
+"OH",31,"Wayne",-81.8883,40.8289
+"OH",32,"Stark",-81.3659,40.8138
+"OH",33,"Mahoning",-80.7753,41.0146
+"OH",34,"Mercer",-84.6293,40.54
+"OH",35,"Auglaize",-84.2217,40.5609
+"OH",36,"Marion",-83.1609,40.5873
+"OH",37,"Morrow",-82.7941,40.524
+"OH",38,"Holmes",-81.9294,40.5612
+"OH",39,"Tuscarawas",-81.4738,40.441
+"OH",40,"Carroll",-81.0897,40.5796
+"OH",41,"Columbiana",-80.7775,40.7686
+"OH",42,"Darke",-84.6193,40.1333
+"OH",43,"Shelby",-84.2048,40.3316
+"OH",44,"Logan",-83.7658,40.3885
+"OH",45,"Union",-83.3715,40.2995
+"OH",46,"Delaware",-83.0052,40.2785
+"OH",47,"Knox",-82.4216,40.3988
+"OH",48,"Coshocton",-81.92,40.3016
+"OH",49,"Harrison",-81.0911,40.2938
+"OH",50,"Jefferson",-80.761,40.385
+"OH",51,"Miami",-84.2289,40.0534
+"OH",52,"Champaign",-83.7696,40.1378
+"OH",53,"Clark",-83.7835,39.9168
+"OH",54,"Madison",-83.3999,39.8942
+"OH",55,"Franklin",-83.0093,39.9696
+"OH",56,"Licking",-82.4835,40.0918
+"OH",57,"Muskingum",-81.9444,39.9654
+"OH",58,"Guernsey",-81.4942,40.0521
+"OH",59,"Belmont",-80.9885,40.0158
+"OH",60,"Preble",-84.6481,39.7416
+"OH",61,"Montgomery",-84.2906,39.7545
+"OH",62,"Greene",-83.8898,39.6915
+"OH",63,"Fayette",-83.4561,39.5599
+"OH",64,"Pickaway",-83.0243,39.642
+"OH",65,"Fairfield",-82.6305,39.7516
+"OH",66,"Perry",-82.2361,39.7371
+"OH",67,"Morgan",-81.8527,39.6203
+"OH",68,"Noble",-81.4555,39.766
+"OH",69,"Monroe",-81.0829,39.7274
+"OH",70,"Butler",-84.5755,39.4386
+"OH",71,"Warren",-84.1668,39.4277
+"OH",72,"Clinton",-83.8084,39.415
+"OH",73,"Ross",-83.057,39.3376
+"OH",74,"Hocking",-82.4791,39.497
+"OH",75,"Athens",-82.0452,39.3337
+"OH",76,"Washington",-81.4953,39.4553
+"OH",77,"Hamilton",-84.5426,39.1954
+"OH",78,"Clermont",-84.1522,39.0476
+"OH",79,"Brown",-83.868,38.9344
+"OH",80,"Highland",-83.6009,39.1848
+"OH",81,"Adams",-83.472,38.8457
+"OH",82,"Pike",-83.0668,39.0774
+"OH",83,"Jackson",-82.6184,39.0197
+"OH",84,"Vinton",-82.4854,39.251
+"OH",85,"Meigs",-82.0229,39.0821
+"OH",86,"Gallia",-82.3169,38.8247
+"OH",87,"Lawrence",-82.5368,38.5985
+"OH",88,"Scioto",-82.9928,38.804
+"OH",89,"Ashtabula Lakeshore",-80.7817,41.8761
+"OK",1,"Cimarron",-102.5178,36.7483
+"OK",2,"Texas",-101.49,36.7479
+"OK",3,"Beaver",-100.4767,36.7497
+"OK",4,"Harper",-99.6673,36.7887
+"OK",5,"Woods",-98.8651,36.7669
+"OK",6,"Alfalfa",-98.324,36.731
+"OK",7,"Grant",-97.7861,36.7962
+"OK",8,"Kay",-97.1439,36.818
+"OK",9,"Ellis",-99.7546,36.2183
+"OK",10,"Woodward",-99.265,36.4227
+"OK",11,"Major",-98.536,36.3116
+"OK",12,"Garfield",-97.7828,36.379
+"OK",13,"Noble",-97.2306,36.3886
+"OK",14,"Roger Mills",-99.6957,35.6883
+"OK",15,"Dewey",-99.008,35.9877
+"OK",16,"Custer",-99.0015,35.6389
+"OK",17,"Blaine",-98.4335,35.8752
+"OK",18,"Kingfisher",-97.9421,35.9454
+"OK",19,"Logan",-97.4433,35.9194
+"OK",20,"Payne",-96.9757,36.0773
+"OK",21,"Beckham",-99.682,35.2687
+"OK",22,"Washita",-98.9923,35.2904
+"OK",23,"Caddo",-98.3751,35.1744
+"OK",24,"Canadian",-97.9825,35.5425
+"OK",25,"Oklahoma",-97.4072,35.5515
+"OK",26,"Lincoln",-96.8809,35.703
+"OK",27,"Grady",-97.8841,35.017
+"OK",28,"McClain",-97.4436,35.0087
+"OK",29,"Cleveland",-97.3271,35.2036
+"OK",30,"Pottawatomie",-96.9483,35.2068
+"OK",31,"Seminole",-96.6156,35.1675
+"OK",32,"Hughes",-96.2502,35.0484
+"OK",33,"Harmon",-99.8463,34.7441
+"OK",34,"Greer",-99.5609,34.9357
+"OK",35,"Kiowa",-98.9808,34.9163
+"OK",36,"Jackson",-99.4147,34.588
+"OK",37,"Tillman",-98.9242,34.3728
+"OK",38,"Comanche",-98.4717,34.6621
+"OK",39,"Stephens",-97.8514,34.4856
+"OK",40,"Garvin",-97.3093,34.7045
+"OK",41,"Murray",-97.0679,34.4823
+"OK",42,"Pontotoc",-96.6844,34.7281
+"OK",43,"Coal",-96.2979,34.5882
+"OK",44,"Cotton",-98.3721,34.2902
+"OK",45,"Jefferson",-97.8359,34.1111
+"OK",46,"Carter",-97.2858,34.2509
+"OK",47,"Johnston",-96.6606,34.3165
+"OK",48,"Atoka",-96.0378,34.3737
+"OK",49,"Pushmataha",-95.3758,34.4162
+"OK",50,"Love",-97.2442,33.9499
+"OK",51,"Marshall",-96.7691,34.0245
+"OK",52,"Bryan",-96.26,33.9623
+"OK",53,"Choctaw",-95.5521,34.0265
+"OK",54,"Osage",-96.3984,36.6292
+"OK",55,"Washington",-95.9044,36.7152
+"OK",56,"Nowata",-95.6175,36.7985
+"OK",57,"Craig",-95.2085,36.7617
+"OK",58,"Ottawa",-94.8105,36.8355
+"OK",59,"Pawnee",-96.6993,36.3169
+"OK",60,"Tulsa",-95.9415,36.1211
+"OK",61,"Rogers",-95.6044,36.3716
+"OK",62,"Mayes",-95.2309,36.3018
+"OK",63,"Delaware",-94.8027,36.4082
+"OK",64,"Creek",-96.3709,35.9027
+"OK",65,"Okfuskee",-96.3228,35.4655
+"OK",66,"Okmulgee",-95.9643,35.6467
+"OK",67,"Wagoner",-95.5212,35.9609
+"OK",68,"Cherokee",-94.9997,35.9066
+"OK",69,"Adair",-94.6587,35.8839
+"OK",70,"Muskogee",-95.3794,35.6161
+"OK",71,"McIntosh",-95.6668,35.3737
+"OK",72,"Sequoyah",-94.7549,35.4953
+"OK",73,"Pittsburg",-95.7484,34.9239
+"OK",74,"Haskell",-95.1166,35.2248
+"OK",75,"Latimer",-95.2504,34.8761
+"OK",76,"Le Flore",-94.7035,34.9001
+"OK",77,"McCurtain",-94.7712,34.1151
+"OR",1,"North Oregon Coast",-123.8238,45.7115
+"OR",2,"Central Oregon Coast",-124.0171,44.5185
+"OR",3,"Coast Range of Northwest Oregon",-123.4856,45.685
+"OR",4,"Central Coast Range of Western Oregon",-123.69,44.3664
+"OR",5,"Lower Columbia",-123.0126,46.0335
+"OR",6,"Greater Portland Metro Area",-122.7818,45.4883
+"OR",7,"Central Willamette Valley",-123.0478,45.0538
+"OR",8,"South  Willamette Valley",-123.1391,44.4081
+"OR",10,"Northern Oregon Cascade Foothills",-122.4789,44.7955
+"OR",11,"Northern Oregon Cascades",-121.9823,44.9211
+"OR",12,"Cascade Foothills in Lane County",-122.7945,43.9187
+"OR",13,"Cascades in Lane County",-122.2506,43.8422
+"OR",14,"Upper Hood River Valley",-121.5777,45.5816
+"OR",15,"Western Columbia River Gorge",-122.0526,45.5872
+"OR",16,"Central Columbia River Gorge",-121.6091,45.6845
+"OR",21,"South Central Oregon Coast",-124.1573,43.1857
+"OR",22,"Curry County Coast",-124.3014,42.3425
+"OR",23,"Central Douglas County",-123.4502,43.2603
+"OR",24,"Eastern Curry County and Josephine County",-123.7443,42.3902
+"OR",25,"Eastern Douglas County Foothills",-122.7091,43.2383
+"OR",26,"Jackson County",-122.8457,42.4652
+"OR",27,"South Central Oregon Cascades",-122.1567,43.1876
+"OR",28,"Siskiyou Mountains and Southern Oregon Cascades",-122.4507,42.3339
+"OR",29,"Klamath Basin",-121.7222,42.3505
+"OR",30,"Northern and Eastern Klamath County and Western Lake County",-121.2476,42.7799
+"OR",31,"Central and Eastern Lake County",-120.2507,42.8105
+"OR",41,"East Columbia River Gorge",-120.7468,45.6619
+"OR",44,"Lower Columbia Basin of Oregon",-119.5702,45.7293
+"OR",49,"Grande Ronde Valley",-117.9515,45.3737
+"OR",50,"Wallowa County",-117.1835,45.4827
+"OR",61,"Harney County",-118.9679,43.064
+"OR",62,"Baker County",-117.6753,44.7092
+"OR",63,"Malheur County",-117.6604,43.123
+"OR",64,"Oregon Lower Treasure Valley",-117.1835,44.0233
+"OR",502,"Northern Blue Mountains of Oregon",-118.0041,45.6952
+"OR",503,"Southern Blue Mountains of Oregon",-118.9718,44.9813
+"OR",505,"John Day Basin",-119.7913,44.7337
+"OR",506,"Ochoco-John Day Highlands",-119.9651,44.16
+"OR",507,"Foothills of the Northern Blue Mountains of Oregon",-118.7135,45.7238
+"OR",508,"Foothills of the Southern Blue Mountains of Oregon",-120.0018,45.3452
+"OR",509,"East Slopes of the Oregon Cascades",-121.5671,44.2708
+"OR",510,"North Central Oregon",-120.9649,45.221
+"OR",511,"Central Oregon",-121.1488,44.4439
+"PA",1,"Northern Erie",-80.1245,42.1018
+"PA",2,"Southern Erie",-80.014,41.97
+"PA",3,"Crawford",-80.1063,41.6848
+"PA",4,"Warren",-79.2741,41.8147
+"PA",5,"McKean",-78.569,41.8078
+"PA",6,"Potter",-77.8958,41.745
+"PA",7,"Mercer",-80.2577,41.3022
+"PA",8,"Venango",-79.758,41.401
+"PA",9,"Forest",-79.2361,41.5132
+"PA",10,"Elk",-78.6492,41.4253
+"PA",11,"Cameron",-78.2038,41.4368
+"PA",12,"Northern Clinton",-77.7332,41.2914
+"PA",13,"Lawrence",-80.3342,40.9912
+"PA",14,"Butler",-79.913,40.9117
+"PA",15,"Clarion",-79.421,41.1925
+"PA",16,"Jefferson",-78.9995,41.1281
+"PA",17,"Clearfield",-78.4741,41.0002
+"PA",18,"Northern Centre",-78.0032,40.9895
+"PA",19,"Southern Centre",-77.7022,40.8739
+"PA",20,"Beaver",-80.3493,40.6823
+"PA",21,"Allegheny",-79.9812,40.4688
+"PA",22,"Armstrong",-79.4645,40.8125
+"PA",23,"Indiana",-79.0875,40.6521
+"PA",24,"Cambria",-78.7136,40.4954
+"PA",25,"Blair",-78.3486,40.4813
+"PA",26,"Huntingdon",-77.9812,40.417
+"PA",27,"Mifflin",-77.6171,40.6104
+"PA",28,"Juniata",-77.402,40.5311
+"PA",29,"Washington",-80.2482,40.1894
+"PA",31,"Greene",-80.2229,39.8538
+"PA",33,"Somerset",-79.0283,39.9725
+"PA",34,"Bedford",-78.4902,40.0066
+"PA",35,"Fulton",-78.1124,39.9255
+"PA",36,"Franklin",-77.7212,39.9275
+"PA",37,"Tioga",-77.2543,41.7721
+"PA",38,"Bradford",-76.5157,41.7886
+"PA",39,"Susquehanna",-75.8008,41.8214
+"PA",40,"Northern Wayne",-75.2898,41.7773
+"PA",41,"Northern Lycoming",-77.1724,41.4265
+"PA",42,"Sullivan",-76.5119,41.446
+"PA",43,"Wyoming",-76.0165,41.5184
+"PA",44,"Lackawanna",-75.6092,41.437
+"PA",45,"Southern Clinton",-77.3821,41.0789
+"PA",46,"Southern Lycoming",-76.9158,41.2287
+"PA",47,"Luzerne",-75.9889,41.1772
+"PA",48,"Pike",-75.0338,41.3321
+"PA",49,"Union",-77.0621,40.963
+"PA",50,"Snyder",-77.0701,40.77
+"PA",51,"Montour",-76.6586,41.028
+"PA",52,"Northumberland",-76.7091,40.852
+"PA",53,"Columbia",-76.4052,41.0486
+"PA",54,"Carbon",-75.7088,40.9183
+"PA",55,"Monroe",-75.3394,41.0582
+"PA",56,"Perry",-77.2622,40.3984
+"PA",57,"Dauphin",-76.7792,40.4155
+"PA",58,"Schuylkill",-76.216,40.7059
+"PA",59,"Lebanon",-76.4577,40.3672
+"PA",60,"Berks",-75.926,40.4164
+"PA",61,"Lehigh",-75.5924,40.6129
+"PA",62,"Northampton",-75.3074,40.7543
+"PA",63,"Cumberland",-77.2651,40.1637
+"PA",64,"Adams",-77.2179,39.8715
+"PA",65,"York",-76.7265,39.9199
+"PA",66,"Lancaster",-76.2477,40.0424
+"PA",70,"Delaware",-75.399,39.9167
+"PA",71,"Philadelphia",-75.1338,40.0076
+"PA",72,"Southern Wayne",-75.3213,41.4763
+"PA",73,"Westmoreland",-79.5748,40.3446
+"PA",74,"Westmoreland Ridges",-79.2326,40.2371
+"PA",75,"Fayette",-79.7718,39.9492
+"PA",76,"Fayette Ridges",-79.5173,39.8891
+"PA",101,"Western Chester",-75.8006,40.0195
+"PA",102,"Eastern Chester",-75.6776,39.9108
+"PA",103,"Western Montgomery",-75.4758,40.2763
+"PA",104,"Eastern Montgomery",-75.2419,40.1354
+"PA",105,"Upper Bucks",-75.2403,40.4395
+"PA",106,"Lower Bucks",-74.9728,40.2342
+"PR",1,"San Juan and Vicinity",-66.0981,18.371
+"PR",2,"Northeast",-65.7796,18.2861
+"PR",3,"Southeast",-66.0756,18.0258
+"PR",4,"Eastern Interior",-66.052,18.1894
+"PR",5,"North Central",-66.5309,18.4154
+"PR",6,"Central Interior",-66.4092,18.213
+"PR",7,"Ponce and Vicinity",-66.6527,18.0539
+"PR",8,"Northwest",-66.941,18.4353
+"PR",9,"Western Interior",-66.8482,18.2385
+"PR",10,"Mayaguez and Vicinity",-67.1683,18.2425
+"PR",11,"Southwest",-67.0614,18.018
+"PR",12,"Culebra",-65.2877,18.3159
+"PR",13,"Vieques",-65.4415,18.1231
+"RI",1,"Northwest Providence",-71.6203,41.8908
+"RI",2,"Southeast Providence",-71.4526,41.8121
+"RI",3,"Western Kent",-71.6637,41.6644
+"RI",4,"Eastern Kent",-71.4647,41.6861
+"RI",5,"Bristol",-71.2842,41.7161
+"RI",6,"Washington",-71.6248,41.478
+"RI",7,"Newport",-71.2366,41.556
+"RI",8,"Block Island",-71.5785,41.178
+"SC",1,"Oconee Mountains",-83.1059,34.8154
+"SC",2,"Pickens Mountains",-82.7637,34.9701
+"SC",3,"Greenville Mountains",-82.4387,35.0978
+"SC",4,"Greater Oconee",-82.9848,34.6281
+"SC",5,"Greater Pickens",-82.6904,34.8123
+"SC",6,"Greater Greenville",-82.3354,34.7881
+"SC",7,"Spartanburg",-81.9907,34.9313
+"SC",8,"Cherokee",-81.6204,35.0482
+"SC",9,"York",-81.1845,34.9747
+"SC",10,"Anderson",-82.6379,34.5191
+"SC",11,"Abbeville",-82.4587,34.2226
+"SC",12,"Laurens",-82.006,34.4836
+"SC",13,"Union",-81.6194,34.6892
+"SC",14,"Chester",-81.1595,34.6921
+"SC",15,"Lancaster",-80.7054,34.6868
+"SC",16,"Chesterfield",-80.1586,34.6397
+"SC",17,"Marlboro",-79.6786,34.602
+"SC",18,"McCormick",-82.3099,33.8996
+"SC",19,"Greenwood",-82.1259,34.1538
+"SC",20,"Newberry",-81.6001,34.2898
+"SC",21,"Fairfield",-81.1212,34.3951
+"SC",22,"Kershaw",-80.5903,34.3388
+"SC",23,"Darlington",-79.9577,34.3324
+"SC",24,"Dillon",-79.3789,34.3915
+"SC",25,"Edgefield",-81.9666,33.7723
+"SC",26,"Saluda",-81.7269,34.0061
+"SC",27,"Lexington",-81.2722,33.9022
+"SC",28,"Richland",-80.9031,34.0218
+"SC",29,"Lee",-80.2545,34.1633
+"SC",30,"Aiken",-81.6348,33.5444
+"SC",31,"Sumter",-80.3823,33.9162
+"SC",32,"Florence",-79.7028,34.0245
+"SC",33,"Marion",-79.3625,34.0801
+"SC",35,"Barnwell",-81.435,33.2661
+"SC",36,"Orangeburg",-80.8003,33.439
+"SC",37,"Calhoun",-80.7802,33.6749
+"SC",38,"Clarendon",-80.2164,33.6658
+"SC",39,"Williamsburg",-79.7277,33.6199
+"SC",40,"Allendale",-81.3581,32.9881
+"SC",41,"Bamberg",-81.0542,33.2147
+"SC",42,"Hampton",-81.1406,32.7763
+"SC",43,"Inland Colleton",-80.7029,32.9179
+"SC",44,"Dorchester",-80.4052,33.0795
+"SC",45,"Inland Berkeley",-79.9542,33.2231
+"SC",47,"Inland Jasper",-81.05,32.483
+"SC",48,"Beaufort",-80.6934,32.3569
+"SC",49,"Coastal Colleton",-80.498,32.6103
+"SC",50,"Charleston",-79.9439,32.8411
+"SC",51,"Coastal Jasper",-80.9562,32.2424
+"SC",52,"Tidal Berkeley",-79.9183,32.9612
+"SC",54,"Coastal Horry",-78.8597,33.7383
+"SC",55,"Inland Georgetown",-79.3913,33.4918
+"SC",56,"Coastal Georgetown",-79.2418,33.3522
+"SC",58,"Central Horry",-79.0138,33.8439
+"SC",59,"Northern Horry",-79.0299,34.0737
+"SD",1,"Harding",-103.4959,45.5804
+"SD",2,"Perkins",-102.4759,45.4904
+"SD",3,"Corson",-101.1969,45.7087
+"SD",4,"Campbell",-100.0517,45.7711
+"SD",5,"McPherson",-99.2215,45.7664
+"SD",6,"Brown",-98.3516,45.5898
+"SD",7,"Marshall",-97.5986,45.7586
+"SD",8,"Roberts",-96.9461,45.6296
+"SD",9,"Walworth",-100.0316,45.4299
+"SD",10,"Edmunds",-99.2156,45.4188
+"SD",11,"Day",-97.6075,45.3672
+"SD",12,"Butte",-103.5081,44.9058
+"SD",13,"Northern Meade Co Plains",-102.48,44.8216
+"SD",14,"Ziebach",-101.666,44.9806
+"SD",15,"Dewey",-100.8719,45.1566
+"SD",16,"Potter",-99.9573,45.0645
+"SD",17,"Faulk",-99.1453,45.0711
+"SD",18,"Spink",-98.3463,44.9381
+"SD",19,"Clark",-97.7295,44.8582
+"SD",20,"Codington",-97.1886,44.9778
+"SD",21,"Grant",-96.7677,45.172
+"SD",22,"Hamlin",-97.1883,44.6737
+"SD",23,"Deuel",-96.668,44.76
+"SD",24,"Northern Black Hills",-103.7872,44.2746
+"SD",25,"Northern Foot Hills",-103.7695,44.5032
+"SD",26,"Rapid City",-103.223,44.0007
+"SD",27,"Southern Foot Hills",-103.6621,43.3796
+"SD",28,"Central Black Hills",-103.6988,43.9962
+"SD",29,"Southern Black Hills",-103.7075,43.6724
+"SD",30,"Custer Co Plains",-102.9762,43.6988
+"SD",31,"Pennington Co Plains",-102.4422,44.007
+"SD",32,"Haakon",-101.54,44.2944
+"SD",33,"Stanley",-100.7359,44.4123
+"SD",34,"Sully",-100.1322,44.7155
+"SD",35,"Hughes",-99.9961,44.389
+"SD",36,"Hyde",-99.4871,44.5474
+"SD",37,"Hand",-99.005,44.5478
+"SD",38,"Beadle",-98.2782,44.4145
+"SD",39,"Kingsbury",-97.4915,44.3696
+"SD",40,"Brookings",-96.7905,44.3697
+"SD",41,"Fall River",-103.4763,43.1859
+"SD",42,"Oglala Lakota",-102.5516,43.3356
+"SD",43,"Jackson",-101.6281,43.6942
+"SD",44,"Bennett",-101.6639,43.1949
+"SD",45,"Jones",-100.6896,43.9604
+"SD",46,"Mellette",-100.7601,43.5811
+"SD",47,"Todd",-100.7184,43.1934
+"SD",48,"Lyman",-99.8474,43.8958
+"SD",49,"Tripp",-99.884,43.3459
+"SD",50,"Gregory",-99.1856,43.1924
+"SD",51,"Buffalo",-99.205,44.0763
+"SD",52,"Jerauld",-98.6298,44.0664
+"SD",53,"Sanborn",-98.0914,44.0235
+"SD",54,"Miner",-97.6102,44.022
+"SD",55,"Lake",-97.1294,44.022
+"SD",56,"Moody",-96.671,44.0221
+"SD",57,"Brule",-99.081,43.7181
+"SD",58,"Aurora",-98.5616,43.7182
+"SD",59,"Davison",-98.1461,43.675
+"SD",60,"Hanson",-97.7874,43.6748
+"SD",61,"McCook",-97.3684,43.6742
+"SD",62,"Minnehaha",-96.7914,43.6742
+"SD",63,"Charles Mix",-98.5879,43.2079
+"SD",64,"Douglas",-98.3662,43.3871
+"SD",65,"Hutchinson",-97.7546,43.3348
+"SD",66,"Turner",-97.1488,43.3108
+"SD",67,"Lincoln",-96.7219,43.2789
+"SD",68,"Bon Homme",-97.8847,42.9884
+"SD",69,"Yankton",-97.3947,43.009
+"SD",70,"Clay",-96.9757,42.9146
+"SD",71,"Union",-96.6561,42.8324
+"SD",72,"Sturgis/Piedmont Foot Hills",-103.3922,44.3335
+"SD",73,"Southern Meade Co Plains",-102.7678,44.4055
+"SD",74,"Hermosa Foot Hills",-103.2509,43.6677
+"TN",1,"Lake",-89.4935,36.3352
+"TN",2,"Obion",-89.1488,36.3582
+"TN",3,"Weakley",-88.7178,36.2983
+"TN",4,"Henry",-88.3013,36.3317
+"TN",5,"Stewart",-87.8385,36.5012
+"TN",6,"Montgomery",-87.3829,36.4969
+"TN",7,"Robertson",-86.8705,36.5254
+"TN",8,"Sumner",-86.4603,36.4694
+"TN",9,"Macon",-86.0072,36.532
+"TN",10,"Clay",-85.5438,36.5511
+"TN",11,"Pickett",-85.0748,36.5585
+"TN",12,"Scott",-84.5035,36.4286
+"TN",13,"Campbell",-84.1493,36.4036
+"TN",14,"Claiborne",-83.6604,36.4859
+"TN",15,"Hancock",-83.2219,36.5236
+"TN",16,"Hawkins",-82.9447,36.4412
+"TN",17,"Sullivan",-82.3042,36.5129
+"TN",18,"Johnson",-81.8518,36.4549
+"TN",19,"Dyer",-89.4138,36.059
+"TN",20,"Gibson",-88.9326,35.9966
+"TN",21,"Carroll",-88.4502,35.9731
+"TN",22,"Benton",-88.0683,36.0698
+"TN",23,"Houston",-87.7171,36.286
+"TN",24,"Humphreys",-87.7757,36.0408
+"TN",25,"Dickson",-87.3567,36.1491
+"TN",26,"Cheatham",-87.0868,36.2612
+"TN",27,"Davidson",-86.7848,36.1694
+"TN",28,"Wilson",-86.2976,36.1549
+"TN",29,"Trousdale",-86.1567,36.3921
+"TN",30,"Smith",-85.9567,36.2505
+"TN",31,"Jackson",-85.6732,36.3592
+"TN",32,"Putnam",-85.4951,36.1408
+"TN",33,"Overton",-85.2881,36.345
+"TN",34,"Fentress",-84.9324,36.3805
+"TN",35,"Morgan",-84.6491,36.135
+"TN",36,"Anderson",-84.1985,36.1184
+"TN",37,"Union",-83.8375,36.2879
+"TN",38,"Grainger",-83.5096,36.2762
+"TN",39,"Hamblen",-83.2666,36.2172
+"TN",40,"Northwest Cocke",-83.1536,35.9835
+"TN",41,"Cocke Smoky Mountains",-83.0743,35.8417
+"TN",42,"Northwest Greene",-82.8533,36.2009
+"TN",43,"Southeast Greene",-82.798,36.0126
+"TN",44,"Washington",-82.4974,36.2933
+"TN",45,"Unicoi",-82.4323,36.1108
+"TN",46,"Northwest Carter",-82.1633,36.3716
+"TN",47,"Southeast Carter",-82.099,36.2304
+"TN",48,"Lauderdale",-89.6314,35.7609
+"TN",49,"Tipton",-89.7594,35.4966
+"TN",50,"Haywood",-89.2838,35.5833
+"TN",51,"Crockett",-89.1395,35.8135
+"TN",52,"Madison",-88.8385,35.6082
+"TN",53,"Chester",-88.6128,35.4211
+"TN",54,"Henderson",-88.388,35.6543
+"TN",55,"Decatur",-88.1088,35.603
+"TN",56,"Perry",-87.859,35.6426
+"TN",57,"Hickman",-87.4733,35.8033
+"TN",58,"Lewis",-87.4931,35.5273
+"TN",59,"Williamson",-86.8987,35.8938
+"TN",60,"Maury",-87.077,35.617
+"TN",61,"Marshall",-86.7651,35.4689
+"TN",62,"Rutherford",-86.4167,35.8427
+"TN",63,"Cannon",-86.0617,35.8087
+"TN",64,"De Kalb",-85.8328,35.9798
+"TN",65,"White",-85.4553,35.9264
+"TN",66,"Cumberland",-84.9983,35.9504
+"TN",67,"Roane",-84.5233,35.8478
+"TN",68,"Loudon",-84.3116,35.735
+"TN",69,"Knox",-83.9371,35.9932
+"TN",70,"Jefferson",-83.4463,36.051
+"TN",71,"NW Blount",-83.9604,35.7251
+"TN",72,"Blount Smoky Mountains",-83.8315,35.5851
+"TN",73,"North Sevier",-83.5572,35.8471
+"TN",74,"Sevier Smoky Mountains",-83.4659,35.6746
+"TN",75,"Bedford",-86.4589,35.5138
+"TN",76,"Moore",-86.3588,35.2847
+"TN",77,"Coffee",-86.0748,35.4906
+"TN",78,"Warren",-85.7785,35.6787
+"TN",79,"Grundy",-85.7226,35.3884
+"TN",80,"Van Buren",-85.4525,35.696
+"TN",81,"Sequatchie",-85.4106,35.3712
+"TN",82,"Bledsoe",-85.2051,35.5964
+"TN",83,"Rhea",-84.9244,35.6087
+"TN",84,"Meigs",-84.8135,35.5127
+"TN",85,"McMinn",-84.6175,35.4248
+"TN",86,"Northwest Monroe",-84.3095,35.4861
+"TN",87,"Southeast Monroe",-84.1353,35.353
+"TN",88,"Shelby",-89.8956,35.1837
+"TN",89,"Fayette",-89.4144,35.1971
+"TN",90,"Hardeman",-88.9931,35.2069
+"TN",91,"McNairy",-88.5637,35.1746
+"TN",92,"Hardin",-88.1845,35.1987
+"TN",93,"Wayne",-87.788,35.24
+"TN",94,"Lawrence",-87.3956,35.2173
+"TN",95,"Giles",-87.0348,35.2022
+"TN",96,"Lincoln",-86.5889,35.1405
+"TN",97,"Franklin",-86.0922,35.1549
+"TN",98,"Marion",-85.622,35.1294
+"TN",99,"Hamilton",-85.1648,35.1809
+"TN",100,"Bradley",-84.8596,35.1541
+"TN",101,"West Polk",-84.5937,35.1416
+"TN",102,"East Polk",-84.4113,35.0855
+"TX",1,"Dallam",-102.6022,36.2779
+"TX",2,"Sherman",-101.8935,36.2777
+"TX",3,"Hansford",-101.3545,36.2775
+"TX",4,"Ochiltree",-100.8156,36.2784
+"TX",5,"Lipscomb",-100.2731,36.2777
+"TX",6,"Hartley",-102.6029,35.84
+"TX",7,"Moore",-101.8929,35.8377
+"TX",8,"Hutchinson",-101.3547,35.84
+"TX",9,"Roberts",-100.8134,35.8385
+"TX",10,"Hemphill",-100.2705,35.8376
+"TX",11,"Oldham",-102.6029,35.405
+"TX",12,"Potter",-101.894,35.4013
+"TX",13,"Carson",-101.3542,35.4035
+"TX",14,"Gray",-100.8126,35.4012
+"TX",15,"Wheeler",-100.2697,35.4013
+"TX",16,"Deaf Smith",-102.6049,34.966
+"TX",17,"Randall",-101.9073,34.9669
+"TX",18,"Armstrong",-101.3574,34.9649
+"TX",19,"Donley",-100.814,34.9654
+"TX",20,"Collingsworth",-100.2701,34.9649
+"TX",21,"Parmer",-102.7845,34.5301
+"TX",22,"Castro",-102.2617,34.53
+"TX",23,"Swisher",-101.735,34.5304
+"TX",24,"Briscoe",-101.2086,34.5303
+"TX",25,"Hall",-100.6811,34.5308
+"TX",26,"Childress",-100.2076,34.5292
+"TX",27,"Bailey",-102.8298,34.0685
+"TX",28,"Lamb",-102.3517,34.0686
+"TX",29,"Hale",-101.8269,34.0705
+"TX",30,"Floyd",-101.3032,34.0724
+"TX",31,"Motley",-100.7798,34.0741
+"TX",32,"Cottle",-100.2788,34.0776
+"TX",33,"Cochran",-102.8285,33.6041
+"TX",34,"Hockley",-102.3432,33.6076
+"TX",35,"Lubbock",-101.8205,33.6102
+"TX",36,"Crosby",-101.3,33.6146
+"TX",37,"Dickens",-100.7789,33.6166
+"TX",38,"King",-100.2558,33.6165
+"TX",39,"Yoakum",-102.8278,33.173
+"TX",40,"Terry",-102.3352,33.1738
+"TX",41,"Lynn",-101.8161,33.1768
+"TX",42,"Garza",-101.2984,33.1799
+"TX",43,"Kent",-100.7776,33.1814
+"TX",44,"Stonewall",-100.2533,33.1791
+"TX",45,"Gaines",-102.6352,32.7407
+"TX",46,"Dawson",-101.9477,32.7425
+"TX",47,"Borden",-101.4317,32.7437
+"TX",48,"Scurry",-100.9164,32.7463
+"TX",49,"Fisher",-100.4022,32.7428
+"TX",50,"Andrews",-102.6378,32.305
+"TX",51,"Martin",-101.9512,32.3061
+"TX",52,"Howard",-101.4355,32.3062
+"TX",53,"Mitchell",-100.9212,32.3062
+"TX",54,"Nolan",-100.4061,32.3035
+"TX",57,"Van Horn and Highway 54 Corridor",-104.6577,31.2935
+"TX",58,"Reeves County and Upper Trans Pecos",-103.847,31.4398
+"TX",59,"Loving",-103.58,31.8492
+"TX",60,"Winkler",-103.0482,31.85
+"TX",61,"Ector",-102.5428,31.8692
+"TX",62,"Midland",-102.0316,31.8692
+"TX",63,"Glasscock",-101.5208,31.8695
+"TX",64,"Sterling",-101.05,31.8279
+"TX",65,"Coke",-100.5299,31.8885
+"TX",66,"Runnels",-99.9762,31.8311
+"TX",67,"Ward",-103.1024,31.5095
+"TX",68,"Crane",-102.5155,31.4285
+"TX",69,"Upton",-102.043,31.3688
+"TX",70,"Reagan",-101.523,31.3662
+"TX",71,"Irion",-100.9824,31.3039
+"TX",72,"Tom Green",-100.4621,31.4044
+"TX",73,"Concho",-99.864,31.3265
+"TX",74,"Davis/Apache Mountains Area",-103.8904,30.7069
+"TX",75,"Pecos",-102.7236,30.7811
+"TX",76,"Crockett",-101.4121,30.723
+"TX",77,"Schleicher",-100.5385,30.8975
+"TX",78,"Sutton",-100.5382,30.4983
+"TX",79,"Presidio Valley",-104.4231,29.8384
+"TX",80,"Marfa Plateau",-104.247,30.163
+"TX",81,"Big Bend Area",-103.2188,29.729
+"TX",82,"Terrell",-102.0765,30.225
+"TX",83,"Hardeman",-99.7457,34.2903
+"TX",84,"Foard",-99.778,33.9746
+"TX",85,"Wilbarger",-99.241,34.0807
+"TX",86,"Wichita",-98.7032,33.988
+"TX",87,"Knox",-99.7414,33.6061
+"TX",88,"Baylor",-99.2135,33.6165
+"TX",89,"Archer",-98.6877,33.6153
+"TX",90,"Clay",-98.2084,33.7854
+"TX",91,"Montague",-97.7246,33.6757
+"TX",92,"Cooke",-97.2126,33.6393
+"TX",93,"Grayson",-96.6776,33.6268
+"TX",94,"Fannin",-96.1066,33.5939
+"TX",95,"Lamar",-95.5711,33.6671
+"TX",96,"Red River",-95.0504,33.6207
+"TX",97,"Bowie",-94.4229,33.4454
+"TX",98,"Haskell",-99.7303,33.1782
+"TX",99,"Throckmorton",-99.2124,33.1775
+"TX",100,"Young",-98.6878,33.1767
+"TX",101,"Jack",-98.1725,33.2335
+"TX",102,"Wise",-97.6544,33.2159
+"TX",103,"Denton",-97.1171,33.2043
+"TX",104,"Collin",-96.5724,33.1878
+"TX",105,"Hunt",-96.0854,33.1236
+"TX",106,"Delta",-95.6723,33.3863
+"TX",107,"Hopkins",-95.564,33.1495
+"TX",108,"Franklin",-95.2184,33.1756
+"TX",109,"Titus",-94.9657,33.2166
+"TX",110,"Camp",-94.9785,32.9732
+"TX",111,"Morris",-94.7326,33.1135
+"TX",112,"Cass",-94.3436,33.0775
+"TX",113,"Jones",-99.8787,32.7399
+"TX",114,"Shackelford",-99.3541,32.736
+"TX",115,"Stephens",-98.8362,32.7359
+"TX",116,"Palo Pinto",-98.313,32.7532
+"TX",117,"Parker",-97.8051,32.7776
+"TX",118,"Tarrant",-97.2919,32.7704
+"TX",119,"Dallas",-96.7779,32.7666
+"TX",120,"Rockwall",-96.4077,32.8978
+"TX",121,"Kaufman",-96.2879,32.5996
+"TX",122,"Van Zandt",-95.8365,32.5637
+"TX",123,"Rains",-95.7934,32.8703
+"TX",124,"Wood",-95.3821,32.7864
+"TX",125,"Upshur",-94.9414,32.7363
+"TX",126,"Marion",-94.3572,32.798
+"TX",127,"Taylor",-99.8901,32.3015
+"TX",128,"Callahan",-99.3735,32.2977
+"TX",129,"Eastland",-98.8323,32.3271
+"TX",130,"Erath",-98.218,32.2363
+"TX",131,"Hood",-97.8323,32.4299
+"TX",132,"Somervell",-97.7744,32.2223
+"TX",133,"Johnson",-97.3663,32.379
+"TX",134,"Ellis",-96.7945,32.3484
+"TX",135,"Henderson",-95.8538,32.2121
+"TX",136,"Smith",-95.2692,32.375
+"TX",137,"Gregg",-94.8172,32.4803
+"TX",138,"Harrison",-94.3713,32.5483
+"TX",139,"Coleman",-99.4536,31.7732
+"TX",140,"Brown",-98.9998,31.7743
+"TX",141,"Comanche",-98.5582,31.948
+"TX",142,"Mills",-98.5955,31.4952
+"TX",143,"Hamilton",-98.1107,31.7048
+"TX",144,"Bosque",-97.6343,31.9004
+"TX",145,"Hill",-97.1324,31.9907
+"TX",146,"Navarro",-96.4724,32.047
+"TX",147,"Freestone",-96.149,31.7049
+"TX",148,"Anderson",-95.6525,31.8134
+"TX",149,"Cherokee",-95.1652,31.837
+"TX",150,"Rusk",-94.7618,32.1077
+"TX",151,"Panola",-94.3056,32.1624
+"TX",152,"Nacogdoches",-94.6158,31.616
+"TX",153,"Shelby",-94.145,31.7924
+"TX",154,"McCulloch",-99.3475,31.1989
+"TX",155,"San Saba",-98.8176,31.1552
+"TX",156,"Lampasas",-98.2414,31.1962
+"TX",157,"Coryell",-97.7992,31.3909
+"TX",158,"Bell",-97.4782,31.0377
+"TX",159,"McLennan",-97.2018,31.5524
+"TX",160,"Falls",-96.9358,31.2533
+"TX",161,"Limestone",-96.5805,31.5455
+"TX",162,"Leon",-95.9957,31.2965
+"TX",163,"Houston",-95.4227,31.3178
+"TX",164,"Trinity",-95.1355,31.0888
+"TX",165,"Angelina",-94.6118,31.2548
+"TX",166,"San Augustine",-94.1682,31.3942
+"TX",167,"Sabine",-93.8518,31.3432
+"TX",168,"Menard",-99.8206,30.8898
+"TX",169,"Kimble",-99.7487,30.4868
+"TX",170,"Mason",-99.2261,30.7177
+"TX",171,"Llano",-98.684,30.7056
+"TX",172,"Burnet",-98.1824,30.7883
+"TX",173,"Williamson",-97.6008,30.6481
+"TX",174,"Milam",-96.9769,30.7863
+"TX",175,"Robertson",-96.5128,31.027
+"TX",176,"Madison",-95.9284,30.9656
+"TX",177,"Walker",-95.5722,30.739
+"TX",178,"San Jacinto",-95.1669,30.5796
+"TX",179,"Polk",-94.83,30.7928
+"TX",180,"Tyler",-94.3765,30.7712
+"TX",183,"Val Verde",-101.1517,29.893
+"TX",184,"Edwards",-100.3047,29.9826
+"TX",185,"Real",-99.8221,29.8318
+"TX",186,"Kerr",-99.3501,30.0615
+"TX",187,"Bandera",-99.2463,29.7472
+"TX",188,"Gillespie",-98.9464,30.3181
+"TX",189,"Kendall",-98.7116,29.9447
+"TX",190,"Blanco",-98.3998,30.2664
+"TX",191,"Hays",-98.0311,30.0582
+"TX",192,"Travis",-97.7819,30.3347
+"TX",193,"Bastrop",-97.3121,30.1036
+"TX",194,"Lee",-96.9657,30.3107
+"TX",195,"Burleson",-96.621,30.4924
+"TX",196,"Brazos",-96.3023,30.6611
+"TX",197,"Washington",-96.4036,30.2145
+"TX",198,"Grimes",-95.9855,30.5436
+"TX",199,"Montgomery",-95.503,30.3002
+"TX",200,"Northern Liberty",-94.8693,30.2284
+"TX",201,"Hardin",-94.3903,30.3324
+"TX",202,"Kinney",-100.418,29.3502
+"TX",203,"Uvalde",-99.7622,29.3573
+"TX",204,"Medina",-99.1101,29.3557
+"TX",205,"Bexar",-98.5199,29.4491
+"TX",206,"Comal",-98.2782,29.8082
+"TX",207,"Guadalupe",-97.9484,29.5831
+"TX",208,"Caldwell",-97.62,29.8372
+"TX",209,"Fayette",-96.9198,29.8768
+"TX",210,"Colorado",-96.5263,29.6208
+"TX",211,"Austin",-96.278,29.887
+"TX",212,"Waller",-95.9877,30.0111
+"TX",213,"Inland Harris",-95.459,29.8829
+"TX",214,"Chambers",-94.6073,29.739
+"TX",215,"Jefferson",-94.1722,29.8838
+"TX",216,"Orange",-93.8965,30.1281
+"TX",217,"Maverick",-100.3145,28.7426
+"TX",218,"Zavala",-99.7606,28.8662
+"TX",219,"Frio",-99.1083,28.8678
+"TX",220,"Atascosa",-98.5279,28.8907
+"TX",221,"Wilson",-98.0866,29.1741
+"TX",222,"Karnes",-97.8594,28.9057
+"TX",223,"Gonzales",-97.4925,29.4567
+"TX",224,"De Witt",-97.3568,29.0821
+"TX",225,"Lavaca",-96.9302,29.3843
+"TX",226,"Wharton",-96.2221,29.2779
+"TX",227,"Fort Bend",-95.7707,29.5274
+"TX",228,"Dimmit",-99.7567,28.4225
+"TX",229,"La Salle",-99.0997,28.3451
+"TX",230,"McMullen",-98.5675,28.3491
+"TX",231,"Live Oak",-98.1248,28.3514
+"TX",232,"Bee",-97.7412,28.4174
+"TX",233,"Goliad",-97.4264,28.6571
+"TX",234,"Victoria",-96.9715,28.7964
+"TX",235,"Inland Jackson",-96.6044,29.0039
+"TX",236,"Inland Matagorda",-96.0201,28.9561
+"TX",237,"Inland Brazoria",-95.5128,29.269
+"TX",238,"Inland Galveston",-95.132,29.4207
+"TX",239,"Webb",-99.3316,27.7611
+"TX",240,"Duval",-98.5089,27.6813
+"TX",241,"Jim Wells",-98.0902,27.731
+"TX",242,"Inland Kleberg",-97.8503,27.4319
+"TX",243,"Inland Nueces",-97.7226,27.7423
+"TX",244,"Inland San Patricio",-97.5879,28.0275
+"TX",245,"Coastal Aransas",-97.0065,28.1558
+"TX",246,"Inland Refugio",-97.208,28.3407
+"TX",247,"Inland Calhoun",-96.7923,28.5677
+"TX",248,"Zapata",-99.1686,27.0008
+"TX",249,"Jim Hogg",-98.6973,27.0434
+"TX",250,"Brooks",-98.2187,27.0316
+"TX",251,"Inland Kenedy",-97.7793,26.9205
+"TX",252,"Starr",-98.7384,26.5621
+"TX",253,"Southern Hidalgo",-98.1789,26.2769
+"TX",254,"Inland Willacy",-97.7187,26.4665
+"TX",255,"Inland Cameron",-97.5793,26.1202
+"TX",256,"Coastal Willacy",-97.4415,26.4917
+"TX",257,"Coastal Cameron",-97.3143,26.1683
+"TX",258,"Guadalupe Mountains",-104.7042,31.9002
+"TX",259,"Northern Jasper",-94.0341,30.8641
+"TX",260,"Northern Newton",-93.7287,30.8876
+"TX",261,"Southern Jasper",-93.9977,30.3824
+"TX",262,"Southern Newton",-93.8089,30.383
+"TX",300,"Southern Liberty",-94.6771,29.9703
+"TX",313,"Coastal Harris",-95.0568,29.7281
+"TX",317,"Palo Duro Canyon",-101.6778,34.9436
+"TX",335,"Coastal Jackson",-96.4773,28.7655
+"TX",336,"Coastal Matagorda",-95.9366,28.7695
+"TX",337,"Coastal Brazoria",-95.3623,29.0676
+"TX",338,"Coastal Galveston",-95.0028,29.3887
+"TX",342,"Coastal Kleberg",-97.4768,27.4408
+"TX",343,"Coastal Nueces",-97.4107,27.6637
+"TX",344,"Coastal San Patricio",-97.2647,27.9431
+"TX",345,"Aransas Islands",-96.9391,28.0051
+"TX",346,"Coastal Refugio",-97.0145,28.2777
+"TX",347,"Coastal Calhoun",-96.5835,28.5117
+"TX",351,"Coastal Kenedy",-97.4956,26.9556
+"TX",353,"Northern Hidalgo",-98.1849,26.6133
+"TX",418,"Western El Paso County",-106.5545,31.8934
+"TX",419,"Eastern/Central El Paso County",-106.2948,31.8096
+"TX",420,"Northern Hudspeth Highlands/Hueco Mountains",-105.7878,31.7056
+"TX",421,"Salt Basin",-105.2179,31.7396
+"TX",422,"Southern Hudspeth Highlands",-105.1931,31.1872
+"TX",423,"Rio Grande Valley of Eastern El Paso/Western Hudspeth Counties",-105.8908,31.3634
+"TX",424,"Rio Grande Valley of Eastern Hudspeth County",-105.2704,30.8823
+"TX",436,"Matagorda Islands",-95.9674,28.6248
+"TX",437,"Brazoria Islands",-95.3005,28.9671
+"TX",438,"Galveston Island and Bolivar Peninsula",-94.7227,29.3757
+"TX",442,"Kleberg Islands",-97.3101,27.4267
+"TX",443,"Nueces Islands",-97.1651,27.7078
+"TX",447,"Calhoun Islands",-96.6387,28.2324
+"UT",1,"Cache Valley/Utah Portion",-111.9057,41.7967
+"UT",2,"Northern Wasatch Front",-112.19,41.2847
+"UT",3,"Salt Lake and Tooele Valleys",-112.2347,40.5032
+"UT",4,"Southern Wasatch Front",-111.8946,40.1014
+"UT",5,"Great Salt Lake Desert and Mountains",-113.2032,40.9649
+"UT",6,"Wasatch Mountain Valleys",-111.526,40.8254
+"UT",7,"Wasatch Mountains I-80 North",-111.4916,41.4529
+"UT",8,"Wasatch Mountains South of I-80",-111.609,40.2134
+"UT",9,"Western Uinta Mountains",-110.7311,40.6931
+"UT",10,"Wasatch Plateau/Book Cliffs",-110.7601,39.804
+"UT",11,"Western Uinta Basin",-110.3188,40.2456
+"UT",12,"Castle Country",-110.8643,39.3515
+"UT",13,"San Rafael Swell",-110.6431,38.5331
+"UT",14,"Sanpete/Sevier Valleys",-111.8653,39.2236
+"UT",15,"West Central Utah",-113.1318,39.2847
+"UT",16,"Southwest Utah",-113.4582,38.1009
+"UT",19,"Utah's Dixie and Zion National Park",-113.5478,37.1699
+"UT",20,"South Central Utah",-111.8223,37.3608
+"UT",21,"Glen Canyon Recreation Area/Lake Powell",-110.8317,37.3392
+"UT",22,"Southeast Utah",-109.6517,37.2729
+"UT",23,"Eastern Uinta Mountains",-109.5041,40.7677
+"UT",24,"Eastern Uinta Basin",-109.538,40.2152
+"UT",25,"Tavaputs Plateau",-109.5696,39.4851
+"UT",27,"Arches/Grand Flat",-109.5569,38.8576
+"UT",28,"La Sal and Abajo Mountains",-109.3836,38.047
+"UT",29,"Canyonlands/Natural Bridges",-110.0067,37.8442
+"UT",517,"Central and Southwest Mountains",-111.7691,38.9735
+"UT",518,"Southern Utah Mountains",-112.4023,37.8751
+"VA",1,"Lee",-83.1285,36.7055
+"VA",2,"Wise",-82.6213,36.9745
+"VA",3,"Dickenson",-82.3503,37.1258
+"VA",4,"Buchanan",-82.036,37.2666
+"VA",5,"Scott",-82.603,36.7142
+"VA",6,"Russell",-82.0956,36.9338
+"VA",7,"Tazewell",-81.5606,37.125
+"VA",8,"Washington",-81.9642,36.7221
+"VA",9,"Smyth",-81.537,36.8439
+"VA",10,"Bland",-81.1302,37.134
+"VA",11,"Giles",-80.7037,37.3141
+"VA",12,"Wythe",-81.0786,36.9171
+"VA",13,"Pulaski",-80.7143,37.0636
+"VA",14,"Montgomery",-80.3913,37.1727
+"VA",15,"Grayson",-81.225,36.6566
+"VA",16,"Carroll",-80.737,36.7304
+"VA",17,"Floyd",-80.3626,36.9315
+"VA",18,"Craig",-80.2123,37.4813
+"VA",19,"Alleghany",-80.0067,37.7875
+"VA",20,"Bath",-79.7411,38.0587
+"VA",22,"Roanoke",-80.052,37.2714
+"VA",23,"Botetourt",-79.8123,37.5571
+"VA",24,"Rockbridge",-79.4465,37.8136
+"VA",25,"Augusta",-79.1425,38.1779
+"VA",26,"Rockingham",-78.8879,38.5198
+"VA",27,"Shenandoah",-78.5704,38.8585
+"VA",28,"Frederick",-78.2606,39.2039
+"VA",29,"Page",-78.4934,38.6395
+"VA",30,"Warren",-78.2065,38.9141
+"VA",31,"Clarke",-77.9966,39.1122
+"VA",32,"Patrick",-80.2843,36.6784
+"VA",33,"Franklin",-79.881,36.992
+"VA",34,"Bedford",-79.5242,37.3152
+"VA",35,"Amherst",-79.1451,37.6048
+"VA",36,"Nelson",-78.857,37.7675
+"VA",37,"Albemarle",-78.545,38.0148
+"VA",38,"Greene",-78.4462,38.2769
+"VA",39,"Madison",-78.2562,38.3873
+"VA",40,"Rappahannock",-78.1351,38.6753
+"VA",43,"Henry",-79.8736,36.6828
+"VA",44,"Pittsylvania",-79.3976,36.8111
+"VA",45,"Campbell",-79.1048,37.2231
+"VA",46,"Appomattox",-78.8121,37.3722
+"VA",47,"Buckingham",-78.5287,37.5722
+"VA",48,"Fluvanna",-78.2774,37.8419
+"VA",50,"Orange",-78.0134,38.2463
+"VA",51,"Culpeper",-77.9559,38.4861
+"VA",52,"Prince William/Manassas/Manassas Park",-77.2826,38.5711
+"VA",53,"Fairfax",-77.1783,38.6974
+"VA",54,"Arlington/Falls Church/Alexandria",-77.0989,38.8577
+"VA",55,"Stafford",-77.3287,38.3825
+"VA",56,"Spotsylvania",-77.6525,38.1882
+"VA",57,"King George",-77.0516,38.3151
+"VA",58,"Halifax",-78.9367,36.767
+"VA",59,"Charlotte",-78.6616,37.0116
+"VA",60,"Prince Edward",-78.4411,37.2243
+"VA",61,"Cumberland",-78.245,37.512
+"VA",62,"Goochland",-77.9164,37.722
+"VA",64,"Caroline",-77.3475,38.0272
+"VA",65,"Mecklenburg",-78.3627,36.6804
+"VA",66,"Lunenburg",-78.2406,36.9462
+"VA",67,"Nottoway",-78.0512,37.1431
+"VA",68,"Amelia",-77.9761,37.336
+"VA",69,"Powhatan",-77.9152,37.5502
+"VA",75,"Westmoreland",-76.7252,38.1366
+"VA",76,"Richmond",-76.7671,37.8881
+"VA",77,"Northumberland",-76.4233,37.8875
+"VA",78,"Lancaster",-76.4639,37.7367
+"VA",79,"Brunswick",-77.859,36.7648
+"VA",80,"Dinwiddie",-77.6323,37.0759
+"VA",81,"Prince George",-77.2389,37.1915
+"VA",82,"Charles City",-77.0613,37.3565
+"VA",83,"New Kent",-76.9972,37.5052
+"VA",84,"Gloucester",-76.4883,37.3643
+"VA",85,"Middlesex",-76.5151,37.6424
+"VA",86,"Mathews",-76.3392,37.4632
+"VA",87,"Greensville",-77.559,36.6763
+"VA",88,"Sussex",-77.2618,36.9218
+"VA",89,"Surry",-76.9008,37.1089
+"VA",90,"James City",-76.8324,37.2297
+"VA",92,"Southampton",-77.1043,36.7196
+"VA",93,"Isle of Wight",-76.7269,36.8908
+"VA",95,"Norfolk/Portsmouth",-76.326,36.8804
+"VA",96,"Suffolk",-76.5046,36.8717
+"VA",97,"Chesapeake",-76.3024,36.6778
+"VA",98,"Virginia Beach",-76.0571,36.7494
+"VA",99,"Accomack",-75.6471,37.766
+"VA",100,"Northampton",-75.8995,37.3566
+"VA",501,"Northern Fauquier",-77.8851,38.854
+"VA",502,"Southern Fauquier",-77.7154,38.5953
+"VA",503,"Western Highland",-79.6618,38.4256
+"VA",504,"Eastern Highland",-79.523,38.3315
+"VA",505,"Western Loudoun",-77.6963,39.1337
+"VA",506,"Eastern Loudoun",-77.5151,39.0052
+"VA",507,"Northern Virginia Blue Ridge",-78.4042,38.5375
+"VA",508,"Central Virginia Blue Ridge",-78.9316,37.998
+"VA",509,"Western Louisa",-78.1061,38.0408
+"VA",510,"Eastern Louisa",-77.8608,37.9335
+"VA",511,"Western Hanover",-77.5823,37.809
+"VA",512,"Eastern Hanover",-77.2793,37.6471
+"VA",513,"Western Chesterfield",-77.6693,37.4096
+"VA",514,"Eastern Chesterfield (Including Col. Heights)",-77.4486,37.3244
+"VA",515,"Western Henrico (Including the City of Richmond)",-77.5196,37.5912
+"VA",516,"Eastern Henrico",-77.3176,37.4797
+"VA",517,"Western King William",-77.1886,37.772
+"VA",518,"Eastern King William",-76.9564,37.6205
+"VA",519,"Western King and Queen",-77.0678,37.852
+"VA",520,"Eastern King and Queen",-76.7997,37.6445
+"VA",521,"Western Essex",-77.0061,37.9924
+"VA",522,"Eastern Essex",-76.7596,37.847
+"VA",523,"York",-76.5643,37.2374
+"VA",524,"Newport News",-76.5189,37.1051
+"VA",525,"Hampton/Poquoson",-76.3389,37.1081
+"VI",1,"St.Thomas...St. John.. and Adjacent Islands",-64.8564,18.3429
+"VI",2,"St Croix",-64.7677,17.7333
+"VT",1,"Grand Isle",-73.2948,44.7968
+"VT",2,"Western Franklin",-73.034,44.8517
+"VT",3,"Orleans",-72.2438,44.8288
+"VT",4,"Essex",-71.7364,44.7281
+"VT",5,"Western Chittenden",-73.1562,44.4793
+"VT",6,"Lamoille",-72.6414,44.6057
+"VT",7,"Caledonia",-72.1022,44.4647
+"VT",8,"Washington",-72.6149,44.2734
+"VT",9,"Western Addison",-73.2394,44.0215
+"VT",10,"Orange",-72.3769,44.0056
+"VT",11,"Western Rutland",-73.1398,43.5856
+"VT",12,"Windsor",-72.5855,43.5798
+"VT",13,"Bennington",-73.0929,43.0355
+"VT",14,"Western Windham",-72.7867,43.0015
+"VT",15,"Eastern Windham",-72.5583,42.9675
+"VT",16,"Eastern Franklin",-72.7255,44.8662
+"VT",17,"Eastern Chittenden",-72.9287,44.4237
+"VT",18,"Eastern Addison",-72.9674,44.0466
+"VT",19,"Eastern Rutland",-72.8735,43.5713
+"WA",1,"San Juan County",-122.9627,48.5786
+"WA",19,"South Washington Cascades",-121.9845,46.099
+"WA",20,"Willapa Hills",-123.4245,46.5019
+"WA",21,"South Washington Coast",-123.7975,46.4855
+"WA",22,"Lower Columbia and I - 5 Corridor in Cowlitz County",-122.9421,46.1857
+"WA",24,"Eastern Columbia River Gorge of Washington",-120.844,45.7215
+"WA",26,"Kittitas Valley",-120.3139,46.9429
+"WA",27,"Yakima Valley",-120.3197,46.4366
+"WA",28,"Lower Columbia Basin of Washington",-119.1826,46.3371
+"WA",29,"Foothills of the Blue Mountains of Washington",-118.2123,46.3118
+"WA",30,"Northwest Blue Mountains",-117.8128,46.1508
+"WA",31,"Northeast Blue Mountains",-117.3899,46.1967
+"WA",32,"Lower Garfield and Asotin Counties",-117.3795,46.422
+"WA",33,"Washington Palouse",-117.5068,46.9272
+"WA",34,"Moses Lake Area",-119.4918,47.0108
+"WA",35,"Upper Columbia Basin",-118.6116,47.3555
+"WA",36,"Spokane Area",-117.613,47.6181
+"WA",37,"Northeast Mountains",-117.6152,48.4082
+"WA",38,"Okanogan Highlands",-118.6987,48.5329
+"WA",39,"Greater Vancouver Area",-122.5253,45.7396
+"WA",40,"South Washington Cascade Foothills",-122.5017,46.0339
+"WA",41,"Wenatchee Area",-120.2222,47.6296
+"WA",42,"East Slopes Northern Cascades",-120.4162,48.2897
+"WA",43,"Okanogan Valley",-119.4519,48.3496
+"WA",44,"Waterville Plateau",-119.6829,47.6675
+"WA",45,"Western Columbia River Gorge",-122.0882,45.6383
+"WA",46,"Central Columbia River Gorge",-121.669,45.7345
+"WA",503,"Western Whatcom County",-122.4772,48.8588
+"WA",504,"Southwest Interior",-122.8973,46.7201
+"WA",506,"Western Skagit County",-122.3668,48.4646
+"WA",507,"Everett and Vicinity",-122.2545,48.0549
+"WA",509,"Tacoma Area",-122.5041,47.1703
+"WA",510,"Admiralty Inlet Area",-122.6411,48.1133
+"WA",511,"Hood Canal Area",-122.967,47.4978
+"WA",512,"Lower Chehalis Valley Area",-123.5111,47.0579
+"WA",513,"Olympics",-123.599,47.7525
+"WA",514,"Eastern Strait of Juan de Fuca",-123.2615,48.076
+"WA",515,"Western Strait of Juan De Fuca",-124.1471,48.1845
+"WA",516,"North Coast",-124.4067,47.9309
+"WA",517,"Central Coast",-124.0271,47.1902
+"WA",520,"East Slopes of the Washington Cascades",-121.0588,46.7633
+"WA",521,"Simcoe Highlands",-120.6477,45.9755
+"WA",555,"East Puget Sound Lowlands",-122.0086,47.5465
+"WA",556,"Bellevue and Vicinity",-122.144,47.6634
+"WA",558,"Seattle and Vicinity",-122.3035,47.4846
+"WA",559,"Bremerton and Vicinity",-122.6415,47.5685
+"WA",567,"West Slopes North Cascades and Passes",-121.5187,48.6678
+"WA",568,"West Slopes North Central Cascades and Passes",-121.4861,47.8035
+"WA",569,"West Slopes South Central Cascades and Passes",-121.9065,46.7229
+"WI",1,"Douglas",-91.9147,46.4309
+"WI",2,"Bayfield",-91.2006,46.5241
+"WI",3,"Ashland",-90.6781,46.3148
+"WI",4,"Iron",-90.242,46.2623
+"WI",5,"Vilas",-89.5148,46.0529
+"WI",6,"Burnett",-92.3676,45.8627
+"WI",7,"Washburn",-91.7912,45.8993
+"WI",8,"Sawyer",-91.1447,45.88
+"WI",9,"Price",-90.3614,45.6804
+"WI",10,"Oneida",-89.5217,45.7056
+"WI",11,"Forest",-88.7704,45.6673
+"WI",12,"Florence",-88.3982,45.8484
+"WI",13,"Northern Marinette County",-88.109,45.5511
+"WI",14,"Polk",-92.4414,45.4614
+"WI",15,"Barron",-91.8484,45.4238
+"WI",16,"Rusk",-91.1331,45.4751
+"WI",17,"Taylor",-90.5012,45.2115
+"WI",18,"Lincoln",-89.7346,45.3375
+"WI",19,"Langlade",-89.0719,45.2624
+"WI",20,"Menominee",-88.71,45.0044
+"WI",21,"Northern Oconto County",-88.4257,45.2006
+"WI",22,"Door",-87.3173,44.9436
+"WI",23,"St. Croix",-92.4528,45.034
+"WI",24,"Pierce",-92.4224,44.7196
+"WI",25,"Dunn",-91.8964,44.9466
+"WI",26,"Pepin",-92.0016,44.5829
+"WI",27,"Chippewa",-91.2799,45.0694
+"WI",28,"Eau Claire",-91.286,44.7268
+"WI",29,"Clark",-90.6121,44.7347
+"WI",30,"Marathon",-89.759,44.8983
+"WI",31,"Shawano",-88.7656,44.7892
+"WI",32,"Buffalo",-91.7545,44.3799
+"WI",33,"Trempealeau",-91.3585,44.304
+"WI",34,"Jackson",-90.8052,44.3191
+"WI",35,"Wood",-90.0416,44.4553
+"WI",36,"Portage",-89.5015,44.476
+"WI",37,"Waupaca",-88.9648,44.4704
+"WI",38,"Outagamie",-88.4649,44.4161
+"WI",39,"Brown",-88.0032,44.4537
+"WI",40,"Kewaunee",-87.6154,44.5161
+"WI",41,"La Crosse",-91.1152,43.9065
+"WI",42,"Monroe",-90.6179,43.9457
+"WI",43,"Juneau",-90.114,43.9245
+"WI",44,"Adams",-89.7706,43.9696
+"WI",45,"Waushara",-89.2429,44.1131
+"WI",46,"Marquette",-89.3988,43.8196
+"WI",47,"Green Lake",-89.045,43.8003
+"WI",48,"Winnebago",-88.6446,44.0689
+"WI",49,"Calumet",-88.218,44.0817
+"WI",50,"Manitowoc",-87.8096,44.1198
+"WI",51,"Fond Du Lac",-88.4882,43.7536
+"WI",52,"Sheboygan",-87.9454,43.7212
+"WI",53,"Vernon",-90.8344,43.5939
+"WI",54,"Crawford",-90.931,43.2395
+"WI",55,"Richland",-90.4295,43.3756
+"WI",56,"Sauk",-89.9484,43.4268
+"WI",57,"Columbia",-89.3338,43.4665
+"WI",58,"Dodge",-88.7075,43.4164
+"WI",59,"Washington",-88.2308,43.3684
+"WI",60,"Ozaukee",-87.9515,43.3838
+"WI",61,"Grant",-90.7062,42.8675
+"WI",62,"Iowa",-90.1354,43.0005
+"WI",63,"Dane",-89.4183,43.0674
+"WI",64,"Jefferson",-88.7759,43.0209
+"WI",65,"Waukesha",-88.3045,43.0181
+"WI",66,"Milwaukee",-87.9667,43.007
+"WI",67,"Lafayette",-90.1317,42.6605
+"WI",68,"Green",-89.6022,42.68
+"WI",69,"Rock",-89.0716,42.6712
+"WI",70,"Walworth",-88.5419,42.6685
+"WI",71,"Racine",-88.0551,42.7477
+"WI",72,"Kenosha",-88.0418,42.5767
+"WI",73,"Southern Marinette County",-87.9475,45.1874
+"WI",74,"Southern Oconto County",-88.139,44.8829
+"WV",1,"Hancock",-80.5739,40.5213
+"WV",2,"Brooke",-80.5765,40.2733
+"WV",3,"Ohio",-80.6189,40.0969
+"WV",4,"Marshall",-80.6634,39.8606
+"WV",5,"Wayne",-82.427,38.1461
+"WV",6,"Cabell",-82.2417,38.4203
+"WV",7,"Mason",-82.0265,38.7698
+"WV",8,"Jackson",-81.6748,38.8344
+"WV",9,"Wood",-81.515,39.2111
+"WV",10,"Pleasants",-81.1606,39.3709
+"WV",11,"Tyler",-80.8849,39.4653
+"WV",12,"Wetzel",-80.6391,39.6053
+"WV",13,"Lincoln",-82.0705,38.1753
+"WV",14,"Putnam",-81.909,38.5086
+"WV",15,"Kanawha",-81.5281,38.3365
+"WV",16,"Roane",-81.3483,38.714
+"WV",17,"Wirt",-81.3786,39.0224
+"WV",18,"Calhoun",-81.1175,38.8445
+"WV",19,"Ritchie",-81.0629,39.1783
+"WV",20,"Doddridge",-80.707,39.2692
+"WV",21,"Marion",-80.2434,39.51
+"WV",24,"Mingo",-82.1346,37.7264
+"WV",25,"Logan",-81.9353,37.8316
+"WV",26,"Boone",-81.7113,38.0231
+"WV",27,"Clay",-81.075,38.4626
+"WV",28,"Braxton",-80.7193,38.6998
+"WV",29,"Gilmer",-80.8571,38.9241
+"WV",30,"Lewis",-80.5022,38.9958
+"WV",31,"Harrison",-80.3798,39.2835
+"WV",32,"Taylor",-80.0461,39.336
+"WV",33,"McDowell",-81.6536,37.3785
+"WV",34,"Wyoming",-81.5491,37.6096
+"WV",39,"Upshur",-80.2334,38.8978
+"WV",40,"Barbour",-80.003,39.1329
+"WV",42,"Mercer",-81.1114,37.4055
+"WV",43,"Summers",-80.8586,37.6559
+"WV",44,"Monroe",-80.5505,37.5604
+"WV",50,"Hampshire",-78.6142,39.3171
+"WV",51,"Morgan",-78.2578,39.5604
+"WV",52,"Berkeley",-78.0275,39.4641
+"WV",53,"Jefferson",-77.8628,39.3076
+"WV",55,"Hardy",-78.8579,39.0075
+"WV",501,"Western Grant",-79.2694,39.1678
+"WV",502,"Eastern Grant",-79.1316,39.0509
+"WV",503,"Western Mineral",-79.1158,39.3868
+"WV",504,"Eastern Mineral",-78.8872,39.4239
+"WV",505,"Western Pendleton",-79.4656,38.7534
+"WV",506,"Eastern Pendleton",-79.2919,38.6434
+"WV",507,"Eastern Greenbrier",-80.3466,37.8836
+"WV",508,"Western Greenbrier",-80.5953,38.0317
+"WV",509,"Monongalia",-80.0765,39.6392
+"WV",510,"Ridges of Eastern Monongalia and Northwestern Preston",-79.8291,39.5918
+"WV",511,"Preston",-79.7403,39.5
+"WV",512,"Eastern Preston",-79.5903,39.4258
+"WV",513,"Western Tucker",-79.6972,39.1581
+"WV",514,"Eastern Tucker",-79.4704,39.0818
+"WV",515,"Northwest Raleigh",-81.3664,37.8161
+"WV",516,"Southeast Raleigh",-81.1069,37.7176
+"WV",517,"Northwest Fayette",-81.1524,38.0706
+"WV",518,"Southeast Fayette",-80.9236,37.9363
+"WV",519,"Northwest Nicholas",-80.8475,38.3226
+"WV",520,"Southeast Nicholas",-80.6461,38.1937
+"WV",521,"Northwest Webster",-80.4692,38.5398
+"WV",522,"Southeast Webster",-80.3419,38.4185
+"WV",523,"Northwest Pocahontas",-79.9797,38.429
+"WV",524,"Southeast Pocahontas",-80.0388,38.2241
+"WV",525,"Northwest Randolph",-79.9622,38.8495
+"WV",526,"Southeast Randolph",-79.8239,38.7298
+"WY",1,"Yellowstone National Park",-110.5469,44.5976
+"WY",2,"Absaroka Mountains",-109.5521,44.2172
+"WY",3,"Cody Foothills",-109.0463,44.4594
+"WY",4,"North Big Horn Basin",-108.3008,44.5447
+"WY",5,"Southwest Big Horn Basin",-108.2779,43.7774
+"WY",6,"Southeast Big Horn Basin",-107.8197,43.9423
+"WY",7,"Owl Creek and Bridger Mountains",-108.2336,43.573
+"WY",8,"Bighorn Mountains West",-107.4682,44.2518
+"WY",9,"Bighorn Mountains Southeast",-107.0263,43.9099
+"WY",10,"Northeast Johnson County",-106.4299,44.368
+"WY",11,"Southeast Johnson County",-106.4368,43.8206
+"WY",12,"Teton and Gros Ventre Mountains",-110.5055,43.6883
+"WY",13,"Jackson Hole",-110.6864,43.6458
+"WY",14,"Wind River Mountains West",-109.4923,42.9092
+"WY",15,"Wind River Mountains East",-109.2855,43.0496
+"WY",16,"Upper Wind River Basin",-109.339,43.4505
+"WY",17,"Wind River Basin",-108.2754,43.1357
+"WY",18,"Lander Foothills",-108.6388,42.797
+"WY",19,"Green Mountains and Rattlesnake Range",-107.9137,42.4379
+"WY",20,"Natrona County Lower Elevations",-106.6783,43.066
+"WY",21,"Southwest Wyoming",-110.5476,41.2876
+"WY",22,"Casper Mountain",-106.2637,42.6061
+"WY",23,"Star Valley",-110.982,42.8634
+"WY",24,"Salt River and Wyoming Ranges",-110.6654,42.5626
+"WY",25,"Upper Green River Basin Foothills",-110.0392,42.9803
+"WY",26,"Upper Green River Basin",-109.7743,42.3437
+"WY",27,"South Lincoln County",-110.5572,41.8212
+"WY",28,"Rock Springs and Green River",-109.6723,41.5579
+"WY",29,"Flaming Gorge",-109.4375,41.2424
+"WY",30,"East Sweetwater County",-108.4192,41.5802
+"WY",54,"Northern Campbell",-105.5497,44.596
+"WY",55,"Southern Campbell",-105.5478,43.8436
+"WY",56,"Western Crook",-104.8016,44.6113
+"WY",57,"Wyoming Black Hills",-104.3123,44.391
+"WY",58,"Weston",-104.6212,43.8072
+"WY",71,"Northeastern Crook",-104.1767,44.8506
+"WY",98,"Northeast Big Horn Mountains",-107.492,44.7782
+"WY",99,"Sheridan Foothills",-106.6544,44.7944
+"WY",101,"Converse County Lower Elevations",-105.4593,43.074
+"WY",102,"Niobrara County",-104.4754,43.0565
+"WY",103,"North Laramie Range",-105.6241,42.3535
+"WY",104,"Ferris/Seminoe/Shirley Mountains",-106.878,42.2707
+"WY",105,"Shirley Basin",-106.0943,42.134
+"WY",106,"Central Laramie Range and Southwest Platte County",-105.2243,41.8778
+"WY",107,"East Platte County",-104.8821,42.2373
+"WY",108,"Goshen County",-104.3533,42.088
+"WY",109,"Central Carbon County",-107.103,41.8204
+"WY",110,"North Snowy Range Foothills",-106.259,41.6904
+"WY",111,"Southwest Carbon County",-107.7097,41.2862
+"WY",112,"Sierra Madre Range",-107.099,41.1695
+"WY",113,"Upper North Platte River Basin",-106.7713,41.3867
+"WY",114,"Snowy Range",-106.3148,41.3101
+"WY",115,"Laramie Valley",-105.7614,41.4005
+"WY",116,"South Laramie Range",-105.3769,41.2851
+"WY",117,"South Laramie Range Foothills",-105.0324,41.3136
+"WY",118,"Central Laramie County",-104.6546,41.3277
+"WY",119,"East Laramie County",-104.2337,41.2851

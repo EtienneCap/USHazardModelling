@@ -1,4 +1,4 @@
-/Data/*
+#/Data/*
 /Data_zip.zip
 .Rproj.user
 *.Rproj
