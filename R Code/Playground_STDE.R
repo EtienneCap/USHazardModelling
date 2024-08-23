@@ -27,7 +27,7 @@ contour(x, y, z, main = "Intensity plot", xlab = "X", ylab = "Y")
 
 # Homogeneous poisson process
 
-lambda = 500
+lambda = 75
 
 t_mesh = seq(0, 10, length.out = 21)
 
@@ -139,7 +139,7 @@ mesh_time = seq(range(time_locations)[1], range(time_locations)[2], length.out =
 
 
 
-lambda_space = 1e-2
+lambda_space = 1e-3
 lambda_time = 1e-2
 
 
@@ -160,8 +160,8 @@ mean_sol_STDEPDE <- matrix(nrow = nrow(mesh.eval$nodes), ncol = length(t))
 for (time_index in 1:length(t)) {
 
   evaluation_STDEPDE <- eval.FEM.time(FEM.time = FEMfunction_STDEPDE, locations = mesh.eval$nodes, time.instants = t[time_index])
-  evaluation_STDEPDE <- exp(evaluation_STDEPDE)
-  evaluation_STDEPDE <- evaluation_STDEPDE/sum(evaluation_STDEPDE, na.rm = TRUE)
+  evaluation_STDEPDE <- exp(evaluation_STDEPDE) * nrow(data)
+  # evaluation_STDEPDE <- evaluation_STDEPDE/sum(evaluation_STDEPDE, na.rm = TRUE)
   
   mean_sol_STDEPDE[,time_index] <- mapply(sum, mean_sol_STDEPDE[,time_index], evaluation_STDEPDE, na.rm = TRUE)
 }
@@ -172,7 +172,7 @@ for (time_index in 1:length(t)) {
 
 # M <- max(max(mean_sol_STDEPDE, na.rm = TRUE), na.rm = TRUE)
 
-time_index = 21
+time_index = 20
 
 z_contour <- outer(X,Y, function(x, y) { intensity_pp(x, y, t = mesh_time[time_index])})
 

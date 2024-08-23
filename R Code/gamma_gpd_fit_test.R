@@ -1,3 +1,5 @@
+rm(list = ls())
+library(cowplot)
 library(tidyverse)
 library(extRemes)
 library(quantreg)
@@ -5,15 +7,24 @@ library(evmix)
 
 storm_data = read.csv("./Data/Prod_datasets/Storm_events_details_full_clean.csv")
 
-peril = "Hail"
+peril = "Hurricane"
+
+if (peril == 'Hail'){
+  nrow = 2
+  ncol = 3
+} else if (peril == "Hurricane"){
+  nrow = 1
+  ncol = 2
+} else {
+  stop("Please select either Hail or Hurricane for the variable peril")
+}
 
 storm_analysis_raw = storm_data %>%
-  # filter(EVENT_CAT == "Tropical Storm" | EVENT_CAT == "Hurricane" | EVENT_CAT == "Tropical Depression") %>%
   filter(EVENT_CAT == peril) %>%
   filter(STATE != "HAWAII") %>%
   filter(STATE != "ALASKA") %>%
   filter(STATE != "PUERTO RICO") %>%
-  # filter(YEAR > 1996) %>%
+  filter(YEAR > 1995) %>%
   filter(YEAR < 2024) %>%
   group_by(EPISODE_ID) %>%
   summarise(YEAR = first(YEAR),
@@ -29,6 +40,7 @@ storm_analysis_raw = storm_data %>%
 
 storm_analysis_raw = storm_analysis_raw[complete.cases(storm_analysis_raw %>% dplyr::select(c("EPISODE_ID", "X_CART", "Y_CART"))),]
 
+min_year = storm_analysis_raw %>% pull(YEAR) %>% min()
 
 ## Adding covariates
 
@@ -62,48 +74,31 @@ US_regions = read.csv("./Data/mapping_tables/US_STATE.csv") %>%
   rename(c("REGION" = "Region", "STATE" = "State", "CLIM_REGION" = "Clim_Region", "CUSTOM_REGION" = "New_reg"))
 
 tau = 0.9
-lambda_bxcx = 0
+lambda_bxcx = 1
 
 storm_analysis = storm_analysis_raw %>% 
   mutate(quart = quarter(BEGIN_DATE_TIME)) %>%
   mutate(MONTH = month(BEGIN_DATE_TIME)) %>%
-  # left_join(GDP_state %>% dplyr::select(c("GeoFips", "GDP", "YEAR")), by = c("YEAR" = "YEAR", "STATE_FIPS" = "GeoFips")) %>%
-  left_join(SOI_data, by = c("YEAR", "MONTH")) %>%
-  left_join(HPI_state %>% dplyr::select(c("yr", "period", "place_name", "HPI")), by = c("YEAR" = "yr", "quart" = "period", "STATE" = "place_name")) %>%
   left_join(US_regions %>% dplyr::select(c("STATE", "REGION", "CLIM_REGION", "CUSTOM_REGION")), by = "STATE") %>%
   mutate(REGION = factor(REGION)) %>%
   mutate(DAMAGE_LOG = log10(DAMAGE)) %>%
   mutate(DAMAGE_LN = log(DAMAGE)) %>%
   mutate(STATE_FIPS = factor(STATE_FIPS)) %>%
-  # group_by(REGION, EVENT_CAT) %>%
-  mutate(DAMAGE_SCALED = scale(DAMAGE, center = F)[,1]) %>%
   mutate(n = n()) %>%
-  filter(!is.nan(DAMAGE_SCALED)) %>%
-  # ungroup() %>%
-  mutate(DAMAGE_BOX_COX = sae::bxcx(DAMAGE, lambda_bxcx)) %>%
-  mutate(min_BXCX = min(DAMAGE_BOX_COX)) %>%
-  mutate(DAMAGE_BOX_COX = DAMAGE_BOX_COX - min(DAMAGE_BOX_COX)) %>%
-  mutate(MEAN = mean(DAMAGE)) %>%
-  mutate(MED = median(DAMAGE)) %>%
   mutate(BEGIN_DATE_TIME = as.Date(BEGIN_DATE_TIME)) %>%
-  mutate(SCALER = sqrt(mean(DAMAGE^2))) %>%
   filter(!is.na(REGION)) %>%
-  filter(DAMAGE > 500) %>%
-  mutate(YEAR = YEAR - min(YEAR)) %>%
-  mutate(PERIOD = YEAR %/% 10)
+  mutate(YEAR = YEAR - min_year) %>%
+  mutate(DAMAGE_BOX_COX = DAMAGE)
 
+
+
+## Pre-visualising the data
 par(mfrow = c(1,1))
-storm_analysis %>% pull(DAMAGE_BOX_COX) %>% hist(breaks = 30)
-storm_analysis %>% pull(DAMAGE_BOX_COX) %>% VGAM::meplot()
+storm_analysis %>% pull(DAMAGE) %>% hist(breaks = 30)
+storm_analysis %>% pull(DAMAGE_LOG) %>% hist(breaks = 30)
+storm_analysis %>% pull(DAMAGE) %>% VGAM::meplot()
+storm_analysis %>% pull(DAMAGE) %>% VGAM::meplot()
 
-### ASSESSING TIME IMPACT ###
-
-quant_reg = rq(DAMAGE ~ YEAR + CUSTOM_REGION , data = storm_analysis, tau = 0.80)
-summary(quant_reg)
-
-plot(quant_reg$model$YEAR, quant_reg$fitted.values %>% log10())
-
-storm_analysis["THRESH_QUANT"] = quant_reg$fitted.values
 
 ### DAMAGE MODELLING ###
 
@@ -111,58 +106,66 @@ storm_analysis %>% group_by(CUSTOM_REGION) %>% summarise(n = n())
 
 ## Threshold selection
 
-regions = storm_analysis %>% pull(CUSTOM_REGION) %>% unique()
+regions = storm_analysis %>% group_by(CUSTOM_REGION) %>% filter(n() > 15) %>% pull(CUSTOM_REGION) %>% unique()
 
-par(mfrow = c(3,2))
-
-thresh_list = c("North - Ohio Valley" = 12, "South" = 13, "Northwest" = 8.5, "Southeast" = 10, "Northeast" = 10, "West" = 8)
-
-for (reg in regions){
-  storm_analysis %>% filter(CUSTOM_REGION == reg) %>% pull(DAMAGE_BOX_COX) %>% evmix::mrlplot(main = paste0("Region: ", reg), legend.loc = NULL, try.thresh = c(thresh_list[[reg]]))
+mean_excess <- function(u, data) {
+  excess <- data[data > u] - u  # Calculate the excesses over the threshold u
+  mean(excess)  # Return the mean of these excesses
 }
 
-## Bulk fitting (gamma distribution)
+
+storm_analysis %>% group_by(CUSTOM_REGION) %>% summarise(quantile = quantile(DAMAGE, 0.8))
+
+if (peril == "Hurricane"){
+  thresh_list = c("South" = 1e7, "Southeast" = 1e8)
+} else if (peril == "Hail"){
+  thresh_list = c("North - Ohio Valley" = 7.6e5, "South" =7.3e5, "Northwest" = 2.9e5, "Southeast" = 2.1e5, "Northeast" = 1.4e5, "West" = 1.8e5)
+} 
 
 
-# gamma_fits = rep(NA, length(thresh_list))
-# names(gamma_fits) = names(thresh_list)
-par(mfrow = c(3,2))
-for (reg in regions){
-  data = storm_analysis %>%
-    filter(CUSTOM_REGION == reg) %>%
-    filter(DAMAGE_BOX_COX <= thresh_list[[reg]])
+
+plot_list = vector("list", length = length(regions))
   
-  gamma_fit = gamlss::gamlss(DAMAGE_BOX_COX ~ YEAR, sigma.formula = ~ YEAR, data = data, family = gamlss.dist::GA())
-  print("######################################")
-  print(reg)
-  print(paste0("Number of rows: ", data %>% nrow()))
-  summary(gamma_fit)
-  plot(gamma_fit, main = paste0("Region: ", reg))
-  print("######################################")
-  saveRDS(gamma_fit, file = paste0("./R Code/Result_gamma_fit/", reg, ".rds"))
+i = 1
+
+par(mfrow = c(1,3))
+for (reg in regions){
+
+  u = storm_analysis %>% filter(CUSTOM_REGION == reg) %>% pull(DAMAGE)
+  me_u = sapply(u, function(x){mean_excess(x, u)})
+  x = u[u>= thresh_list[[reg]]]
+  y = me_u[u>= thresh_list[[reg]]]
+  regression = lm(y ~ x)
+  slope = regression$coefficients[2]
+  intercept = regression$coefficients[1]
+
+  p = ggplot() +
+    geom_line(data = data.frame(u = u, me_u = me_u), mapping = aes(x = u, y = me_u), col = "steelblue", linewidth = 0.75) +
+    geom_point(data = data.frame(u = u, me_u = me_u), mapping = aes(x = u, y = me_u), col = "steelblue", size = 1) +
+    geom_vline(xintercept = thresh_list[[reg]], linetype = "dashed", color = "red", linewidth = 0.75) +
+    geom_line(data = data.frame(x = x, y = intercept + slope * x), mapping = aes(x = x, y = y), color = "black", linewidth = 0.6, linetype = "dotted")+
+    labs(title = paste0("Mean excess plot: ",reg), x = "Threshold u", y = "Mean excess", subtitle = paste0("(n = ", length(u), ")"))+
+    scale_x_log10(limits = c(NA, NA))+
+    theme_minimal()
+
+  plot_list[[i]] = p
+  i = i+1
+  # storm_analysis %>% filter(CUSTOM_REGION == reg) %>% pull(DAMAGE) %>% evmix::mrlplot(main = paste0("Region: ", reg))#, try.thresh = c(thresh_list[[reg]]))
 }
+
+p = plot_grid(plotlist = plot_list, nrow = nrow, ncol = ncol, scale = 1) 
+p
+
+
 
 ## Bulk fitting (truncated gamma distribution)
 alpha = 0.05
 for (reg in regions){
   data_filtered = storm_analysis %>%
     filter(CUSTOM_REGION == reg) %>%
-    filter(DAMAGE_BOX_COX <= thresh_list[[reg]])
-  
-  
-  # Define the truncated gamma density function
-  # dtruncgamma <- function(x, shape, rate, a = 0, b = thresh_list[[reg]]) {
-  #   dat = data.frame(x = x, shape = shape, rate = rate)
-  #   n = nrow(dat)
-  #   sapply(1:n, function(i){
-  #     if (dat$x[i] < a || dat$x[i] > b) {
-  #       return(-Inf)
-  #     }
-  #     else{
-  #       return(truncdist::dtrunc(dat$x[i], "gamma", shape = dat$shape[i], rate = dat$rate[i], a = a, b = b))
-  #     }
-  #   })
-  # }
+    filter(DAMAGE <= thresh_list[[reg]]) %>%
+    filter(DAMAGE > 0)
+
   
   dtruncgamma_log = function(x, shape, rate, upper.bound = thresh_list[[reg]]){
     int.const = pgamma(upper.bound, shape = shape, rate = rate, log.p = T)
@@ -171,25 +174,25 @@ for (reg in regions){
     return(lik)
   }
   
-  loglik_truncgamma_cov <- function(params, data = data_filtered$DAMAGE_BOX_COX, time = data_filtered$YEAR) {
+  loglik_truncgamma_cov <- function(params, data = data_filtered$DAMAGE, time = data_filtered$YEAR) {
     alpha_0 <- params[1]
     alpha_1 <- params[2]
     beta_0 <- params[3]
-    beta_1 <- params[4]
+    # beta_1 <- params[4]
     
     shape <- exp(alpha_0 + alpha_1 * time)
-    rate <- exp(beta_0 + beta_1 * time)
+    rate <- exp(beta_0) # + beta_1 * time)
     
     sum(dtruncgamma_log(data, shape = shape, rate = rate))
   }
   
-  init_params <- c(alpha_0 = 0.5, alpha_1 = 0.02, beta_0 = 0, beta_1 = 0.02)
+  init_params <- c(alpha_0 = 0.5, alpha_1 = 0.02, beta_0 = 0)#, beta_1 = 0.02)
   
   # Fit the truncated gamma distribution using maximum likelihood estimation
   fit <- optim(init_params, loglik_truncgamma_cov, control = list(fnscale = -1, maxit = 1e5))
   
   hessian = numDeriv::hessian(function(x){loglik_truncgamma_cov(x)}, fit$par)
-  cov_matrix <- solve(-hessian*data_filtered %>% nrow())
+  cov_matrix <- solve(-hessian)
   
   std_errors <- sqrt(diag(cov_matrix))
   
@@ -197,7 +200,9 @@ for (reg in regions){
   conf_intervals <- data.frame(
     Estimate = fit$par,
     lower.bound = fit$par + qnorm(alpha/2) * std_errors,
-    upper.bound = fit$par + qnorm(1-alpha/2) * std_errors)
+    upper.bound = fit$par + qnorm(1-alpha/2) * std_errors,
+    pm = qnorm(1-alpha/2) * std_errors,
+    std_errors = std_errors)
   
   conf_intervals["signif"] = conf_intervals$`lower.bound` * conf_intervals$`upper.bound` > 0
   
@@ -214,38 +219,59 @@ for (reg in regions){
 
 # Fit assessement
 
-par(mfrow = c(3,2))
+plot_list = vector("list", length = length(regions))
+i=1
 for (reg in regions){
   data_filtered = storm_analysis %>%
     filter(CUSTOM_REGION == reg) %>%
-    filter(DAMAGE_BOX_COX <= thresh_list[[reg]])
-  
-  hist(data_filtered %>% pull(DAMAGE_BOX_COX), freq = F)
+    filter(DAMAGE <= thresh_list[[reg]])
   
   fit = readRDS(paste0("./R Code/Result_gamma_fit/", reg, ".rds"))
   
   shape <- exp(fit$par[["alpha_0"]])
   rate <- exp(fit$par[["beta_0"]])
-  
-  r = range(data_filtered %>% pull(DAMAGE_BOX_COX))
+  r = range(data_filtered %>% pull(DAMAGE))
   x = seq(r[1], r[2], length.out = 250)
-  lines(x,dgamma(x, shape = shape, rate = rate), col = 'red')
+  # lines(x,dgamma(x, shape = shape, rate = rate), col = 'red')
+  
+  p = ggplot()+
+    geom_histogram(data = data_filtered,
+                   mapping = aes(x = DAMAGE, y = ..density..),
+                   fill = "lightgray",
+                   color = "black",
+                   alpha = 0.5)+
+    geom_line(data = data.frame(x = x, y = dgamma(x, shape = shape, rate = rate)),
+              mapping = aes(x = x, y = y),
+              col = 'red')+
+    labs(title = paste0("Region: ", reg), x = "log(Damage)", y = "Density", subtitle = paste0("(n = ", data_filtered %>% nrow(), ")"))+
+    theme_minimal()
+  
+  if (peril == "Hurricane"){
+    p = p + scale_y_continuous(limits = c(NA, max(8e-7)))
+  } else if (peril == "Hail"){
+    p = p + scale_y_continuous(limits = c(NA, max(8e-5)))
+  }
+    
+  plot_list[[i]] = p
+  i = i+1
 }
 
-
+p = plot_grid(plotlist = plot_list, nrow = nrow, ncol = ncol, scale = 1) 
+p
 
 ## Tail fitting (Generalised Pareto distribution)
-par(mfrow = c(3,2))
+par(mfrow = c(nrow,ncol))
 for (reg in regions){
   data = storm_analysis %>%
     filter(CUSTOM_REGION == reg)
   
-  GPD_fit = extRemes::fevd(x = data$DAMAGE_BOX_COX, 
+  GPD_fit = extRemes::fevd(x = data$DAMAGE, 
                                data = data.frame(data),
                                threshold = thresh_list[[reg]],
                                type = "GP", 
                                scale.fun = ~ YEAR,
                                shape.fun = ~ 1,
+                               use.phi = T,
                                method = "MLE")
   print("######################################")
   print(reg)
@@ -254,73 +280,177 @@ for (reg in regions){
   print(ci.fevd(GPD_fit, type = "parameter", alpha = 0.05))
   
   # plot(GPD_fit, type = 'probprob')
-  plot(GPD_fit, type = 'qq', main = paste0("Region: ", reg))
+  plot(GPD_fit, type = 'qq', main = paste0("Q-Q plot (", reg,")"), col = 'red', pch = 16) ## Exponential scaling to handle non-stationarity (minus thresh and divided by sigma_t)
+  mtext(paste0("(n = ", data %>% filter(DAMAGE >= thresh_list[[reg]]) %>% nrow(),")"), line = 0.5, side = 3, adj = 0.9, cex = 0.75)
   print("######################################")
   saveRDS(GPD_fit, file = paste0("./R Code/Result_GPD_fit/", reg, ".rds"))
   
 }
 
 
+## Plotting the fitted densities/CDF throughout the years
+
+if (peril == "Hail"){
+  titles = c("North - Ohio Valley" = "North - Ohio Valley (n.s.)", "South" = "South (n.s.)", "Northwest" = "Northwest (n.s.)", "Southeast" = "Southeast", "Northeast" = "Northeast", "West" = "West (n.s.)")
+  x = seq(range(storm_analysis %>% pull(DAMAGE))[1], range(storm_analysis %>% pull(DAMAGE))[2] *1.2, length.out = 3000)
+} else if (peril == "Hurricane"){
+  titles =  c("South" = "South (n.s.)", "Southeast" = "Southeast")
+  x = 10^(seq(0, 13, length.out = 1000))
+}
 
 
 
+gamma_GPD_dist = function(x, alpha, beta, thresh, sigma, xi, cdf = FALSE){
+  y = rep(-5, length(x))
+  gamma_domain = x <= thresh
+  
+  if (cdf == FALSE){
+    y[gamma_domain] = dgamma(x[gamma_domain], shape = alpha, rate = beta)
+    y[!gamma_domain] = (1-pgamma(thresh, shape = alpha, rate = beta)) * devd(x[!gamma_domain]-thresh, scale = sigma, shape = xi, threshold = thresh, type = 'GP')
+  } else {
+    y[gamma_domain] = pgamma(x[gamma_domain], shape = alpha, rate = beta)
+    y[!gamma_domain] = (1-last(y[gamma_domain])) * pevd(x[!gamma_domain], scale = sigma, shape = xi, threshold = thresh, type = 'GP') + last(y[gamma_domain])
+  }
+  
+  return(y)
+}
+years = seq(0, 45)
+n_years = storm_analysis %>% pull(YEAR) %>% unique() %>% length()
 
+# Densities
+plot_list = vector('list', length(regions))
+i=1
+for (reg in regions){
+  data = storm_analysis %>% filter(CUSTOM_REGION == reg)
+  n = nrow(data)
+  gamma_fit = readRDS(paste0("./R Code/Result_gamma_fit/", reg, ".rds"))
+  GPD_fit = readRDS(paste0("./R Code/Result_GPD_fit/", reg, ".rds"))
+  
+  densities = data.frame()
+  for (year in years){
+    shape <- exp(gamma_fit$par[["alpha_0"]] + year * gamma_fit$par[["alpha_1"]])
+    rate <- exp(gamma_fit$par[["beta_0"]])
+    
+    thresh = thresh_list[[reg]]
+    sigma = exp(GPD_fit$results$par[["phi0"]] + year * GPD_fit$results$par[["phi1"]])
+    xi = GPD_fit$results$par[["shape"]]
+    
+    y = gamma_GPD_dist(x, shape, rate, thresh, sigma, xi, cdf = FALSE)
+    
+    densities = rbind(densities, data.frame(x = x, y = y, year = year+min_year))
+  }
+  
+  p = ggplot()+
+    geom_histogram(data = data, mapping = aes(x = DAMAGE, y = ..density..), fill = "lightgray", color = "black", alpha = 0.5) +
+    geom_line(data = densities, mapping= aes(x = x, y = y, color = year, group = year))+
+    # scale_color_viridis_c(option = "plasma")+
+    labs(x = "Damage", y = "Density")+
+    # scale_x_log10()+
+    guides(color = guide_legend(title = "Year"))+
+    theme_minimal()
+  
+  plot_list[[i]] = p
+  i = i+1
+}
 
+p = plot_grid(plotlist = plot_list, nrow = nrow, ncol = ncol, scale = 1) 
+p
 
+# CDFs
+plot_list = vector('list', length(regions))
 
+i=1
+for (reg in regions){
+  data = storm_analysis %>% filter(CUSTOM_REGION == reg)
+  n = nrow(data)
+  
 
-sub_storm_analysis = storm_analysis %>%
-  # filter(PERIOD == 2) %>%
-  filter(CUSTOM_REGION == "North/Ohio Valley")
+  gamma_fit = readRDS(paste0("./R Code/Result_gamma_fit/", reg, ".rds"))
+  GPD_fit = readRDS(paste0("./R Code/Result_GPD_fit/", reg, ".rds"))
+  
+  cdfs = data.frame()
+  for (year in years){
+    shape <- exp(gamma_fit$par[["alpha_0"]] + year * gamma_fit$par[["alpha_1"]])
+    rate <- exp(gamma_fit$par[["beta_0"]])
+    
+    thresh = thresh_list[[reg]]
+    sigma = exp(GPD_fit$results$par[["phi0"]] + year * GPD_fit$results$par[["phi1"]])
+    xi = GPD_fit$results$par[["shape"]]
+    
+    y = gamma_GPD_dist(x, shape, rate, thresh, sigma, xi, cdf = TRUE)
+    
+    cdfs = rbind(cdfs, data.frame(x = x, y = y, year = year+min_year))
+  }
+  
+  p = ggplot()+
+    geom_line(data = cdfs, mapping= aes(x = x, y = y, color = year, group = year))+
+    # scale_color_viridis_c(option = "plasma")+
+    labs(x = "Damage", y = "CDF", title = titles[[reg]])+
+    guides(color = guide_legend(title = "Year"))+
+    scale_x_log10() +
+    theme_minimal()
+  
+  plot_list[[i]] = p
+  i = i+1
+}
 
-# par(mfrow = c(3, 1))
-# storm_analysis %>% filter(PERIOD == 0) %>% pull(DAMAGE_LN)%>% hist(breaks = 30)
-# storm_analysis %>% filter(PERIOD == 1) %>% pull(DAMAGE_LN) %>% hist(breaks = 30)
-# storm_analysis %>% filter(PERIOD == 2) %>% pull(DAMAGE_LN) %>% hist(breaks = 30)
+p = plot_grid(plotlist = plot_list, nrow = nrow, ncol = ncol, scale = 1) 
+p
 
+## Return levels
 
-res_gamma_GPD = sub_storm_analysis %>%
-  pull(DAMAGE_BOX_COX) %>%
-  fgammagpdcon(phiu = F)
-  # fgammagpdcon(useq = 7, fixedu = T)
-  # fmgammagpdcon(M = 2, phiu = F) 
-  # fgammagpdcon(useq = storm_analysis$THRESH_QUANT, fixedu = TRUE)
+m = seq(5,25, by = 1)
 
-res_gamma_GPD[-(1:2)]
+plot_list = vector("list", length = length(regions))
+i=1
+for (reg in regions){
+  data = storm_analysis %>% filter(CUSTOM_REGION == reg)
+  n = nrow(data)
+  gamma_fit = readRDS(paste0("./R Code/Result_gamma_fit/", reg, ".rds"))
+  GPD_fit = readRDS(paste0("./R Code/Result_GPD_fit/", reg, ".rds"))
+  return_levels = data.frame()
+  n_y = n / n_years
+  for (year in years){
+    # n_y = data %>% filter(YEAR == year) %>% nrow()
+    shape <- exp(gamma_fit$par[["alpha_0"]] + year * gamma_fit$par[["alpha_1"]])
+    rate <- exp(gamma_fit$par[["beta_0"]])
+    
+    thresh = thresh_list[[reg]]
+    sigma = exp(GPD_fit$results$par[["phi0"]] + year * GPD_fit$results$par[["phi1"]])
+    xi = GPD_fit$results$par[["shape"]]
+    
+    pu = (data %>% filter(DAMAGE > thresh) %>% nrow()) / data %>% nrow()
+    
+    if (!(pu > 1/min(m*n_y))){
+      warning("return level too lwo, please revise it")
+      n_y = n / n_years
+    }
+    
+    # rl = exp(thresh + (sigma / xi) * ((m*n_y * pu)^xi -1) + min_BXCX)
+    rl = thresh + (sigma / xi) * ((m*n_y * pu)^xi -1)
+  return_levels = rbind(return_levels, data.frame(rl = rl, m = m, year = year+min_year))
+    
+  }
+  
+  p = ggplot()+
+    geom_line(data = return_levels, mapping= aes(x = m, y = rl, color = year, group = year))+
+    # scale_color_viridis_c(option = "plasma")+
+    labs(x = "Return period (years)", y = "Damage", title = titles[[reg]])+
+    scale_y_log10()+
+    guides(color = guide_legend(title = "Year"))+
+    theme_minimal()
+  
+  plot_list[[i]] = p
+  i = i+1
+}
 
-par(mfrow = c(1,1))
-sub_storm_analysis %>% pull(DAMAGE_BOX_COX) %>% VGAM::meplot()
-abline(v = res_gamma_GPD$u, lty = "dashed", col = 'red')
-
-evmix.diag(res_gamma_GPD, N = 250, upperfocus = F)
-evmix.diag(res_gamma_GPD, N = 250, upperfocus = T)
-par(mfrow = c(1,1))
-
-
-test = sub_storm_analysis %>% filter(DAMAGE_BOX_COX > res_gamma_GPD$u)
-
-lin_model = lm(DAMAGE_BOX_COX ~ YEAR, data = sub_storm_analysis)
-summary(lin_model)
-
-
-
-
-densplot(res_gamma_GPD)
-
-## Comparison with a gamma fit
-
-gamma_fit = gamlss::gamlss(DAMAGE_BOX_COX ~ YEAR + CLIM_REGION, sigma.formula = ~ YEAR + CLIM_REGION, data = storm_analysis, family = gamlss.dist::GA())
-
-summary(gamma_fit)
-
-gamma_fit = sub_storm_analysis %>% pull(DAMAGE_BOX_COX) %>% fitdistrplus::fitdist(distr = "gamma", method = "mle")
-
-plot(gamma_fit)
+p = plot_grid(plotlist = plot_list, nrow = nrow, ncol = ncol, scale = 1) 
+p
 
 
 ### DAMAGE VISUALISATION ON THE MAP ###
 
-## Geoplotting the residuals
+## Geoplotting the damages
 boundaries_US = read.csv("./Data/US_map/boundaries_US_mesh.csv")
 boundaries_US = boundaries_US[nrow(boundaries_US):1,]
 
@@ -331,5 +461,34 @@ ggplot() +
   geom_point(data = storm_analysis, mapping = aes(x = X_CART, y = Y_CART, col = DAMAGE_LOG)) +
   scale_color_gradientn(colors = custom_colors)+
   theme_minimal()
+
+### Example gamma/GPD mixture
+CDF = TRUE
+
+x = seq(0, 15, length.out = 1000)
+
+y = gamma_GPD_dist(x, alpha = 2, beta = 0.5, thresh = 10, sigma = 1, xi = 3, cdf = CDF)
+
+
+p = ggplot()+
+  geom_line(data = data.frame(x = x, y = y), mapping = aes(x = x ,y = y), col = "black", linewidth = 0.75)+
+  labs(title = "Gamma/GPD mixture", x = "x", y = "CDF")+
+  geom_vline(xintercept = 10, linetype = "dashed", linewidth = 0.5, col = 'red')+
+  theme_minimal()
+
+if (!CDF){
+  p = p + 
+    ggpubr::geom_bracket(xmin = 0, xmax = 9.8, y.position = 0.21, label = "Bulk (gamma distribution)")+
+    ggpubr::geom_bracket(xmin = 10.2, xmax = 15, y.position = 0.21, label = "Tail (GPD)")+
+    ylim(0, 0.23) 
+} else{
+  p = p + 
+    ggpubr::geom_bracket(xmin = 0, xmax = 9.8, y.position = 1.03, label = "Bulk (gamma distribution)")+
+    ggpubr::geom_bracket(xmin = 10.2, xmax = 15, y.position = 1.03, label = "Tail (GPD)")+
+    ylim(0, 1.05) 
+}
+
+p
+
 
 
