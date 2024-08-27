@@ -7,7 +7,7 @@ This project focuses on the modelisation of the damages caused by natural disast
 - Modelisation of the space-time properties of some types of frequent natural disasters in the US.
 - Estimation of the distribution of the damages caused by these natural catastrophes. 
 
-## Prerequisite
+## Package versions
 
 - R version at least 4.3.1
 - R packages requirements:
@@ -26,3 +26,37 @@ This project focuses on the modelisation of the damages caused by natural disast
     - geoplot (0.5.1)
     - shapely (2.0.4)
     - tqdm (4.65.0)
+    
+## Getting started
+
+This project was coded with Python and R. To get started, first set your working directory at the root of this repository by using `cd [your path to this repository]` in bash terminal.
+
+### Step 1: Data processing
+
+The first step uses Python and involves downloading the dataset, processing it and saving it. With bash, excute `Python 'Python Code/main.py'`.
+
+This script downloads the Storm Event Dataset from the NCEI FTP servers and processes it according to the pre-processing steps described in the dissertation.
+
+### Step 2: Exploratory data analysis
+
+This step is performed with Python. To replicate it, just run the notebook in `Notebooks/exploratory_data_analysis.ipynb`.
+
+### Step 3: Statistical modelling
+
+This part is coded in R.
+
+#### Creating the mapping tables
+
+First you need to re-create the mapping tables that will be used in the R scripts by executing the file `R Code/mapping_table.R`. You can execute this file with the bash command `Rscript 'R Code/mapping_table.R'`.
+
+#### Intensity estimation
+
+To perform the intensity estimation step, you can execute the files `R Code/US_Hazard_STKDE.R` for hail or `R Code/US_Hazard_STDE-PDE.R` for hurricanes. These script will genereate intensity plots from the contiguous US.
+
+#### Damages' distribution
+
+To estimate the conditional distribution of the damages, execute the file `R Code/gamma_gpd_fit.R`. Don't forget to select the appropriate type of event you want to process (the variable `peril` can be set to either "Hail" or "Hurricane").
+
+## Notes
+
+- The file `R Code/Playground_STDE.R` is just an example of intensity estimation using the STDE-PDE method. It can be used as an example to play with to see the impact of the different parameters like the sample size, the smoothing coefficients or the shape of the true intensity function.

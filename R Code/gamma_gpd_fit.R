@@ -7,7 +7,7 @@ library(evmix)
 
 storm_data = read.csv("./Data/Prod_datasets/Storm_events_details_full_clean.csv")
 
-peril = "Hurricane"
+peril = "Hail"
 
 if (peril == 'Hail'){
   nrow = 2
@@ -393,6 +393,12 @@ for (reg in regions){
     scale_x_log10() +
     theme_minimal()
   
+  if (reg == "Southeast" | reg == "West"){
+    p = p + guides(color = guide_legend(title = "Year"))
+  } else {
+    p = p + guides(color = "none")
+  }
+  
   plot_list[[i]] = p
   i = i+1
 }
@@ -442,6 +448,12 @@ for (reg in regions){
     scale_y_log10()+
     guides(color = guide_legend(title = "Year"))+
     theme_minimal()
+  
+  if (reg == "Southeast" | reg == "West"){
+    p = p + guides(color = guide_legend(title = "Year"))
+  } else {
+    p = p + guides(color = "none")
+  }
   
   plot_list[[i]] = p
   i = i+1
