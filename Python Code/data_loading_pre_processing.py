@@ -1,4 +1,7 @@
 def clean_detailed_dataset(data, inflation_traj):
+    '''This function performs a few data-cleaning operations like changing the format of dates, damage amounts and discounting the amounts. It only deals with dataset of type "details".'''
+
+
     data["BEGIN_DATE"] = data["BEGIN_YEARMONTH"].astype(str).str.slice(0,4) + "-" +  data["BEGIN_YEARMONTH"].astype(str).str.slice(4,6) + "-" + data["BEGIN_DAY"].astype(str) + " " + data["BEGIN_DATE_TIME"].str.slice(9, 18)
     data["END_DATE"] = data["END_YEARMONTH"].astype(str).str.slice(0,4) + "-" +  data["END_YEARMONTH"].astype(str).str.slice(4,6) + "-" + data["END_DAY"].astype(str) + " " + data["END_DATE_TIME"].str.slice(9, 18)
     data.drop(columns = ["BEGIN_YEARMONTH", "BEGIN_DAY", "BEGIN_TIME", "END_YEARMONTH", "END_DAY", "END_TIME"], inplace = True)
@@ -57,6 +60,8 @@ def clean_detailed_dataset(data, inflation_traj):
 
 
 def clean_fatalities_dataset(data):
+    '''Same function as clean_detailed_dataset but for dataset of type "fatalities".'''
+
     data.drop(columns = ["FAT_YEARMONTH", "FAT_DAY", "FAT_TIME", "EVENT_YEARMONTH"], inplace = True)
 
     data["FATALITY_DATE"] = pd.to_datetime(data["FATALITY_DATE"], format = "mixed")
@@ -159,8 +164,6 @@ if __name__ == "__main__":
             os.remove(path+"/"+file_name)
             data.to_csv("./Data/NOAA_Storm_events_clean/"+name+".csv") 
             
-    
-
     ### Fusion of the yearly datasets
 
     print("Merging the datasets together.")

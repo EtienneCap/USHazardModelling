@@ -69,8 +69,7 @@ dim(data)
 
 ########################################
 
-
-### Intensity estimation
+### Intensity estimation ###
 
 # STKDE
 
@@ -91,14 +90,6 @@ plot(st_intensity)
 
 library(fdaPDE)
 library(ggplot2)
-# library(pracma) 
-# library(RColorBrewer)
-# library(plotly)
-# library(fields)
-# library(processx)
-# library(latex2exp)
-# library(plotrix)
-# library(cubature)
 
 ## Estimation mesh
 
@@ -134,14 +125,10 @@ x11()
 plot(mesh.eval)
 dev.off()
 
-
 mesh_time = seq(range(time_locations)[1], range(time_locations)[2], length.out = 21)
-
-
 
 lambda_space = 1e-3
 lambda_time = 1e-2
-
 
 solution_STDEPDE <- DE.FEM.time(data = locations, data_time = time_locations, FEMbasis = FEMbasis,
                                 mesh_time = mesh_time, lambda = lambda_space, tol1 = 1e-5,
@@ -151,7 +138,6 @@ solution_STDEPDE <- DE.FEM.time(data = locations, data_time = time_locations, FE
                                 preprocess_method = "NoCrossValidation") 
 
 FEMfunction_STDEPDE <- FEM.time(solution_STDEPDE$g, mesh_time, FEMbasis, FLAG_PARABOLIC = F)
-
 
 t <- mesh_time
 
@@ -165,10 +151,6 @@ for (time_index in 1:length(t)) {
   
   mean_sol_STDEPDE[,time_index] <- mapply(sum, mean_sol_STDEPDE[,time_index], evaluation_STDEPDE, na.rm = TRUE)
 }
-
-
-
-
 
 # M <- max(max(mean_sol_STDEPDE, na.rm = TRUE), na.rm = TRUE)
 

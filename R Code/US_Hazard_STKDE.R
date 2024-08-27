@@ -29,7 +29,7 @@ storm_analysis = storm_data %>%
 
 storm_analysis = storm_analysis[complete.cases(storm_analysis %>% dplyr::select(c("X_CART", "Y_CART"))),] 
 
-# Jittering
+# Jittering the duplicated locations
 storm_analysis = storm_analysis %>% 
   mutate(dup = duplicated(storm_analysis %>% dplyr::select(c("X_CART", "Y_CART")))) %>%
   mutate(noise =  rnorm(n(), sd = 1e-4)) %>%
@@ -38,8 +38,6 @@ storm_analysis = storm_analysis %>%
 
 storm_analysis = storm_analysis %>% dplyr::select(-c("noise", 'dup'))
 years = unique(storm_analysis$YEAR) %>% sort()
-
-
 
 ### Creating the study window
 
@@ -69,7 +67,6 @@ for (year in unique(data$YEAR)){
     lim_max = maxi
   }
 }
-print(lim_max)
 
 x_coords = st_intensity$z[[as.character(unique(data$YEAR)[1])]]$xcol
 y_coords = st_intensity$z[[as.character(unique(data$YEAR)[1])]]$yrow
@@ -78,7 +75,6 @@ intensity_data = expand.grid(x = x_coords, y = y_coords)
 custom_colors <- c("blue", "green", "yellow", "red", "purple")
 
 years = st_intensity$tgrid
-
 
 bound = read.csv("./Data/US_map/boundaries_US_mesh.csv")
 
@@ -125,7 +121,7 @@ for (year in years){
 }
 
 p = plot_grid(plotlist = plot_list, nrow = 6, ncol = 5, scale = 0.75) 
-ggsave(paste0("./R Code/R Data/STKDE/", peril,"/Plot_all_", tolower(peril), ".png"), p, bg = "white", dpi = 800, width = 21, height = 29.7, unit = "cm")
+# ggsave(paste0("./R Code/R Data/STKDE/", peril,"/Plot_all_", tolower(peril), ".png"), p, bg = "white", dpi = 800, width = 21, height = 29.7, unit = "cm")
 
 # Colorbar
 dummy_data <- data.frame(x = 1, y = 1, fill = 1)

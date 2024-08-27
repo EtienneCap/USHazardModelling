@@ -73,12 +73,10 @@ US_regions = read.csv("./Data/mapping_tables/US_STATE.csv") %>%
   mutate(State = toupper(State)) %>%
   rename(c("REGION" = "Region", "STATE" = "State", "CLIM_REGION" = "Clim_Region", "CUSTOM_REGION" = "New_reg"))
 
-tau = 0.9
-lambda_bxcx = 1
-
 storm_analysis = storm_analysis_raw %>% 
   mutate(quart = quarter(BEGIN_DATE_TIME)) %>%
   mutate(MONTH = month(BEGIN_DATE_TIME)) %>%
+  # These lines were orginally used to add some covariates to the model. They turned out to be non-significant.
   # left_join(GDP_state %>% dplyr::select(c("GeoFips", "GDP", "YEAR")), by = c("YEAR" = "YEAR", "STATE_FIPS" = "GeoFips")) %>%
   # left_join(SOI_data, by = c("YEAR", "MONTH")) %>%
   # left_join(HPI_state %>% dplyr::select(c("yr", "period", "place_name", "HPI")), by = c("YEAR" = "yr", "quart" = "period", "STATE" = "place_name")) %>%
@@ -102,7 +100,6 @@ storm_analysis %>% pull(DAMAGE_LOG) %>% hist(breaks = 30)
 storm_analysis %>% pull(DAMAGE) %>% VGAM::meplot()
 storm_analysis %>% pull(DAMAGE) %>% VGAM::meplot()
 
-
 ### DAMAGE MODELLING ###
 
 storm_analysis %>% group_by(CUSTOM_REGION) %>% summarise(n = n())
@@ -116,7 +113,6 @@ mean_excess <- function(u, data) {
   mean(excess)  # Return the mean of these excesses
 }
 
-
 storm_analysis %>% group_by(CUSTOM_REGION) %>% summarise(quantile = quantile(DAMAGE, 0.8))
 
 if (peril == "Hurricane"){
@@ -125,13 +121,8 @@ if (peril == "Hurricane"){
   thresh_list = c("North - Ohio Valley" = 7.6e5, "South" =7.3e5, "Northwest" = 2.9e5, "Southeast" = 2.1e5, "Northeast" = 1.4e5, "West" = 1.8e5)
 } 
 
-
-
 plot_list = vector("list", length = length(regions))
-  
 i = 1
-
-par(mfrow = c(1,3))
 for (reg in regions){
 
   u = storm_analysis %>% filter(CUSTOM_REGION == reg) %>% pull(DAMAGE)
@@ -158,8 +149,6 @@ for (reg in regions){
 
 p = plot_grid(plotlist = plot_list, nrow = nrow, ncol = ncol, scale = 1) 
 p
-
-
 
 ## Bulk fitting (truncated gamma distribution)
 alpha = 0.05
@@ -220,7 +209,7 @@ for (reg in regions){
   saveRDS(fit, file = paste0("./R Code/Result_gamma_fit/", reg, ".rds"))
 }
 
-# Fit assessement
+# Fit assessement for the bulk distribution
 
 plot_list = vector("list", length = length(regions))
 i=1
@@ -291,7 +280,7 @@ for (reg in regions){
 }
 
 
-## Plotting the fitted densities/CDF throughout the years
+### Plotting the fitted densities/CDF throughout the years ###
 
 if (peril == "Hail"){
   titles = c("North - Ohio Valley" = "North - Ohio Valley (n.s.)", "South" = "South (n.s.)", "Northwest" = "Northwest (n.s.)", "Southeast" = "Southeast", "Northeast" = "Northeast", "West" = "West (n.s.)")
@@ -300,8 +289,6 @@ if (peril == "Hail"){
   titles =  c("South" = "South (n.s.)", "Southeast" = "Southeast")
   x = 10^(seq(0, 13, length.out = 1000))
 }
-
-
 
 gamma_GPD_dist = function(x, alpha, beta, thresh, sigma, xi, cdf = FALSE){
   y = rep(-5, length(x))
@@ -317,10 +304,10 @@ gamma_GPD_dist = function(x, alpha, beta, thresh, sigma, xi, cdf = FALSE){
   
   return(y)
 }
-years = seq(0, 45)
+years = seq(0, 45) # To see the model's output from 1996 until 2040.
 n_years = storm_analysis %>% pull(YEAR) %>% unique() %>% length()
 
-# Densities
+# Densities (Visualisation quite bad)
 plot_list = vector('list', length(regions))
 i=1
 for (reg in regions){
@@ -408,7 +395,7 @@ p
 
 ## Return levels
 
-m = seq(5,25, by = 1)
+m = seq(5,25, by = 1) # Levels in years
 
 plot_list = vector("list", length = length(regions))
 i=1
@@ -477,8 +464,8 @@ ggplot() +
   scale_color_gradientn(colors = custom_colors)+
   theme_minimal()
 
-### Example gamma/GPD mixture
-CDF = TRUE
+## Example gamma/GPD mixture
+CDF = TRUE # T if you want the CDF, F if you want the density
 
 x = seq(0, 15, length.out = 1000)
 

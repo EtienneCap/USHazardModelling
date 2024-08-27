@@ -1,16 +1,5 @@
-
-def latlong_to_cartesian(storm_dataset, lat = "lat", long = "long", R = 6371):
-    # No projection
-    storm_dataset['X_CART'] = R * np.cos(np.radians(storm_dataset[lat])) * np.cos(np.radians(storm_dataset[long]))
-    storm_dataset["Y_CART"] = R * np.cos(storm_dataset[lat]) * np.sin(storm_dataset[long])
-    storm_dataset["Z_CART"] = R * np.sin(storm_dataset[lat])
-
-    return storm_dataset
-
-
-
 def latlon_to_cartesian_albers(storm_dataset, lat = "lat", long = "long"):
-    # Albers Equal-Area projection
+    '''Performs Albers Equal-Area projection.'''
     albers_equal_area = pyproj.Proj(proj='aea', lat_1=29.5, lat_2=45.5, lat_0=24.44, lon_0=-124.615, datum='WGS84')
     _, max_north = albers_equal_area(-95.1533, 49.39)
     max_east, _ = albers_equal_area(-66.94, 44.815)
@@ -21,6 +10,7 @@ def latlon_to_cartesian_albers(storm_dataset, lat = "lat", long = "long"):
 
 
 def extract_points(geometry):
+    '''Extracts all the points in an object of type "geometry".'''
     if isinstance(geometry, Polygon):
         return list(geometry.exterior.coords)
     elif isinstance(geometry, MultiPolygon):
@@ -61,7 +51,7 @@ if __name__ == "__main__":
     storm_data.drop(columns=["average_lat", "average_long", "lat", "long"], inplace = True)
     storm_data.rename(columns = {"lat_fin":'lat', "long_fin":"long"}, inplace = True)
 
-    ## Adding the Cartesian coordinates
+    # Adding the Cartesian coordinates
     storm_data = latlon_to_cartesian_albers(storm_data, lat = "lat", long = "long")
 
     # Creating the USA border maps for the US mesh
@@ -118,7 +108,8 @@ if __name__ == "__main__":
 
     if any(storm_data["EVENT_CAT"].isna()):
         print("/!\ Warning: some of the meteorological event type were not succesfully mapped to a broader category.")
-
+    
+    # Saving the mesh dataset and the processed storm event dataset
     storm_data.to_csv("./Data/Prod_datasets/Storm_events_details_full_clean.csv", index = False)
     boundaries_mesh.to_csv("./Data/US_map/boundaries_US_mesh.csv", index = False)
     eval_mesh.to_csv("./Data/US_map/evaluation_US_mesh.csv", index = False)

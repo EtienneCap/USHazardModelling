@@ -3,7 +3,7 @@ library(tidyverse)
 library(fdaPDE)
 
 
-### Handling the storm data
+### Loading the storm data
 storm_data = read.csv("./Data/Prod_datasets/Storm_events_details_full_clean.csv")
 
 peril = "Hurricane"
@@ -96,12 +96,13 @@ solution_STDEPDE <- DE.FEM.time(data = locations, data_time = time_locations, FE
                                 isTimeDiscrete = TRUE) 
 
 saveRDS(solution_STDEPDE, paste0("./R Code/R Data/sol_", tolower(peril),".rds"))
+
+# Once the code has run once, you can start the execution from here (after importing the libraries above).
+
 solution_STDEPDE = readRDS(paste0("./R Code/R Data/sol_", tolower(peril),".rds"))
 FEMfunction_STDEPDE <- FEM.time(solution_STDEPDE$g, mesh_time, solution_STDEPDE$FEMbasis, FLAG_PARABOLIC = F)
 
-
 t <- mesh_time
-
 
 mean_sol_STDEPDE <- matrix(nrow = nrow(mesh.eval$nodes), ncol = length(t))
 lim_max = -Inf
@@ -122,11 +123,7 @@ print(lim_max)
 saveRDS(mean_sol_STDEPDE, paste0("./R Code/R Data/first_result_", tolower(peril), ".rds"))
 custom_colors <- c("blue", "green", "yellow", "red", "purple")
 
-
 t = 1:ncol(mean_sol_STDEPDE)
-
-
-
 
 for (time_index in 1:length(t)){
   
