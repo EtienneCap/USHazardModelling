@@ -82,7 +82,7 @@ dim(data)
 
 ### Intensity estimation ###
 
-# STKDE
+## STKDE
 
 library(spatstat.geom)
 
@@ -97,12 +97,11 @@ st_intensity = sparr::spattemp.density(ppp_data, h = 0.25, tt = data$t)
 plot(st_intensity)
 
 
-# STDE-PDE
+## STDE-PDE
 
 library(fdaPDE)
-library(ggplot2)
 
-## Estimation mesh
+# Estimation mesh
 
 x = c(seq(-1.3, 1.3, length.out = 20), rep(1.3, 20), seq(1.3, -1.3, length.out = 20), rep(-1.3, 20))
 y = c(rep(-1.3, 20), seq(-1.3, 1.3, length.out = 20), rep(1.3, 20), seq(1.3, -1.3, length.out = 20))
@@ -158,17 +157,13 @@ for (time_index in 1:length(t)) {
 
   evaluation_STDEPDE <- eval.FEM.time(FEM.time = FEMfunction_STDEPDE, locations = mesh.eval$nodes, time.instants = t[time_index])
   evaluation_STDEPDE <- exp(evaluation_STDEPDE) * nrow(data)
-  # evaluation_STDEPDE <- evaluation_STDEPDE/sum(evaluation_STDEPDE, na.rm = TRUE)
   
   mean_sol_STDEPDE[,time_index] <- mapply(sum, mean_sol_STDEPDE[,time_index], evaluation_STDEPDE, na.rm = TRUE)
 }
 
-# M <- max(max(mean_sol_STDEPDE, na.rm = TRUE), na.rm = TRUE)
-
 time_index = 20
 
 z_contour <- outer(X,Y, function(x, y) { intensity_pp(x, y, t = mesh_time[time_index])})
-
 
 ggplot(data.frame(x = mesh.eval$nodes[,1], y = mesh.eval$nodes[,2], z = mean_sol_STDEPDE[,time_index], z_contour = as.vector(z_contour)))+
   geom_tile(mapping = aes(x = x, y=y, fill = z))+
