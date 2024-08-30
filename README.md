@@ -3,8 +3,8 @@ Master thesis of my MSc Statisics @ Imperial College London
 
 ## Project description
 
-This project focuses on the modelisation of the damages caused by natural disaster in the US using the [Storm Event Dataset](https://www.ncdc.noaa.gov/stormevents/) from the NOAA. It aim to include:
-- Modelisation of the space-time properties of some types of frequent natural disasters in the US.
+This project focuses on the modelisation of the damages caused by natural disaster in the US using the [Storm Event Dataset](https://www.ncdc.noaa.gov/stormevents/) from the NOAA. It aims to include:
+- Modelisation of the space-time properties of some types of frequent natural disasters in the US (Hurricane and Hail).
 - Estimation of the distribution of the damages caused by these natural catastrophes. 
 
 ## Package versions
