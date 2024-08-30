@@ -1,5 +1,6 @@
 # install.packages("fdaPDE")
-
+library(ggplot2)
+library(dplyr)
 
 ### Simulation of a Space-Time non-homogeneous point process
 # Radial-basis intenisty
@@ -18,8 +19,8 @@ intensity_pp = function(x, y, t, A = 5, T_tot = 10, d0 = 0.2){
 
 # Plot of the intensity function (contour plot)
 
-x <- seq(-1, 1, length.out = 100)
-y <- seq(-1, 1, length.out = 100)
+x <- seq(-1.1, 1.1, length.out = 100)
+y <- seq(-1.1, 1.1, length.out = 100)
 # Create a matrix of z values
 z <- outer(x, y, function(x, y) { intensity_pp(x, y, t = 7)})
 
@@ -27,9 +28,9 @@ contour(x, y, z, main = "Intensity plot", xlab = "X", ylab = "Y")
 
 # Homogeneous poisson process
 
-lambda = 75
+lambda = 500
 
-t_mesh = seq(0, 10, length.out = 21)
+t_mesh = seq(0, 10, length.out = 10)
 
 points = rep(list(NULL), length(t_mesh))
 
@@ -55,10 +56,20 @@ for (j in seq_along(t_mesh)){
 }
 
 # Visualisation
-J = 8
+J = 4
 z <- outer(x, y, function(x, y) { intensity_pp(x, y, t = t_mesh[[J]], A = lambda)})
-contour(x, y, z, main = "Intensity plot", xlab = "X", ylab = "Y")
-points(points[[J]][,1], points[[J]][,2], col = 'red', pch = 16)
+
+df = expand.grid(x = x, y = y)
+df$z = as.vector(z)
+
+# df = df %>% mutate(z = if_else(z >= 50, z, NA))
+
+ggplot()+
+  geom_contour_filled(data = df, mapping = aes(x = x, y = y, z = z), col = "black")+
+  geom_point(data = data.frame(x = points[[J]][,1]), y =  points[[J]][,2], mapping = aes(x = x, y = y), col = "red")+
+  guides(fill = guide_legend(title = "Intensity value"))+
+  labs(x = "X", y = "Y")+
+  theme_minimal()
 
 data = data.frame(x = points[[1]][,1], y = points[[1]][,2], t = t_mesh[1])
 for (j in seq_along(t_mesh[-1])){

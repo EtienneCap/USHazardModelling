@@ -19,13 +19,13 @@ R packages requirements:
   - fdaPDE (1.1-19)
 ### Python (version at least 3.11.5)
 Python libraries requirements:
-    - numpy (1.26.3)
-    - pandas (2.1.4)
-    - pyproj (3.6.1)
-    - geopandas (0.14.4)
-    - geoplot (0.5.1)
-    - shapely (2.0.4)
-    - tqdm (4.65.0)
+  - numpy (1.26.3)
+  - pandas (2.1.4)
+  - pyproj (3.6.1)
+  - geopandas (0.14.4)
+  - geoplot (0.5.1)
+  - shapely (2.0.4)
+  - tqdm (4.65.0)
     
 ## Getting started
 
